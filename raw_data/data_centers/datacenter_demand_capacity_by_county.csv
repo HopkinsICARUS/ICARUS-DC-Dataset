@@ -1,480 +1,480 @@
-Centroid,Name,Planned (MW),Operating (MW),In Construction (MW),Operating and In Construction (MW),Total (MW),fips_code,src_name,state
-"{""type"":""Point"",""coordinates"":[-88.488262044,43.753591569]}","Fond du Lac County, WI",80.0,0.0,0.0,0.0,80.0,55039,Fond du Lac,WI
-"{""type"":""Point"",""coordinates"":[-77.483816778,38.747861821]}","Manassas city, VA",25.0,30.0,50.0,80.0,105.0,51683,Manassas,VA
-"{""type"":""Point"",""coordinates"":[-102.031609279,31.869159948]}","Midland County, TX",4.0,112.0,0.0,112.0,116.0,48329,Midland,TX
-"{""type"":""Point"",""coordinates"":[-96.572430827,33.187991158]}","Collin County, TX",377.12,305.41,101.9,407.31,784.43,48085,Collin,TX
-"{""type"":""Point"",""coordinates"":[-78.876592723,36.036028958]}","Durham County, NC",0.0,58.0,0.0,58.0,58.0,37063,Durham,NC
-"{""type"":""Point"",""coordinates"":[-89.117710198,30.789951647]}","Stone County, MS",0.0,15.0,0.0,15.0,15.0,28131,Stone,MS
-"{""type"":""Point"",""coordinates"":[-86.289857679,41.616718005]}","St. Joseph County, IN",401.0,6.55,790.6,797.15,1198.15,18141,St. Joseph,IN
-"{""type"":""Point"",""coordinates"":[-106.798493803,42.962240446]}","Natrona County, WY",250.0,0.0,1.1,1.1,251.1,56025,Natrona,WY
-"{""type"":""Point"",""coordinates"":[-80.436515884,26.647554958]}","Palm Beach County, FL",0.0,6.2,0.0,6.2,6.2,12099,Palm Beach,FL
-"{""type"":""Point"",""coordinates"":[-77.55958032,36.675883445]}","Greensville County, VA",120.0,0.0,0.0,0.0,120.0,51081,Greensville,VA
-"{""type"":""Point"",""coordinates"":[-120.452190846,35.387449053]}","San Luis Obispo County, CA",0.0,9.6,0.0,9.6,9.6,6079,San Luis Obispo,CA
-"{""type"":""Point"",""coordinates"":[-97.248021013,46.932964277]}","Cass County, ND",0.0,2.6,0.0,2.6,2.6,38017,Cass,ND
-"{""type"":""Point"",""coordinates"":[-79.774987196,36.396012789]}","Rockingham County, NC",150.0,0.0,48.0,48.0,198.0,37157,Rockingham,NC
-"{""type"":""Point"",""coordinates"":[-94.272435584,44.823559081]}","McLeod County, MN",10.0,20.0,0.0,20.0,30.0,27085,McLeod,MN
-"{""type"":""Point"",""coordinates"":[-98.022865266,40.873032753]}","Hamilton County, NE",0.0,5.0,10.0,15.0,15.0,31081,Hamilton,NE
-"{""type"":""Point"",""coordinates"":[-102.542749204,31.869172538]}","Ector County, TX",150.0,207.0,100.0,307.0,457.0,48135,Ector,TX
-"{""type"":""Point"",""coordinates"":[-93.947999333,43.673928314]}","Faribault County, MN",0.0,0.0,15.0,15.0,15.0,27043,Faribault,MN
-"{""type"":""Point"",""coordinates"":[-84.290668836,39.754672143]}","Montgomery County, OH",5.0,6.7,0.0,6.7,11.7,39113,Montgomery,OH
-"{""type"":""Point"",""coordinates"":[-86.660638543,33.264270149]}","Shelby County, AL",33.0,0.0,22.0,22.0,55.0,1117,Shelby,AL
-"{""type"":""Point"",""coordinates"":[-87.585827204,38.024835526]}","Vanderburgh County, IN",0.0,0.7,0.0,0.7,0.7,18163,Vanderburgh,IN
-"{""type"":""Point"",""coordinates"":[-83.009292276,39.96954604]}","Franklin County, OH",483.0,1069.4,188.0,1257.4,1740.4,39049,Franklin,OH
-"{""type"":""Point"",""coordinates"":[-94.77375436,39.380340771]}","Platte County, MO",0.0,13.25,0.0,13.25,13.25,29165,Platte,MO
-"{""type"":""Point"",""coordinates"":[-84.542753037,39.195543364]}","Hamilton County, OH",0.0,29.61,0.3,29.91,29.91,39061,Hamilton,OH
-"{""type"":""Point"",""coordinates"":[-97.634342956,31.900416724]}","Bosque County, TX",0.0,0.0,40.0,40.0,40.0,48035,Bosque,TX
-"{""type"":""Point"",""coordinates"":[-77.347137566,38.026702912]}","Caroline County, VA",1120.0,0.0,70.0,70.0,1190.0,51033,Caroline,VA
-"{""type"":""Point"",""coordinates"":[-98.520025879,29.448957832]}","Bexar County, TX",634.0,548.6,271.0,819.6,1453.6,48029,Bexar,TX
-"{""type"":""Point"",""coordinates"":[-73.950225805,40.634365219]}","Kings County, NY",0.0,3.0,0.0,3.0,3.0,36047,Kings,NY
-"{""type"":""Point"",""coordinates"":[-97.478744045,31.037345197]}","Bell County, TX",200.0,300.0,157.0,457.0,657.0,48027,Bell,TX
-"{""type"":""Point"",""coordinates"":[-77.276218151,38.834573791]}","Fairfax County, VA",272.7,338.4,334.0,672.4,945.1,51059,Fairfax,VA
-"{""type"":""Point"",""coordinates"":[-77.656094435,38.185111048]}","Spotsylvania County, VA",1538.0,0.0,388.0,388.0,1926.0,51177,Spotsylvania,VA
-"{""type"":""Point"",""coordinates"":[-80.524750305,35.639426342]}","Rowan County, NC",480.0,9.6,0.0,9.6,489.6,37159,Rowan,NC
-"{""type"":""Point"",""coordinates"":[-72.251175275,42.919331429]}","Cheshire County, NH",0.0,0.5,0.0,0.5,0.5,33005,Cheshire,NH
-"{""type"":""Point"",""coordinates"":[-84.967221113,34.805611763]}","Whitfield County, GA",0.0,217.0,50.0,267.0,267.0,13313,Whitfield,GA
-"{""type"":""Point"",""coordinates"":[-77.457399937,38.42071889]}","Stafford County, VA",1150.0,0.0,42.0,42.0,1192.0,51179,Stafford,VA
-"{""type"":""Point"",""coordinates"":[-81.546437267,35.953038799]}","Caldwell County, NC",0.0,78.5,0.0,78.5,78.5,37027,Caldwell,NC
-"{""type"":""Point"",""coordinates"":[-73.509712133,42.711053543]}","Rensselaer County, NY",0.0,10.0,0.0,10.0,10.0,36083,Rensselaer,NY
-"{""type"":""Point"",""coordinates"":[-81.555543248,35.334089874]}","Cleveland County, NC",25.0,52.0,0.0,52.0,77.0,37045,Cleveland,NC
-"{""type"":""Point"",""coordinates"":[-123.915820437,40.705008801]}","Humboldt County, CA",0.0,4.0,0.0,4.0,4.0,6023,Humboldt,CA
-"{""type"":""Point"",""coordinates"":[-80.832731144,35.246767042]}","Mecklenburg County, NC",2188.0,42.85,200.0,242.85,2430.85,37119,Mecklenburg,NC
-"{""type"":""Point"",""coordinates"":[-83.733846543,33.781557079]}","Walton County, GA",800.0,0.0,0.0,0.0,800.0,13297,Walton,GA
-"{""type"":""Point"",""coordinates"":[-119.691777628,47.736107057]}","Douglas County, WA",48.0,213.0,155.5,368.5,416.5,53017,Douglas,WA
-"{""type"":""Point"",""coordinates"":[-97.45692394,47.921915186]}","Grand Forks County, ND",0.0,130.0,0.0,130.0,130.0,38035,Grand Forks,ND
-"{""type"":""Point"",""coordinates"":[-74.308224128,40.659932642]}","Union County, NJ",0.0,0.0,40.0,40.0,40.0,34039,Union,NJ
-"{""type"":""Point"",""coordinates"":[-91.792364892,37.877128585]}","Phelps County, MO",1200.0,0.0,0.0,0.0,1200.0,29161,Phelps,MO
-"{""type"":""Point"",""coordinates"":[-79.981217108,40.4687889]}","Allegheny County, PA",0.0,32.4,15.0,47.4,47.4,42003,Allegheny,PA
-"{""type"":""Point"",""coordinates"":[-92.312025916,34.770044792]}","Pulaski County, AR",0.0,1.2,150.0,151.2,151.2,5119,Pulaski,AR
-"{""type"":""Point"",""coordinates"":[-79.466780585,40.31092911]}","Westmoreland County, PA",180.0,20.0,0.0,20.0,200.0,42129,Westmoreland,PA
-"{""type"":""Point"",""coordinates"":[-96.154476976,41.295351051]}","Douglas County, NE",0.0,157.5,140.0,297.5,297.5,31055,Douglas,NE
-"{""type"":""Point"",""coordinates"":[-115.993817769,33.74367358]}","Riverside County, CA",0.0,2.0,0.0,2.0,2.0,6065,Riverside,CA
-"{""type"":""Point"",""coordinates"":[-84.357567511,33.541946504]}","Clayton County, GA",0.0,0.0,50.0,50.0,50.0,13063,Clayton,GA
-"{""type"":""Point"",""coordinates"":[-87.580544286,43.015460155]}","Milwaukee County, WI",2.7,9.45,0.0,9.45,12.15,55079,Milwaukee,WI
-"{""type"":""Point"",""coordinates"":[-74.66814167,39.877751305]}","Burlington County, NJ",0.0,4.0,0.0,4.0,4.0,34005,Burlington,NJ
-"{""type"":""Point"",""coordinates"":[-121.918042983,37.650511114]}","Alameda County, CA",32.1,103.19,0.0,103.19,135.29,6001,Alameda,CA
-"{""type"":""Point"",""coordinates"":[-81.184411137,34.974887655]}","York County, SC",100.0,2.0,0.0,2.0,102.0,45091,York,SC
-"{""type"":""Point"",""coordinates"":[-79.464584038,40.812097171]}","Armstrong County, PA",70.0,1.5,30.0,31.5,101.5,42005,Armstrong,PA
-"{""type"":""Point"",""coordinates"":[-68.649428129,45.400512321]}","Penobscot County, ME",60.0,0.0,0.0,0.0,60.0,23019,Penobscot,ME
-"{""type"":""Point"",""coordinates"":[-92.497077602,39.440167566]}","Randolph County, MO",0.0,0.0,5.0,5.0,5.0,29175,Randolph,MO
-"{""type"":""Point"",""coordinates"":[-92.883814274,45.038894975]}","Washington County, MN",20.0,6.5,20.0,26.5,46.5,27163,Washington,MN
-"{""type"":""Point"",""coordinates"":[-84.576683739,33.941584911]}","Cobb County, GA",0.0,24.53,0.0,24.53,24.53,13067,Cobb,GA
-"{""type"":""Point"",""coordinates"":[-117.274001822,48.532318162]}","Pend Oreille County, WA",0.0,100.0,0.0,100.0,100.0,53051,Pend Oreille,WA
-"{""type"":""Point"",""coordinates"":[-123.431553905,39.433623815]}","Mendocino County, CA",0.0,0.5,0.0,0.5,0.5,6045,Mendocino,CA
-"{""type"":""Point"",""coordinates"":[-80.903092238,34.021843713]}","Richland County, SC",0.0,1.41,0.5,1.91,1.91,45079,Richland,SC
-"{""type"":""Point"",""coordinates"":[-77.809239265,38.738646581]}","Fauquier County, VA",1050.0,12.0,0.0,12.0,1062.0,51061,Fauquier,VA
-"{""type"":""Point"",""coordinates"":[-97.2017866,31.55238008]}","McLennan County, TX",500.0,1.3,0.0,1.3,501.3,48309,McLennan,TX
-"{""type"":""Point"",""coordinates"":[-117.776766945,33.676975979]}","Orange County, CA",2.0,40.2,0.0,40.2,42.2,6059,Orange,CA
-"{""type"":""Point"",""coordinates"":[-72.572050065,41.818510693]}","Capitol Planning Region, CT",44.0,1.0,0.0,1.0,45.0,9003,Hartford,CT
-"{""type"":""Point"",""coordinates"":[-72.572050065,41.818510693]}","Capitol Planning Region, CT",44.0,1.0,0.0,1.0,45.0,9013,Tolland,CT
-"{""type"":""Point"",""coordinates"":[-94.343598422,33.077534603]}","Cass County, TX",0.0,40.0,0.0,40.0,40.0,48067,Cass,TX
-"{""type"":""Point"",""coordinates"":[-81.148571514,29.063445484]}","Volusia County, FL",0.0,0.5,0.0,0.5,0.5,12127,Volusia,FL
-"{""type"":""Point"",""coordinates"":[-115.013561052,36.215196308]}","Clark County, NV",414.0,426.33,0.0,426.33,840.33,32003,Clark,NV
-"{""type"":""Point"",""coordinates"":[-80.701204912,28.300316146]}","Brevard County, FL",0.0,2.5,0.0,2.5,2.5,12009,Brevard,FL
-"{""type"":""Point"",""coordinates"":[-82.370620119,34.89406465]}","Greenville County, SC",25.0,85.0,0.8,85.8,110.8,45045,Greenville,SC
-"{""type"":""Point"",""coordinates"":[-121.835948235,47.490927628]}","King County, WA",0.0,204.46,6.0,210.46,210.46,53033,King,WA
-"{""type"":""Point"",""coordinates"":[-79.986755893,37.778616181]}","Covington city, VA",0.0,0.5,0.0,0.5,0.5,51005,Alleghany,VA
-"{""type"":""Point"",""coordinates"":[-113.504673715,37.280416921]}","Washington County, UT",0.0,4.0,0.0,4.0,4.0,49053,Washington,UT
-"{""type"":""Point"",""coordinates"":[-98.958838067,46.979255146]}","Stutsman County, ND",0.0,106.0,0.0,106.0,106.0,38093,Stutsman,ND
-"{""type"":""Point"",""coordinates"":[-74.247066181,40.787211228]}","Essex County, NJ",0.0,87.71,0.0,87.71,87.71,34013,Essex,NJ
-"{""type"":""Point"",""coordinates"":[-88.847324278,40.490891619]}","McLean County, IL",0.0,1.0,0.0,1.0,1.0,17113,McLean,IL
-"{""type"":""Point"",""coordinates"":[-95.379473789,35.616139045]}","Muskogee County, OK",200.0,0.0,270.0,270.0,470.0,40101,Muskogee,OK
-"{""type"":""Point"",""coordinates"":[-89.760045919,40.788054361]}","Peoria County, IL",0.0,0.5,0.0,0.5,0.5,17143,Peoria,IL
-"{""type"":""Point"",""coordinates"":[-93.561456659,41.334270808]}","Warren County, IA",0.0,160.0,40.0,200.0,200.0,19181,Warren,IA
-"{""type"":""Point"",""coordinates"":[-122.693974938,37.759720282]}","San Francisco County, CA",19.0,76.5,9.0,85.5,104.5,6075,San Francisco,CA
-"{""type"":""Point"",""coordinates"":[-72.685277743,40.94044998]}","Suffolk County, NY",3.0,3.0,0.0,3.0,6.0,36103,Suffolk,NY
-"{""type"":""Point"",""coordinates"":[-77.955821458,38.486039181]}","Culpeper County, VA",2258.0,67.5,240.0,307.5,2565.5,51047,Culpeper,VA
-"{""type"":""Point"",""coordinates"":[-77.490954992,37.760101304]}","Hanover County, VA",2415.0,1.0,0.0,1.0,2416.0,51085,Hanover,VA
-"{""type"":""Point"",""coordinates"":[-81.495254428,39.455316193]}","Washington County, OH",0.0,0.0,40.0,40.0,40.0,39167,Washington,OH
-"{""type"":""Point"",""coordinates"":[-120.738493053,46.457023091]}","Yakima County, WA",0.0,0.3,0.0,0.3,0.3,53077,Yakima,WA
-"{""type"":""Point"",""coordinates"":[-99.331565304,27.76106243]}","Webb County, TX",0.0,0.65,0.0,0.65,0.65,48479,Webb,TX
-"{""type"":""Point"",""coordinates"":[-78.262558411,39.204611469]}","Frederick County, VA",0.0,6.9,0.0,6.9,6.9,51069,Frederick,VA
-"{""type"":""Point"",""coordinates"":[-82.621204697,36.97522228]}","Wise County, VA",35.0,10.0,0.0,10.0,45.0,51195,Wise,VA
-"{""type"":""Point"",""coordinates"":[-118.736786157,45.591976087]}","Umatilla County, OR",101.0,893.5,225.0,1118.5,1219.5,41059,Umatilla,OR
-"{""type"":""Point"",""coordinates"":[-77.915194258,37.550187151]}","Powhatan County, VA",200.0,0.0,100.0,100.0,300.0,51145,Powhatan,VA
-"{""type"":""Point"",""coordinates"":[-119.451764745,47.205662349]}","Grant County, WA",36.0,752.5,0.0,752.5,788.5,53025,Grant,WA
-"{""type"":""Point"",""coordinates"":[-76.823772237,42.781077941]}","Seneca County, NY",0.0,0.5,0.0,0.5,0.5,36099,Seneca,NY
-"{""type"":""Point"",""coordinates"":[-85.079800138,33.582803506]}","Carroll County, GA",0.0,1.0,0.0,1.0,1.0,13045,Carroll,GA
-"{""type"":""Point"",""coordinates"":[-121.344255331,38.44932148]}","Sacramento County, CA",18.0,91.4,0.0,91.4,109.4,6067,Sacramento,CA
-"{""type"":""Point"",""coordinates"":[-111.789863994,32.097398705]}","Pima County, AZ",16.6,28.53,0.0,28.53,45.13,4019,Pima,AZ
-"{""type"":""Point"",""coordinates"":[-96.971525276,28.796351492]}","Victoria County, TX",0.0,0.0,0.3,0.3,0.3,48469,Victoria,TX
-"{""type"":""Point"",""coordinates"":[-97.116815088,33.205531229]}","Denton County, TX",67.292,347.94,103.0,450.94,518.232,48121,Denton,TX
-"{""type"":""Point"",""coordinates"":[-82.264096529,33.544120797]}","Columbia County, GA",1000.0,0.0,0.0,0.0,1000.0,13073,Columbia,GA
-"{""type"":""Point"",""coordinates"":[-77.586917222,37.378517719]}","Chesterfield County, VA",610.0,44.8,50.0,94.8,704.8,51041,Chesterfield,VA
-"{""type"":""Point"",""coordinates"":[-81.697680364,27.948870065]}","Polk County, FL",0.0,8.0,0.0,8.0,8.0,12105,Polk,FL
-"{""type"":""Point"",""coordinates"":[-98.181115219,26.396734154]}","Hidalgo County, TX",0.0,0.4,0.0,0.4,0.4,48215,Hidalgo,TX
-"{""type"":""Point"",""coordinates"":[-81.532167007,41.125979225]}","Summit County, OH",0.0,3.5,0.0,3.5,3.5,39153,Summit,OH
-"{""type"":""Point"",""coordinates"":[-97.78195731,30.334376176]}","Travis County, TX",646.045,327.14,30.0,357.14,1003.185,48453,Travis,TX
-"{""type"":""Point"",""coordinates"":[-90.882521586,42.468822615]}","Dubuque County, IA",0.0,2.0,0.0,2.0,2.0,19061,Dubuque,IA
-"{""type"":""Point"",""coordinates"":[-82.370195486,27.891649828]}","Hillsborough County, FL",0.0,22.84,0.0,22.84,22.84,12057,Hillsborough,FL
-"{""type"":""Point"",""coordinates"":[-98.703550747,33.987997043]}","Wichita County, TX",300.0,0.6,0.0,0.6,300.6,48485,Wichita,TX
-"{""type"":""Point"",""coordinates"":[-83.91868214,33.013897249]}","Monroe County, GA",500.0,0.0,0.0,0.0,500.0,13207,Monroe,GA
-"{""type"":""Point"",""coordinates"":[-84.575625608,39.438627704]}","Butler County, OH",0.0,8.54,0.0,8.54,8.54,39017,Butler,OH
-"{""type"":""Point"",""coordinates"":[-80.505439972,25.610581045]}","Miami-Dade County, FL",26.45,78.73,25.75,104.48,130.93,12086,Miami-Dade,FL
-"{""type"":""Point"",""coordinates"":[-87.696076506,42.751176747]}","Racine County, WI",80.0,0.0,80.0,80.0,160.0,55101,Racine,WI
-"{""type"":""Point"",""coordinates"":[-73.585585436,40.732145866]}","Nassau County, NY",0.0,6.5,0.0,6.5,6.5,36059,Nassau,NY
-"{""type"":""Point"",""coordinates"":[-72.100727336,41.484789464]}","Southeastern Connecticut Planning Region, CT",18.0,0.0,5.0,5.0,23.0,9011,New London,CT
-"{""type"":""Point"",""coordinates"":[-81.700195921,41.635059044]}","Cuyahoga County, OH",0.0,21.9,0.0,21.9,21.9,39035,Cuyahoga,OH
-"{""type"":""Point"",""coordinates"":[-97.60040383,30.647522638]}","Williamson County, TX",224.0,45.41,389.0,434.41,658.41,48491,Williamson,TX
-"{""type"":""Point"",""coordinates"":[-106.670199603,35.051355426]}","Bernalillo County, NM",0.0,24.0,10.0,34.0,34.0,35001,Bernalillo,NM
-"{""type"":""Point"",""coordinates"":[-78.770816632,43.336111563]}","Niagara County, NY",85.0,296.2,100.0,396.2,481.2,36063,Niagara,NY
-"{""type"":""Point"",""coordinates"":[-86.207614296,32.220257984]}","Montgomery County, AL",5.0,0.0,80.0,80.0,85.0,1101,Montgomery,AL
-"{""type"":""Point"",""coordinates"":[-73.081249852,44.461042623]}","Chittenden County, VT",0.0,0.5,0.0,0.5,0.5,50007,Chittenden,VT
-"{""type"":""Point"",""coordinates"":[-77.39797708,39.47221421]}","Frederick County, MD",1749.0,0.0,231.0,231.0,1980.0,24021,Frederick,MD
-"{""type"":""Point"",""coordinates"":[-75.068942775,44.496393417]}","St. Lawrence County, NY",0.0,50.0,0.0,50.0,50.0,36089,St. Lawrence,NY
-"{""type"":""Point"",""coordinates"":[-119.529332479,39.447022275]}","Storey County, NV",5495.0,70.0,475.0,545.0,6040.0,32029,Storey,NV
-"{""type"":""Point"",""coordinates"":[-70.867919681,42.63891558]}","Essex County, MA",0.0,7.5,0.0,7.5,7.5,25009,Essex,MA
-"{""type"":""Point"",""coordinates"":[-104.87576844,39.761979114]}","Denver County, CO",44.0,36.75,18.0,54.75,98.75,8031,Denver,CO
-"{""type"":""Point"",""coordinates"":[-74.544495795,40.862019238]}","Morris County, NJ",0.0,13.0,0.0,13.0,13.0,34027,Morris,NJ
-"{""type"":""Point"",""coordinates"":[-89.928129067,30.068643886]}","Orleans Parish, LA",0.0,2.55,0.0,2.55,2.55,22071,Orleans,LA
-"{""type"":""Point"",""coordinates"":[-122.415099154,45.546786938]}","Multnomah County, OR",0.0,22.1,0.0,22.1,22.1,41051,Multnomah,OR
-"{""type"":""Point"",""coordinates"":[-83.430466248,31.153993628]}","Cook County, GA",40.0,40.0,0.0,40.0,80.0,13075,Cook,GA
-"{""type"":""Point"",""coordinates"":[-84.373536977,42.597099197]}","Ingham County, MI",0.0,0.5,0.0,0.5,0.5,26065,Ingham,MI
-"{""type"":""Point"",""coordinates"":[-104.339276317,39.649770391]}","Arapahoe County, CO",160.0,110.05,12.0,122.05,282.05,8005,Arapahoe,CO
-"{""type"":""Point"",""coordinates"":[-103.102425237,31.50946555]}","Ward County, TX",300.0,70.0,0.0,70.0,370.0,48475,Ward,TX
-"{""type"":""Point"",""coordinates"":[-75.134191051,40.007567415]}","Philadelphia County, PA",36.0,36.94,0.0,36.94,72.94,42101,Philadelphia,PA
-"{""type"":""Point"",""coordinates"":[-74.138393633,40.56187954]}","Richmond County, NY",0.0,10.0,0.0,10.0,10.0,36085,Richmond,NY
-"{""type"":""Point"",""coordinates"":[-74.074207317,40.959688876]}","Bergen County, NJ",0.0,18.0,0.0,18.0,18.0,34003,Bergen,NJ
-"{""type"":""Point"",""coordinates"":[-99.241054763,34.080726133]}","Wilbarger County, TX",280.0,60.0,60.0,120.0,400.0,48487,Wilbarger,TX
-"{""type"":""Point"",""coordinates"":[-78.873471701,38.436196538]}","Harrisonburg city, VA",0.0,18.0,0.0,18.0,18.0,51660,Harrisonburg,VA
-"{""type"":""Point"",""coordinates"":[-96.975635857,36.077289689]}","Payne County, OK",250.0,0.0,50.0,50.0,300.0,40119,Payne,OK
-"{""type"":""Point"",""coordinates"":[-74.076177617,40.730754157]}","Hudson County, NJ",10.0,122.5,19.4,141.9,151.9,34017,Hudson,NJ
-"{""type"":""Point"",""coordinates"":[-124.093307822,43.185164026]}","Coos County, OR",0.0,0.5,0.0,0.5,0.5,41011,Coos,OR
-"{""type"":""Point"",""coordinates"":[-93.091535114,36.308639107]}","Boone County, AR",0.0,2.0,0.0,2.0,2.0,5009,Boone,AR
-"{""type"":""Point"",""coordinates"":[-96.287765328,32.599290957]}","Kaufman County, TX",300.0,0.0,0.0,0.0,300.0,48257,Kaufman,TX
-"{""type"":""Point"",""coordinates"":[-86.64274924,32.534920174]}","Autauga County, AL",35.0,0.0,5.0,5.0,40.0,1001,Autauga,AL
-"{""type"":""Point"",""coordinates"":[-99.730300009,33.178231287]}","Haskell County, TX",700.0,0.0,300.0,300.0,1000.0,48207,Haskell,TX
-"{""type"":""Point"",""coordinates"":[-76.88830957,37.11691216]}","Surry County, VA",280.0,0.0,20.0,20.0,300.0,51181,Surry,VA
-"{""type"":""Point"",""coordinates"":[-83.261198218,42.284858047]}","Wayne County, MI",130.0,13.4,0.0,13.4,143.4,26163,Wayne,MI
-"{""type"":""Point"",""coordinates"":[-82.910175258,42.6727951]}","Macomb County, MI",45.0,0.0,0.0,0.0,45.0,26099,Macomb,MI
-"{""type"":""Point"",""coordinates"":[-88.428638097,41.938855942]}","Kane County, IL",0.0,0.0,20.0,20.0,20.0,17089,Kane,IL
-"{""type"":""Point"",""coordinates"":[-95.542392529,41.336613055]}","Pottawattamie County, IA",12.0,537.0,65.0,602.0,614.0,19155,Pottawattamie,IA
-"{""type"":""Point"",""coordinates"":[-85.659107034,38.187192578]}","Jefferson County, KY",331.5,7.89,65.0,72.89,404.39,21111,Jefferson,KY
-"{""type"":""Point"",""coordinates"":[-95.941475634,36.121098592]}","Tulsa County, OK",500.0,31.9,0.0,31.9,531.9,40143,Tulsa,OK
-"{""type"":""Point"",""coordinates"":[-73.973558571,42.600176429]}","Albany County, NY",0.0,8.8,0.0,8.8,8.8,36001,Albany,NY
-"{""type"":""Point"",""coordinates"":[-98.464836122,48.772286729]}","Cavalier County, ND",100.0,2.5,30.0,32.5,132.5,38019,Cavalier,ND
-"{""type"":""Point"",""coordinates"":[-90.033714312,32.634710321]}","Madison County, MS",850.0,0.0,0.0,0.0,850.0,28089,Madison,MS
-"{""type"":""Point"",""coordinates"":[-85.194777062,38.21543812]}","Shelby County, KY",0.0,1.0,0.0,1.0,1.0,21211,Shelby,KY
-"{""type"":""Point"",""coordinates"":[-82.795899168,32.969535735]}","Washington County, GA",0.0,261.0,0.0,261.0,261.0,13303,Washington,GA
-"{""type"":""Point"",""coordinates"":[-96.302384945,30.660798972]}","Brazos County, TX",0.0,6.0,0.0,6.0,6.0,48041,Brazos,TX
-"{""type"":""Point"",""coordinates"":[-95.756534257,39.041513764]}","Shawnee County, KS",0.0,0.58,0.0,0.58,0.58,20177,Shawnee,KS
-"{""type"":""Point"",""coordinates"":[-95.503008611,30.300208094]}","Montgomery County, TX",45.0,53.88,0.0,53.88,98.88,48339,Montgomery,TX
-"{""type"":""Point"",""coordinates"":[-85.999295148,34.779412562]}","Jackson County, AL",0.0,50.0,0.0,50.0,50.0,1071,Jackson,AL
-"{""type"":""Point"",""coordinates"":[-92.30967904,38.990614799]}","Boone County, MO",0.0,0.7,0.0,0.7,0.7,29019,Boone,MO
-"{""type"":""Point"",""coordinates"":[-116.77019669,33.028197967]}","San Diego County, CA",0.0,32.1,0.0,32.1,32.1,6073,San Diego,CA
-"{""type"":""Point"",""coordinates"":[-85.858755274,41.59738448]}","Elkhart County, IN",1500.0,0.0,0.0,0.0,1500.0,18039,Elkhart,IN
-"{""type"":""Point"",""coordinates"":[-101.523008414,31.366192129]}","Reagan County, TX",0.0,20.0,0.0,20.0,20.0,48383,Reagan,TX
-"{""type"":""Point"",""coordinates"":[-97.291131153,32.771923512]}","Tarrant County, TX",658.0,352.18,301.0,653.18,1311.18,48439,Tarrant,TX
-"{""type"":""Point"",""coordinates"":[-85.028336792,33.033510371]}","Troup County, GA",650.0,14.0,0.0,14.0,664.0,13285,Troup,GA
-"{""type"":""Point"",""coordinates"":[-83.468274773,41.684190698]}","Lucas County, OH",0.0,1.3,0.0,1.3,1.3,39095,Lucas,OH
-"{""type"":""Point"",""coordinates"":[-97.516234729,27.735048746]}","Nueces County, TX",200.0,200.5,500.0,700.5,900.5,48355,Nueces,TX
-"{""type"":""Point"",""coordinates"":[-82.288983582,31.749280352]}","Appling County, GA",0.0,15.0,0.0,15.0,15.0,13001,Appling,GA
-"{""type"":""Point"",""coordinates"":[-82.743226751,33.781945182]}","Wilkes County, GA",4.0,82.0,0.0,82.0,86.0,13317,Wilkes,GA
-"{""type"":""Point"",""coordinates"":[-81.323525489,28.514446159]}","Orange County, FL",0.0,25.4,0.0,25.4,25.4,12095,Orange,FL
-"{""type"":""Point"",""coordinates"":[-75.106879888,40.336933483]}","Bucks County, PA",200.0,0.0,80.0,80.0,280.0,42017,Bucks,PA
-"{""type"":""Point"",""coordinates"":[-80.87344724,35.807043575]}","Iredell County, NC",272.0,4.0,0.0,4.0,276.0,37097,Iredell,NC
-"{""type"":""Point"",""coordinates"":[-76.016328146,36.77776323]}","Virginia Beach city, VA",130.0,8.0,0.0,8.0,138.0,51810,Virginia Beach,VA
-"{""type"":""Point"",""coordinates"":[-90.852011209,32.357229614]}","Warren County, MS",0.0,20.0,0.0,20.0,20.0,28149,Warren,MS
-"{""type"":""Point"",""coordinates"":[-92.332030225,35.147032631]}","Faulkner County, AR",10.0,0.0,0.0,0.0,10.0,5045,Faulkner,AR
-"{""type"":""Point"",""coordinates"":[-84.494323691,33.413987686]}","Fayette County, GA",446.0,70.0,105.0,175.0,621.0,13113,Fayette,GA
-"{""type"":""Point"",""coordinates"":[-93.573432584,41.685394284]}","Polk County, IA",51.0,602.9,118.2,721.1,772.1,19153,Polk,IA
-"{""type"":""Point"",""coordinates"":[-78.650280122,35.790313427]}","Wake County, NC",3.0,18.33,0.0,18.33,21.33,37183,Wake,NC
-"{""type"":""Point"",""coordinates"":[-94.764478416,39.114645335]}","Wyandotte County, KS",600.0,14.0,0.0,14.0,614.0,20209,Wyandotte,KS
-"{""type"":""Point"",""coordinates"":[-88.27220141,36.621100968]}","Calloway County, KY",0.0,25.0,0.0,25.0,25.0,21035,Calloway,KY
-"{""type"":""Point"",""coordinates"":[-90.097766958,29.677452107]}","Jefferson Parish, LA",0.0,0.7,0.0,0.7,0.7,22051,Jefferson,LA
-"{""type"":""Point"",""coordinates"":[-74.616336644,40.563506905]}","Somerset County, NJ",10.0,62.0,0.0,62.0,72.0,34035,Somerset,NJ
-"{""type"":""Point"",""coordinates"":[-110.266046891,47.045443249]}","Judith Basin County, MT",0.0,20.0,0.0,20.0,20.0,30045,Judith Basin,MT
-"{""type"":""Point"",""coordinates"":[-84.277997301,37.720184097]}","Madison County, KY",0.0,20.0,0.0,20.0,20.0,21151,Madison,KY
-"{""type"":""Point"",""coordinates"":[-106.23483547,31.768647564]}","El Paso County, TX",400.0,2.4,24.9,27.3,427.3,48141,El Paso,TX
-"{""type"":""Point"",""coordinates"":[-121.228140561,43.9150082]}","Deschutes County, OR",0.0,6.5,0.0,6.5,6.5,41017,Deschutes,OR
-"{""type"":""Point"",""coordinates"":[-112.224618776,42.668485212]}","Bannock County, ID",0.0,5.4,0.0,5.4,5.4,16005,Bannock,ID
-"{""type"":""Point"",""coordinates"":[-89.285780318,41.204489982]}","Putnam County, IL",82.0,0.0,0.0,0.0,82.0,17155,Putnam,IL
-"{""type"":""Point"",""coordinates"":[-123.179548955,43.285345766]}","Douglas County, OR",0.0,0.5,0.0,0.5,0.5,41019,Douglas,OR
-"{""type"":""Point"",""coordinates"":[-94.247465501,44.349854924]}","Nicollet County, MN",300.0,0.0,0.0,0.0,300.0,27103,Nicollet,MN
-"{""type"":""Point"",""coordinates"":[-91.095648613,30.5382752]}","East Baton Rouge Parish, LA",3.0,2.7,0.0,2.7,5.7,22033,East Baton Rouge,LA
-"{""type"":""Point"",""coordinates"":[-99.347478378,31.198871141]}","McCulloch County, TX",500.0,0.0,0.0,0.0,500.0,48307,McCulloch,TX
-"{""type"":""Point"",""coordinates"":[-84.277880184,30.458036492]}","Leon County, FL",0.0,0.9,0.0,0.9,0.9,12073,Leon,FL
-"{""type"":""Point"",""coordinates"":[-83.706711027,43.021722899]}","Genesee County, MI",0.0,1.28,0.0,1.28,1.28,26049,Genesee,MI
-"{""type"":""Point"",""coordinates"":[-101.89292281,35.837687253]}","Moore County, TX",87.0,0.0,100.0,100.0,187.0,48341,Moore,TX
-"{""type"":""Point"",""coordinates"":[-86.550206596,34.763089682]}","Madison County, AL",5.0,262.0,100.0,362.0,367.0,1089,Madison,AL
-"{""type"":""Point"",""coordinates"":[-89.95464439,30.407855475]}","St. Tammany Parish, LA",0.0,1.0,0.0,1.0,1.0,22103,St. Tammany,LA
-"{""type"":""Point"",""coordinates"":[-83.937090009,35.993208886]}","Knox County, TN",0.0,86.0,0.0,86.0,86.0,47093,Knox,TN
-"{""type"":""Point"",""coordinates"":[-86.898656416,35.893826351]}","Williamson County, TN",0.0,27.7,0.0,27.7,27.7,47187,Williamson,TN
-"{""type"":""Point"",""coordinates"":[-77.962969598,37.978601298]}","Louisa County, VA",750.0,0.0,70.0,70.0,820.0,51109,Louisa,VA
-"{""type"":""Point"",""coordinates"":[-71.578520175,41.871368408]}","Providence County, RI",0.0,2.85,0.0,2.85,2.85,44007,Providence,RI
-"{""type"":""Point"",""coordinates"":[-122.876628532,43.941551698]}","Lane County, OR",0.0,1.0,0.0,1.0,1.0,41039,Lane,OR
-"{""type"":""Point"",""coordinates"":[-119.584275767,45.419002711]}","Morrow County, OR",0.0,877.0,300.0,1177.0,1177.0,41049,Morrow,OR
-"{""type"":""Point"",""coordinates"":[-82.637758267,34.519301809]}","Anderson County, SC",0.0,18.0,0.0,18.0,18.0,45007,Anderson,SC
-"{""type"":""Point"",""coordinates"":[-164.736740347,23.718640397]}","Honolulu County, HI",0.0,8.16,0.0,8.16,8.16,15003,Honolulu,HI
-"{""type"":""Point"",""coordinates"":[-93.065440392,44.671894642]}","Dakota County, MN",2037.0,33.0,17.0,50.0,2087.0,27037,Dakota,MN
-"{""type"":""Point"",""coordinates"":[-90.674937168,38.781946]}","St. Charles County, MO",0.0,5.0,0.0,5.0,5.0,29183,St. Charles,MO
-"{""type"":""Point"",""coordinates"":[-89.945798072,32.264124363]}","Rankin County, MS",0.0,0.0,116.0,116.0,116.0,28121,Rankin,MS
-"{""type"":""Point"",""coordinates"":[-73.970008762,40.774018256]}","New York County, NY",0.0,163.28,12.0,175.28,175.28,36061,New York,NY
-"{""type"":""Point"",""coordinates"":[-121.722347036,48.046096017]}","Snohomish County, WA",0.0,27.0,0.0,27.0,27.0,53061,Snohomish,WA
-"{""type"":""Point"",""coordinates"":[-117.403973079,47.620750459]}","Spokane County, WA",0.0,13.0,0.0,13.0,13.0,53063,Spokane,WA
-"{""type"":""Point"",""coordinates"":[-119.664324637,40.665640025]}","Washoe County, NV",5.0,216.5,20.0,236.5,241.5,32031,Washoe,NV
-"{""type"":""Point"",""coordinates"":[-80.776299439,41.014637865]}","Mahoning County, OH",0.0,0.45,0.0,0.45,0.45,39099,Mahoning,OH
-"{""type"":""Point"",""coordinates"":[-105.052662858,39.954136996]}","Broomfield County, CO",0.0,29.1,0.0,29.1,29.1,8014,Broomfield,CO
-"{""type"":""Point"",""coordinates"":[-104.337895379,39.873647146]}","Adams County, CO",170.0,33.5,0.0,33.5,203.5,8001,Adams,CO
-"{""type"":""Point"",""coordinates"":[-82.301708462,32.589761905]}","Emanuel County, GA",0.0,8.0,0.0,8.0,8.0,13107,Emanuel,GA
-"{""type"":""Point"",""coordinates"":[-79.087567956,40.651956515]}","Indiana County, PA",4500.0,0.0,0.0,0.0,4500.0,42063,Indiana,PA
-"{""type"":""Point"",""coordinates"":[-120.99767552,37.559155851]}","Stanislaus County, CA",0.0,0.3,0.0,0.3,0.3,6099,Stanislaus,CA
-"{""type"":""Point"",""coordinates"":[-85.993457742,41.915400328]}","Cass County, MI",0.0,28.0,272.0,300.0,300.0,26027,Cass,MI
-"{""type"":""Point"",""coordinates"":[-103.480185887,48.343675248]}","Williams County, ND",460.0,300.0,565.0,865.0,1325.0,38105,Williams,ND
-"{""type"":""Point"",""coordinates"":[-72.833666112,41.294470428]}","South Central Connecticut Planning Region, CT",0.0,0.25,0.0,0.25,0.25,9009,New Haven,CT
-"{""type"":""Point"",""coordinates"":[-90.443440507,38.640658568]}","St. Louis County, MO",0.0,15.8,5.0,20.8,20.8,29189,St. Louis,MO
-"{""type"":""Point"",""coordinates"":[-75.609210669,41.436690683]}","Lackawanna County, PA",780.0,0.0,0.0,0.0,780.0,42069,Lackawanna,PA
-"{""type"":""Point"",""coordinates"":[-96.976826373,30.786302428]}","Milam County, TX",0.0,1263.0,179.0,1442.0,1442.0,48331,Milam,TX
-"{""type"":""Point"",""coordinates"":[-87.646141025,41.89542868]}","Cook County, IL",2001.8,917.13,561.0,1478.13,3479.93,17031,Cook,IL
-"{""type"":""Point"",""coordinates"":[-82.530099289,35.611180331]}","Buncombe County, NC",0.0,0.98,0.0,0.98,0.98,37021,Buncombe,NC
-"{""type"":""Point"",""coordinates"":[-74.300869889,41.034349262]}","Passaic County, NJ",0.0,25.05,0.0,25.05,25.05,34031,Passaic,NJ
-"{""type"":""Point"",""coordinates"":[-74.024220453,41.152545131]}","Rockland County, NY",24.0,84.0,0.0,84.0,108.0,36087,Rockland,NY
-"{""type"":""Point"",""coordinates"":[-97.452056865,26.150865919]}","Cameron County, TX",60.0,0.7,60.0,60.7,120.7,48061,Cameron,TX
-"{""type"":""Point"",""coordinates"":[-86.458886142,35.513796649]}","Bedford County, TN",0.0,10.0,10.0,20.0,20.0,47003,Bedford,TN
-"{""type"":""Point"",""coordinates"":[-87.073325844,41.508839053]}","Porter County, IN",50.0,0.0,0.0,0.0,50.0,18127,Porter,IN
-"{""type"":""Point"",""coordinates"":[-85.448362949,38.399387649]}","Oldham County, KY",600.0,0.0,0.0,0.0,600.0,21185,Oldham,KY
-"{""type"":""Point"",""coordinates"":[-81.082917708,39.727347079]}","Monroe County, OH",695.0,0.0,0.0,0.0,695.0,39111,Monroe,OH
-"{""type"":""Point"",""coordinates"":[-89.513447766,40.507483542]}","Tazewell County, IL",1000.0,0.0,0.0,0.0,1000.0,17179,Tazewell,IL
-"{""type"":""Point"",""coordinates"":[-94.42333244,33.445757131]}","Bowie County, TX",0.0,2.0,0.0,2.0,2.0,48037,Bowie,TX
-"{""type"":""Point"",""coordinates"":[-86.50997587,39.769517368]}","Hendricks County, IN",400.0,0.0,0.0,0.0,400.0,18063,Hendricks,IN
-"{""type"":""Point"",""coordinates"":[-74.15936096,40.286159289]}","Monmouth County, NJ",0.0,10.6,0.0,10.6,10.6,34025,Monmouth,NJ
-"{""type"":""Point"",""coordinates"":[-83.850186823,33.555049392]}","Newton County, GA",550.0,210.0,0.0,210.0,760.0,13217,Newton,GA
-"{""type"":""Point"",""coordinates"":[-79.397119391,36.821297731]}","Pittsylvania County, VA",800.0,0.0,0.0,0.0,800.0,51143,Pittsylvania,VA
-"{""type"":""Point"",""coordinates"":[-105.250469275,39.586431498]}","Jefferson County, CO",0.0,1.09,0.0,1.09,1.09,8059,Jefferson,CO
-"{""type"":""Point"",""coordinates"":[-97.948584733,29.583050996]}","Guadalupe County, TX",1200.0,0.0,0.0,0.0,1200.0,48187,Guadalupe,TX
-"{""type"":""Point"",""coordinates"":[-87.38288729,36.496856972]}","Montgomery County, TN",0.0,60.0,0.0,60.0,60.0,47125,Montgomery,TN
-"{""type"":""Point"",""coordinates"":[-95.521203225,35.961090272]}","Wagoner County, OK",80.0,0.0,0.0,0.0,80.0,40145,Wagoner,OK
-"{""type"":""Point"",""coordinates"":[-71.391743784,42.485536786]}","Middlesex County, MA",20.0,109.5,0.0,109.5,129.5,25017,Middlesex,MA
-"{""type"":""Point"",""coordinates"":[-93.774788046,45.444000016]}","Sherburne County, MN",600.0,15.0,0.0,15.0,615.0,27141,Sherburne,MN
-"{""type"":""Point"",""coordinates"":[-75.36728882,40.210816217]}","Montgomery County, PA",0.0,25.2,0.0,25.2,25.2,42091,Montgomery,PA
-"{""type"":""Point"",""coordinates"":[-75.925998089,40.416295667]}","Berks County, PA",0.0,7.0,0.0,7.0,7.0,42011,Berks,PA
-"{""type"":""Point"",""coordinates"":[-79.952155243,33.19713372]}","Berkeley County, SC",230.0,310.0,0.0,310.0,540.0,45015,Berkeley,SC
-"{""type"":""Point"",""coordinates"":[-103.693167266,31.323186157]}","Reeves County, TX",0.0,207.0,79.0,286.0,286.0,48389,Reeves,TX
-"{""type"":""Point"",""coordinates"":[-73.753386512,41.151545425]}","Westchester County, NY",0.0,9.1,0.0,9.1,9.1,36119,Westchester,NY
-"{""type"":""Point"",""coordinates"":[-79.986755893,37.778616181]}","Covington city, VA",0.0,0.5,0.0,0.5,0.5,51580,Covington,VA
-"{""type"":""Point"",""coordinates"":[-76.610644657,39.300980333]}","Baltimore city, MD",0.0,59.5,0.0,59.5,59.5,24510,Baltimore,MD
-"{""type"":""Point"",""coordinates"":[-90.041546371,44.455331829]}","Wood County, WI",0.0,0.0,20.0,20.0,20.0,55141,Wood,WI
-"{""type"":""Point"",""coordinates"":[-98.508906061,27.681332989]}","Duval County, TX",50.0,0.0,50.0,50.0,100.0,48131,Duval,TX
-"{""type"":""Point"",""coordinates"":[-93.802599005,44.820684591]}","Carver County, MN",181.0,13.8,0.0,13.8,194.8,27019,Carver,MN
-"{""type"":""Point"",""coordinates"":[-101.894004898,35.401275819]}","Potter County, TX",0.0,0.6,0.0,0.6,0.6,48375,Potter,TX
-"{""type"":""Point"",""coordinates"":[-88.230760478,43.368482532]}","Washington County, WI",0.0,1.0,0.0,1.0,1.0,55131,Washington,WI
-"{""type"":""Point"",""coordinates"":[-77.156450816,38.273727573]}","King George County, VA",900.0,0.0,0.0,0.0,900.0,51099,King George,VA
-"{""type"":""Point"",""coordinates"":[-84.198463784,36.118441138]}","Anderson County, TN",12.0,4.0,0.0,4.0,16.0,47001,Anderson,TN
-"{""type"":""Point"",""coordinates"":[-84.026609125,33.654235276]}","Rockdale County, GA",240.0,0.0,30.0,30.0,270.0,13247,Rockdale,GA
-"{""type"":""Point"",""coordinates"":[-75.98917632,41.177011996]}","Luzerne County, PA",940.0,98.0,122.0,220.0,1160.0,42079,Luzerne,PA
-"{""type"":""Point"",""coordinates"":[-98.504704356,46.110125106]}","Dickey County, ND",300.0,206.0,0.0,206.0,506.0,38021,Dickey,ND
-"{""type"":""Point"",""coordinates"":[-87.653114086,42.578505571]}","Kenosha County, WI",160.0,0.0,0.0,0.0,160.0,55059,Kenosha,WI
-"{""type"":""Point"",""coordinates"":[-82.483097984,40.09160874]}","Licking County, OH",1601.0,601.0,413.0,1014.0,2615.0,39089,Licking,OH
-"{""type"":""Point"",""coordinates"":[-99.213515143,33.6164895]}","Baylor County, TX",83.0,0.0,83.0,83.0,166.0,48023,Baylor,TX
-"{""type"":""Point"",""coordinates"":[-96.791436508,43.67417823]}","Minnehaha County, SD",0.0,1.3,0.0,1.3,1.3,46099,Minnehaha,SD
-"{""type"":""Point"",""coordinates"":[-87.594463592,43.365652328]}","Ozaukee County, WI",3000.0,0.0,0.0,0.0,3000.0,55089,Ozaukee,WI
-"{""type"":""Point"",""coordinates"":[-88.770315919,41.893529323]}","DeKalb County, IL",360.0,260.0,60.0,320.0,680.0,17037,DeKalb,IL
-"{""type"":""Point"",""coordinates"":[-88.329380569,36.883446775]}","Marshall County, KY",0.0,150.0,0.0,150.0,150.0,21157,Marshall,KY
-"{""type"":""Point"",""coordinates"":[-85.549296283,43.032156292]}","Kent County, MI",180.0,14.5,60.0,74.5,254.5,26081,Kent,MI
-"{""type"":""Point"",""coordinates"":[-101.820545831,33.61020612]}","Lubbock County, TX",0.0,0.7,0.0,0.7,0.7,48303,Lubbock,TX
-"{""type"":""Point"",""coordinates"":[-96.472486407,32.046942857]}","Navarro County, TX",400.0,400.0,200.0,600.0,1000.0,48349,Navarro,TX
-"{""type"":""Point"",""coordinates"":[-74.408858209,40.440065448]}","Middlesex County, NJ",32.0,183.93,12.0,195.93,227.93,34023,Middlesex,NJ
-"{""type"":""Point"",""coordinates"":[-116.178478997,34.841438011]}","San Bernardino County, CA",0.0,1.0,0.0,1.0,1.0,6071,San Bernardino,CA
-"{""type"":""Point"",""coordinates"":[-92.461488953,47.589868248]}","St. Louis County, MN",0.0,1.3,0.0,1.3,1.3,27137,St. Louis,MN
-"{""type"":""Point"",""coordinates"":[-77.586917222,37.378517719]}","Chesterfield County, VA",610.0,44.8,50.0,94.8,704.8,51570,Colonial Heights,VA
-"{""type"":""Point"",""coordinates"":[-79.788916813,36.079469022]}","Guilford County, NC",280.0,49.2,20.0,69.2,349.2,37081,Guilford,NC
-"{""type"":""Point"",""coordinates"":[-77.477670544,38.701590675]}","Prince William County, VA",5159.0,1675.4,1070.0,2745.4,7904.4,51685,Manassas Park,VA
-"{""type"":""Point"",""coordinates"":[-97.460968676,37.684761556]}","Sedgwick County, KS",0.0,0.24,0.0,0.24,0.24,20173,Sedgwick,KS
-"{""type"":""Point"",""coordinates"":[-92.308819778,42.470095656]}","Black Hawk County, IA",0.0,1.75,0.0,1.75,1.75,19013,Black Hawk,IA
-"{""type"":""Point"",""coordinates"":[-99.099662687,28.345069301]}","La Salle County, TX",130.0,0.0,70.0,70.0,200.0,48283,La Salle,TX
-"{""type"":""Point"",""coordinates"":[-101.893467006,36.277666864]}","Sherman County, TX",0.0,0.5,0.0,0.5,0.5,48421,Sherman,TX
-"{""type"":""Point"",""coordinates"":[-80.460455107,26.152130965]}","Broward County, FL",0.0,6.65,0.0,6.65,6.65,12011,Broward,FL
-"{""type"":""Point"",""coordinates"":[-83.004878298,40.278394744]}","Delaware County, OH",67.5,10.5,0.0,10.5,78.0,39041,Delaware,OH
-"{""type"":""Point"",""coordinates"":[-82.621204697,36.97522228]}","Wise County, VA",35.0,10.0,0.0,10.0,45.0,51720,Norton,VA
-"{""type"":""Point"",""coordinates"":[-102.043034893,31.368730229]}","Upton County, TX",0.0,280.0,0.0,280.0,280.0,48461,Upton,TX
-"{""type"":""Point"",""coordinates"":[-103.048169055,31.850044565]}","Winkler County, TX",150.0,0.0,150.0,150.0,300.0,48495,Winkler,TX
-"{""type"":""Point"",""coordinates"":[-99.890122093,32.301472007]}","Taylor County, TX",1000.0,0.0,1412.0,1412.0,2412.0,48441,Taylor,TX
-"{""type"":""Point"",""coordinates"":[-100.921228654,32.306211752]}","Mitchell County, TX",700.0,0.0,100.0,100.0,800.0,48335,Mitchell,TX
-"{""type"":""Point"",""coordinates"":[-97.407233336,35.551509937]}","Oklahoma County, OK",7.0,17.9,0.0,17.9,24.9,40109,Oklahoma,OK
-"{""type"":""Point"",""coordinates"":[-95.572283929,30.73904486]}","Walker County, TX",500.0,0.0,0.0,0.0,500.0,48471,Walker,TX
-"{""type"":""Point"",""coordinates"":[-83.385817602,42.660399869]}","Oakland County, MI",4.0,18.8,0.0,18.8,22.8,26125,Oakland,MI
-"{""type"":""Point"",""coordinates"":[-80.349295432,40.682262258]}","Beaver County, PA",0.0,120.0,0.0,120.0,120.0,42007,Beaver,PA
-"{""type"":""Point"",""coordinates"":[-75.708853952,40.918207765]}","Carbon County, PA",0.0,80.0,0.0,80.0,80.0,42025,Carbon,PA
-"{""type"":""Point"",""coordinates"":[-86.052028201,40.07247911]}","Hamilton County, IN",0.0,4.0,0.0,4.0,4.0,18057,Hamilton,IN
-"{""type"":""Point"",""coordinates"":[-93.931640063,42.036501678]}","Boone County, IA",0.0,10.4,0.0,10.4,10.4,19015,Boone,IA
-"{""type"":""Point"",""coordinates"":[-86.685420939,41.995777445]}","Berrien County, MI",300.0,0.0,0.0,0.0,300.0,26021,Berrien,MI
-"{""type"":""Point"",""coordinates"":[-82.630588911,39.751598849]}","Fairfield County, OH",800.0,75.0,0.0,75.0,875.0,39045,Fairfield,OH
-"{""type"":""Point"",""coordinates"":[-83.78436879,39.916716373]}","Clark County, OH",70.0,2.0,100.0,102.0,172.0,39023,Clark,OH
-"{""type"":""Point"",""coordinates"":[-110.84651268,31.525958373]}","Santa Cruz County, AZ",0.0,0.04,0.0,0.04,0.04,4023,Santa Cruz,AZ
-"{""type"":""Point"",""coordinates"":[-93.882405318,32.580697245]}","Caddo Parish, LA",0.0,0.9,0.0,0.9,0.9,22017,Caddo,LA
-"{""type"":""Point"",""coordinates"":[-104.525502366,38.832105193]}","El Paso County, CO",75.0,53.45,0.0,53.45,128.45,8041,El Paso,CO
-"{""type"":""Point"",""coordinates"":[-91.599022856,42.078953522]}","Linn County, IA",400.0,2.31,60.0,62.31,462.31,19113,Linn,IA
-"{""type"":""Point"",""coordinates"":[-89.418121292,43.067292249]}","Dane County, WI",0.0,7.75,0.0,7.75,7.75,55025,Dane,WI
-"{""type"":""Point"",""coordinates"":[-88.662541529,32.404286199]}","Lauderdale County, MS",280.0,8.0,40.0,48.0,328.0,28075,Lauderdale,MS
-"{""type"":""Point"",""coordinates"":[-88.428788352,41.590577644]}","Kendall County, IL",3103.0,0.0,40.0,40.0,3143.0,17093,Kendall,IL
-"{""type"":""Point"",""coordinates"":[-93.296678578,44.354266547]}","Rice County, MN",120.0,0.0,0.0,0.0,120.0,27131,Rice,MN
-"{""type"":""Point"",""coordinates"":[-85.066547472,41.090859829]}","Allen County, IN",300.0,0.0,0.0,0.0,300.0,18003,Allen,IN
-"{""type"":""Point"",""coordinates"":[-98.501208955,40.524468704]}","Adams County, NE",10.0,0.0,0.0,0.0,10.0,31001,Adams,NE
-"{""type"":""Point"",""coordinates"":[-96.794639014,32.348435221]}","Ellis County, TX",780.0,366.0,285.0,651.0,1431.0,48139,Ellis,TX
-"{""type"":""Point"",""coordinates"":[-71.820719791,43.940666314]}","Grafton County, NH",0.0,0.4,0.0,0.4,0.4,33009,Grafton,NH
-"{""type"":""Point"",""coordinates"":[-120.618976066,47.869206558]}","Chelan County, WA",0.0,33.0,180.0,213.0,213.0,53007,Chelan,WA
-"{""type"":""Point"",""coordinates"":[-99.074966224,40.855152494]}","Buffalo County, NE",0.0,200.0,0.0,200.0,200.0,31019,Buffalo,NE
-"{""type"":""Point"",""coordinates"":[-94.039760642,41.684857984]}","Dallas County, IA",1300.0,212.0,170.0,382.0,1682.0,19049,Dallas,IA
-"{""type"":""Point"",""coordinates"":[-94.348348112,36.628682459]}","McDonald County, MO",0.0,10.0,0.0,10.0,10.0,29119,McDonald,MO
-"{""type"":""Point"",""coordinates"":[-85.35556227,32.601136347]}","Lee County, AL",8.0,4.0,16.0,20.0,28.0,1081,Lee,AL
-"{""type"":""Point"",""coordinates"":[-120.717645933,39.063431388]}","Placer County, CA",0.0,0.7,0.0,0.7,0.7,6061,Placer,CA
-"{""type"":""Point"",""coordinates"":[-84.767953947,33.701894819]}","Douglas County, GA",1326.6,274.5,334.2,608.7,1935.3,13097,Douglas,GA
-"{""type"":""Point"",""coordinates"":[-83.371578023,40.29939861]}","Union County, OH",140.0,250.0,80.0,330.0,470.0,39159,Union,OH
-"{""type"":""Point"",""coordinates"":[-84.166752624,39.427701099]}","Warren County, OH",0.0,13.7,0.0,13.7,13.7,39165,Warren,OH
-"{""type"":""Point"",""coordinates"":[-101.354183029,35.403507871]}","Carson County, TX",0.0,205.0,0.0,205.0,205.0,48065,Carson,TX
-"{""type"":""Point"",""coordinates"":[-101.520802191,31.869462705]}","Glasscock County, TX",0.0,200.0,0.0,200.0,200.0,48173,Glasscock,TX
-"{""type"":""Point"",""coordinates"":[-101.896944529,34.965857002]}","Randall County, TX",0.0,40.4,0.0,40.4,40.4,48381,Randall,TX
-"{""type"":""Point"",""coordinates"":[-68.598877395,46.658837035]}","Aroostook County, ME",0.0,0.2,0.0,0.2,0.2,23003,Aroostook,ME
-"{""type"":""Point"",""coordinates"":[-86.894097412,40.388618735]}","Tippecanoe County, IN",0.0,0.5,0.0,0.5,0.5,18157,Tippecanoe,IN
-"{""type"":""Point"",""coordinates"":[-94.015561953,41.330714206]}","Madison County, IA",0.0,0.0,40.0,40.0,40.0,19121,Madison,IA
-"{""type"":""Point"",""coordinates"":[-81.365625325,40.813918813]}","Stark County, OH",0.0,1.5,221.0,222.5,222.5,39151,Stark,OH
-"{""type"":""Point"",""coordinates"":[-77.276218151,38.834573791]}","Fairfax County, VA",272.7,338.4,334.0,672.4,945.1,51610,Falls Church,VA
-"{""type"":""Point"",""coordinates"":[-82.23613792,39.737148309]}","Perry County, OH",26.0,24.0,0.0,24.0,50.0,39127,Perry,OH
-"{""type"":""Point"",""coordinates"":[-102.637815121,32.30503566]}","Andrews County, TX",0.0,105.0,100.0,205.0,205.0,48003,Andrews,TX
-"{""type"":""Point"",""coordinates"":[-86.138472343,39.781709177]}","Marion County, IN",0.0,13.95,0.0,13.95,13.95,18097,Marion,IN
-"{""type"":""Point"",""coordinates"":[-83.768102222,31.922929917]}","Crisp County, GA",200.0,0.0,0.0,0.0,200.0,13081,Crisp,GA
-"{""type"":""Point"",""coordinates"":[-76.245633695,36.923340132]}","Norfolk city, VA",0.0,0.75,0.0,0.75,0.75,51710,Norfolk,VA
-"{""type"":""Point"",""coordinates"":[-100.207574947,34.529201458]}","Childress County, TX",2000.0,750.0,50.0,800.0,2800.0,48075,Childress,TX
-"{""type"":""Point"",""coordinates"":[-100.778860652,33.616612114]}","Dickens County, TX",0.0,180.0,0.0,180.0,180.0,48125,Dickens,TX
-"{""type"":""Point"",""coordinates"":[-101.8268813,34.07051251]}","Hale County, TX",400.0,0.0,200.0,200.0,600.0,48189,Hale,TX
-"{""type"":""Point"",""coordinates"":[-82.576346032,41.470599904]}","Erie County, OH",190.0,0.0,96.0,96.0,286.0,39043,Erie,OH
-"{""type"":""Point"",""coordinates"":[-96.687755502,40.784173543]}","Lancaster County, NE",280.0,0.0,40.0,40.0,320.0,31109,Lancaster,NE
-"{""type"":""Point"",""coordinates"":[-71.716082466,42.915291506]}","Hillsborough County, NH",0.0,2.6,0.0,2.6,2.6,33011,Hillsborough,NH
-"{""type"":""Point"",""coordinates"":[-119.64933287,36.758183695]}","Fresno County, CA",0.0,1.6,0.0,1.6,1.6,6019,Fresno,CA
-"{""type"":""Point"",""coordinates"":[-78.01399806,38.246097245]}","Orange County, VA",600.0,0.0,0.0,0.0,600.0,51137,Orange,VA
-"{""type"":""Point"",""coordinates"":[-86.46871228,40.050809708]}","Boone County, IN",80.0,0.0,0.0,0.0,80.0,18011,Boone,IN
-"{""type"":""Point"",""coordinates"":[-75.129317047,39.328100557]}","Cumberland County, NJ",550.0,0.0,50.0,50.0,600.0,34011,Cumberland,NJ
-"{""type"":""Point"",""coordinates"":[-84.023540994,33.961909633]}","Gwinnett County, GA",0.0,94.0,0.0,94.0,94.0,13135,Gwinnett,GA
-"{""type"":""Point"",""coordinates"":[-79.91330635,40.912013965]}","Butler County, PA",24.5,15.75,0.0,15.75,40.25,42019,Butler,PA
-"{""type"":""Point"",""coordinates"":[-93.341990475,37.258049087]}","Greene County, MO",0.0,1.0,0.0,1.0,1.0,29077,Greene,MO
-"{""type"":""Point"",""coordinates"":[-87.631182376,42.325323068]}","Lake County, IL",420.0,0.0,60.0,60.0,480.0,17097,Lake,IL
-"{""type"":""Point"",""coordinates"":[-75.592371931,40.612704648]}","Lehigh County, PA",0.0,12.35,0.0,12.35,12.35,42077,Lehigh,PA
-"{""type"":""Point"",""coordinates"":[-83.838770507,42.253225349]}","Washtenaw County, MI",0.0,0.74,0.0,0.74,0.74,26161,Washtenaw,MI
-"{""type"":""Point"",""coordinates"":[-84.226412078,33.771557258]}","DeKalb County, GA",0.0,19.8,0.0,19.8,19.8,13089,DeKalb,GA
-"{""type"":""Point"",""coordinates"":[-85.897602973,39.205970572]}","Bartholomew County, IN",8.0,1.27,0.5,1.77,9.77,18005,Bartholomew,IN
-"{""type"":""Point"",""coordinates"":[-77.261787653,36.921731302]}","Sussex County, VA",600.0,0.0,0.0,0.0,600.0,51183,Sussex,VA
-"{""type"":""Point"",""coordinates"":[-95.230739106,36.301934479]}","Mayes County, OK",0.0,570.0,0.0,570.0,570.0,40097,Mayes,OK
-"{""type"":""Point"",""coordinates"":[-99.11013101,29.355696047]}","Medina County, TX",40.0,60.0,220.0,280.0,320.0,48325,Medina,TX
-"{""type"":""Point"",""coordinates"":[-100.812558034,35.401163257]}","Gray County, TX",150.0,0.0,50.0,50.0,200.0,48179,Gray,TX
-"{""type"":""Point"",""coordinates"":[-121.167773808,45.160018225]}","Wasco County, OR",0.0,135.0,40.0,175.0,175.0,41065,Wasco,OR
-"{""type"":""Point"",""coordinates"":[-83.494286363,41.921377516]}","Monroe County, MI",0.0,0.5,0.0,0.5,0.5,26115,Monroe,MI
-"{""type"":""Point"",""coordinates"":[-78.976158188,33.904525277]}","Horry County, SC",10.0,9.0,0.0,9.0,19.0,45051,Horry,SC
-"{""type"":""Point"",""coordinates"":[-84.063445098,35.13385712]}","Cherokee County, NC",0.0,104.0,0.0,104.0,104.0,37039,Cherokee,NC
-"{""type"":""Point"",""coordinates"":[-96.111994731,41.112926482]}","Sarpy County, NE",5.0,598.05,0.0,598.05,603.05,31153,Sarpy,NE
-"{""type"":""Point"",""coordinates"":[-73.742857492,41.765163497]}","Dutchess County, NY",0.0,10.0,0.0,10.0,10.0,36027,Dutchess,NY
-"{""type"":""Point"",""coordinates"":[-103.412478126,32.792149347]}","Lea County, NM",0.0,2.0,0.0,2.0,2.0,35025,Lea,NM
-"{""type"":""Point"",""coordinates"":[-119.815472705,36.075224688]}","Kings County, CA",80.0,0.0,20.0,20.0,100.0,6031,Kings,CA
-"{""type"":""Point"",""coordinates"":[-93.099568025,45.017110732]}","Ramsey County, MN",0.0,4.75,0.0,4.75,4.75,27123,Ramsey,MN
-"{""type"":""Point"",""coordinates"":[-100.402168106,32.742820223]}","Fisher County, TX",2000.0,0.0,0.0,0.0,2000.0,48151,Fisher,TX
-"{""type"":""Point"",""coordinates"":[-120.031011141,34.538251258]}","Santa Barbara County, CA",0.0,0.75,0.0,0.75,0.75,6083,Santa Barbara,CA
-"{""type"":""Point"",""coordinates"":[-73.447035542,41.281004258]}","Western Connecticut Planning Region, CT",10.0,11.8,0.0,11.8,21.8,9001,Fairfield,CT
-"{""type"":""Point"",""coordinates"":[-85.707133756,38.477217838]}","Clark County, IN",0.0,0.0,75.0,75.0,75.0,18019,Clark,IN
-"{""type"":""Point"",""coordinates"":[-90.623242782,41.637097838]}","Scott County, IA",0.0,6.0,0.0,6.0,6.0,19163,Scott,IA
-"{""type"":""Point"",""coordinates"":[-97.832257066,32.429926723]}","Hood County, TX",5000.0,300.0,0.0,300.0,5300.0,48221,Hood,TX
-"{""type"":""Point"",""coordinates"":[-123.098321793,45.560084912]}","Washington County, OR",690.0,814.1,75.0,889.1,1579.1,41067,Washington,OR
-"{""type"":""Point"",""coordinates"":[-90.307993655,35.205747345]}","Crittenden County, AR",200.0,0.0,0.0,0.0,200.0,5035,Crittenden,AR
-"{""type"":""Point"",""coordinates"":[-87.414690388,39.088834684]}","Sullivan County, IN",115.0,0.0,0.0,0.0,115.0,18153,Sullivan,IN
-"{""type"":""Point"",""coordinates"":[-84.727839069,38.969866341]}","Boone County, KY",0.0,4.0,0.0,4.0,4.0,21015,Boone,KY
-"{""type"":""Point"",""coordinates"":[-104.929337169,39.329785279]}","Douglas County, CO",0.0,74.99,22.5,97.49,97.49,8035,Douglas,CO
-"{""type"":""Point"",""coordinates"":[-77.477670544,38.701590675]}","Prince William County, VA",5159.0,1675.4,1070.0,2745.4,7904.4,51153,Prince William,VA
-"{""type"":""Point"",""coordinates"":[-106.809062359,34.715458012]}","Valencia County, NM",0.0,230.0,0.0,230.0,230.0,35061,Valencia,NM
-"{""type"":""Point"",""coordinates"":[-77.105449206,42.633443702]}","Yates County, NY",0.0,80.0,0.0,80.0,80.0,36123,Yates,NY
-"{""type"":""Point"",""coordinates"":[-80.406776217,33.07935254]}","Dorchester County, SC",800.0,0.0,100.0,100.0,900.0,45035,Dorchester,SC
-"{""type"":""Point"",""coordinates"":[-84.458732377,38.042321557]}","Fayette County, KY",0.0,2.0,0.0,2.0,2.0,21067,Fayette,KY
-"{""type"":""Point"",""coordinates"":[-71.088501481,41.757088651]}","Bristol County, MA",0.0,4.0,0.0,4.0,4.0,25005,Bristol,MA
-"{""type"":""Point"",""coordinates"":[-95.392315739,29.857282227]}","Harris County, TX",1262.6,768.12,160.0,928.12,2190.72,48201,Harris,TX
-"{""type"":""Point"",""coordinates"":[-74.701752392,40.283437425]}","Mercer County, NJ",0.0,28.0,0.0,28.0,28.0,34021,Mercer,NJ
-"{""type"":""Point"",""coordinates"":[-84.284159601,33.260868552]}","Spalding County, GA",300.0,0.0,0.0,0.0,300.0,13255,Spalding,GA
-"{""type"":""Point"",""coordinates"":[-89.893999756,35.184250321]}","Shelby County, TN",255.0,424.63,5.0,429.63,684.63,47157,Shelby,TN
-"{""type"":""Point"",""coordinates"":[-118.261056479,34.198181904]}","Los Angeles County, CA",118.0,323.7,32.0,355.7,473.7,6037,Los Angeles,CA
-"{""type"":""Point"",""coordinates"":[-78.779651838,42.758233986]}","Erie County, NY",0.0,51.0,0.0,51.0,51.0,36029,Erie,NY
-"{""type"":""Point"",""coordinates"":[-84.154193865,33.452992116]}","Henry County, GA",140.0,0.0,20.0,20.0,160.0,13151,Henry,GA
-"{""type"":""Point"",""coordinates"":[-88.08559445,41.85195559]}","DuPage County, IL",146.0,314.85,191.0,505.85,651.85,17043,DuPage,IL
-"{""type"":""Point"",""coordinates"":[-79.757953834,41.400965927]}","Venango County, PA",0.0,83.5,0.0,83.5,83.5,42121,Venango,PA
-"{""type"":""Point"",""coordinates"":[-111.92360576,40.667307406]}","Salt Lake County, UT",142.0,296.9,230.0,526.9,668.9,49035,Salt Lake,UT
-"{""type"":""Point"",""coordinates"":[-71.089059343,42.984597929]}","Rockingham County, NH",0.0,0.2,0.0,0.2,0.2,33015,Rockingham,NH
-"{""type"":""Point"",""coordinates"":[-77.680178362,43.309161107]}","Monroe County, NY",0.0,3.9,0.0,3.9,3.9,36055,Monroe,NY
-"{""type"":""Point"",""coordinates"":[-75.141413628,39.717245031]}","Gloucester County, NJ",47.5,0.0,13.3,13.3,60.8,34015,Gloucester,NJ
-"{""type"":""Point"",""coordinates"":[-96.777764134,32.766572585]}","Dallas County, TX",2911.2,688.78,605.8,1294.58,4205.78,48113,Dallas,TX
-"{""type"":""Point"",""coordinates"":[-77.016299395,38.904774779]}","District of Columbia, DC",0.0,10.04,0.0,10.04,10.04,11001,District of Columbia,DC
-"{""type"":""Point"",""coordinates"":[-105.357704508,40.092464825]}","Boulder County, CO",0.0,18.12,0.0,18.12,18.12,8013,Boulder,CO
-"{""type"":""Point"",""coordinates"":[-75.357984014,39.57677694]}","Salem County, NJ",200.0,0.0,100.0,100.0,300.0,34033,Salem,NJ
-"{""type"":""Point"",""coordinates"":[-97.619919376,29.83684413]}","Caldwell County, TX",96.0,0.0,48.0,48.0,144.0,48055,Caldwell,TX
-"{""type"":""Point"",""coordinates"":[-111.344739935,32.904366438]}","Pinal County, AZ",400.0,0.0,0.0,0.0,400.0,4021,Pinal,AZ
-"{""type"":""Point"",""coordinates"":[-121.271438444,37.934765184]}","San Joaquin County, CA",50.0,7.0,0.0,7.0,57.0,6077,San Joaquin,CA
-"{""type"":""Point"",""coordinates"":[-121.872816494,48.82961521]}","Whatcom County, WA",0.0,1.0,0.0,1.0,1.0,53073,Whatcom,WA
-"{""type"":""Point"",""coordinates"":[-118.47840522,46.22984158]}","Walla Walla County, WA",500.0,0.4,0.0,0.4,500.4,53071,Walla Walla,WA
-"{""type"":""Point"",""coordinates"":[-83.622977928,41.361707872]}","Wood County, OH",40.0,0.0,40.0,40.0,80.0,39173,Wood,OH
-"{""type"":""Point"",""coordinates"":[-91.841585828,39.215755648]}","Audrain County, MO",0.0,10.0,5.0,15.0,15.0,29007,Audrain,MO
-"{""type"":""Point"",""coordinates"":[-78.362694204,36.680361004]}","Mecklenburg County, VA",502.5,741.5,278.0,1019.5,1522.0,51117,Mecklenburg,VA
-"{""type"":""Point"",""coordinates"":[-81.215070555,35.662042356]}","Catawba County, NC",481.0,223.0,176.0,399.0,880.0,37035,Catawba,NC
-"{""type"":""Point"",""coordinates"":[-70.330200628,43.806082106]}","Cumberland County, ME",0.0,4.5,0.0,4.5,4.5,23005,Cumberland,ME
-"{""type"":""Point"",""coordinates"":[-71.907726976,42.351394571]}","Worcester County, MA",0.0,6.7,0.0,6.7,6.7,25027,Worcester,MA
-"{""type"":""Point"",""coordinates"":[-120.356581555,44.142178618]}","Crook County, OR",5.0,476.0,0.0,476.0,481.0,41013,Crook,OR
-"{""type"":""Point"",""coordinates"":[-88.304505642,43.018216628]}","Waukesha County, WI",0.0,4.0,0.0,4.0,4.0,55133,Waukesha,WI
-"{""type"":""Point"",""coordinates"":[-78.19371463,43.000923268]}","Genesee County, NY",420.0,0.0,50.0,50.0,470.0,36037,Genesee,NY
-"{""type"":""Point"",""coordinates"":[-94.067029853,44.034585168]}","Blue Earth County, MN",0.0,0.6,0.0,0.6,0.6,27013,Blue Earth,MN
-"{""type"":""Point"",""coordinates"":[-95.770949621,29.527511419]}","Fort Bend County, TX",0.0,2.0,0.0,2.0,2.0,48157,Fort Bend,TX
-"{""type"":""Point"",""coordinates"":[-85.214278645,34.263162691]}","Floyd County, GA",554.0,0.0,50.0,50.0,604.0,13115,Floyd,GA
-"{""type"":""Point"",""coordinates"":[-93.535892251,44.648506708]}","Scott County, MN",0.0,3.9,0.0,3.9,3.9,27139,Scott,MN
-"{""type"":""Point"",""coordinates"":[-86.784850766,36.169519002]}","Davidson County, TN",0.0,6.4,12.0,18.4,18.4,47037,Davidson,TN
-"{""type"":""Point"",""coordinates"":[-122.355663105,37.436211895]}","San Mateo County, CA",5.0,0.3,0.0,0.3,5.3,6081,San Mateo,CA
-"{""type"":""Point"",""coordinates"":[-88.218058694,44.08160554]}","Calumet County, WI",0.0,0.0,20.0,20.0,20.0,55015,Calumet,WI
-"{""type"":""Point"",""coordinates"":[-71.183829276,42.170979887]}","Norfolk County, MA",0.0,19.0,0.0,19.0,19.0,25021,Norfolk,MA
-"{""type"":""Point"",""coordinates"":[-102.723570332,30.78106051]}","Pecos County, TX",300.0,155.0,0.0,155.0,455.0,48371,Pecos,TX
-"{""type"":""Point"",""coordinates"":[-86.742366213,41.549021557]}","LaPorte County, IN",100.0,0.0,0.0,0.0,100.0,18091,LaPorte,IN
-"{""type"":""Point"",""coordinates"":[-81.634693019,33.544290019]}","Aiken County, SC",0.0,0.0,85.0,85.0,85.0,45003,Aiken,SC
-"{""type"":""Point"",""coordinates"":[-110.547561693,41.287491921]}","Uinta County, WY",120.0,0.0,0.0,0.0,120.0,56041,Uinta,WY
-"{""type"":""Point"",""coordinates"":[-112.491512065,33.349039473]}","Maricopa County, AZ",5966.0,2159.6,1276.5,3436.1,9402.1,4013,Maricopa,AZ
-"{""type"":""Point"",""coordinates"":[-76.194641929,43.005795364]}","Onondaga County, NY",0.0,0.7,0.0,0.7,0.7,36067,Onondaga,NY
-"{""type"":""Point"",""coordinates"":[-90.245096838,38.635819116]}","St. Louis city, MO",13.0,32.5,5.0,37.5,50.5,29510,St. Louis,MO
-"{""type"":""Point"",""coordinates"":[-77.059127763,37.354350576]}","Charles City County, VA",424.0,0.0,0.0,0.0,424.0,51036,Charles City,VA
-"{""type"":""Point"",""coordinates"":[-122.137222672,47.037609058]}","Pierce County, WA",0.0,34.95,0.0,34.95,34.95,53053,Pierce,WA
-"{""type"":""Point"",""coordinates"":[-91.420025097,30.879770654]}","West Feliciana Parish, LA",0.0,0.0,200.0,200.0,200.0,22125,West Feliciana,LA
-"{""type"":""Point"",""coordinates"":[-70.985606714,42.348689839]}","Suffolk County, MA",0.0,34.6,0.0,34.6,34.6,25025,Suffolk,MA
-"{""type"":""Point"",""coordinates"":[-94.346100775,39.00847566]}","Jackson County, MO",0.0,24.5,35.0,59.5,59.5,29095,Jackson,MO
-"{""type"":""Point"",""coordinates"":[-121.951034613,37.923413133]}","Contra Costa County, CA",0.0,0.0,99.0,99.0,99.0,6013,Contra Costa,CA
-"{""type"":""Point"",""coordinates"":[-84.840338022,34.237661586]}","Bartow County, GA",1200.0,0.0,45.0,45.0,1245.0,13015,Bartow,GA
-"{""type"":""Point"",""coordinates"":[-76.61632003,39.44307338]}","Baltimore County, MD",0.0,1.2,0.0,1.2,1.2,24005,Baltimore,MD
-"{""type"":""Point"",""coordinates"":[-85.164757582,35.180808315]}","Hamilton County, TN",0.0,1.2,0.0,1.2,1.2,47065,Hamilton,TN
-"{""type"":""Point"",""coordinates"":[-106.832721635,32.352648384]}","Doña Ana County, NM",0.0,0.5,0.0,0.5,0.5,35013,Doa Ana,NM
-"{""type"":""Point"",""coordinates"":[-100.468737737,46.977452062]}","Burleigh County, ND",0.0,4.0,0.0,4.0,4.0,38015,Burleigh,ND
-"{""type"":""Point"",""coordinates"":[-116.241170164,43.451161421]}","Ada County, ID",0.0,18.25,90.0,108.25,108.25,16001,Ada,ID
-"{""type"":""Point"",""coordinates"":[-121.696279148,37.232484182]}","Santa Clara County, CA",552.5,1002.73,312.0,1314.73,1867.23,6085,Santa Clara,CA
-"{""type"":""Point"",""coordinates"":[-77.635703755,39.090676095]}","Loudoun County, VA",6349.4,5333.67,596.0,5929.67,12279.07,51107,Loudoun,VA
-"{""type"":""Point"",""coordinates"":[-86.896397824,33.554327897]}","Jefferson County, AL",500.0,8.9,54.0,62.9,562.9,1073,Jefferson,AL
-"{""type"":""Point"",""coordinates"":[-80.256362968,36.130569003]}","Forsyth County, NC",0.0,8.0,0.0,8.0,8.0,37067,Forsyth,NC
-"{""type"":""Point"",""coordinates"":[-94.420872273,39.310519786]}","Clay County, MO",657.8,33.4,207.2,240.6,898.4,29047,Clay,MO
-"{""type"":""Point"",""coordinates"":[-77.204234743,39.136362287]}","Montgomery County, MD",0.0,8.7,0.0,8.7,8.7,24031,Montgomery,MD
-"{""type"":""Point"",""coordinates"":[-84.467076587,33.790316239]}","Fulton County, GA",1112.7,534.55,364.0,898.55,2011.25,13121,Fulton,GA
-"{""type"":""Point"",""coordinates"":[-91.763505486,32.417770369]}","Richland Parish, LA",2000.0,0.0,0.0,0.0,2000.0,22083,Richland,LA
-"{""type"":""Point"",""coordinates"":[-81.619119656,34.689537431]}","Union County, SC",0.0,9.0,0.0,9.0,9.0,45087,Union,SC
-"{""type"":""Point"",""coordinates"":[-81.990762212,34.930909348]}","Spartanburg County, SC",268.0,47.3,60.0,107.3,375.3,45083,Spartanburg,SC
-"{""type"":""Point"",""coordinates"":[-112.656713467,45.902404449]}","Silver Bow County, MT",0.0,65.5,0.0,65.5,65.5,30093,Silver Bow,MT
-"{""type"":""Point"",""coordinates"":[-72.631648642,42.135115014]}","Hampden County, MA",274.0,1.5,0.0,1.5,275.5,25013,Hampden,MA
-"{""type"":""Point"",""coordinates"":[-70.737075849,41.987435417]}","Plymouth County, MA",0.0,1.0,0.0,1.0,1.0,25023,Plymouth,MA
-"{""type"":""Point"",""coordinates"":[-111.913339055,41.269864415]}","Weber County, UT",0.0,1.0,0.0,1.0,1.0,49057,Weber,UT
-"{""type"":""Point"",""coordinates"":[-75.638976064,39.578332125]}","New Castle County, DE",2.0,7.0,0.0,7.0,9.0,10003,New Castle,DE
-"{""type"":""Point"",""coordinates"":[-84.763374713,33.35333166]}","Coweta County, GA",1000.0,0.0,0.0,0.0,1000.0,13077,Coweta,GA
-"{""type"":""Point"",""coordinates"":[-76.567595982,38.994158893]}","Anne Arundel County, MD",0.0,3.25,0.0,3.25,3.25,24003,Anne Arundel,MD
-"{""type"":""Point"",""coordinates"":[-111.670305902,40.119950175]}","Utah County, UT",1204.0,316.3,230.0,546.3,1750.3,49049,Utah,UT
-"{""type"":""Point"",""coordinates"":[-81.919833378,35.402595705]}","Rutherford County, NC",0.0,120.0,0.0,120.0,120.0,37161,Rutherford,NC
-"{""type"":""Point"",""coordinates"":[-87.376391481,41.472210111]}","Lake County, IN",1020.0,20.0,20.0,40.0,1060.0,18089,Lake,IN
-"{""type"":""Point"",""coordinates"":[-76.247696643,40.042430912]}","Lancaster County, PA",0.0,0.5,0.0,0.5,0.5,42071,Lancaster,PA
-"{""type"":""Point"",""coordinates"":[-79.893051496,32.826533117]}","Charleston County, SC",0.0,0.2,0.6,0.8,0.8,45019,Charleston,SC
-"{""type"":""Point"",""coordinates"":[-83.497229969,34.354340454]}","Banks County, GA",60.0,0.0,120.0,120.0,180.0,13011,Banks,GA
-"{""type"":""Point"",""coordinates"":[-80.257706232,41.302194991]}","Mercer County, PA",0.0,150.0,90.0,240.0,240.0,42085,Mercer,PA
-"{""type"":""Point"",""coordinates"":[-75.748440359,39.973149342]}","Chester County, PA",450.0,5.0,0.0,5.0,455.0,42029,Chester,PA
-"{""type"":""Point"",""coordinates"":[-94.822261041,38.883768512]}","Johnson County, KS",15.0,35.05,0.0,35.05,50.05,20091,Johnson,KS
-"{""type"":""Point"",""coordinates"":[-78.441082811,37.22430215]}","Prince Edward County, VA",300.0,0.0,0.0,0.0,300.0,51147,Prince Edward,VA
-"{""type"":""Point"",""coordinates"":[-75.307586951,40.754166699]}","Northampton County, PA",0.0,4.0,0.0,4.0,4.0,42095,Northampton,PA
-"{""type"":""Point"",""coordinates"":[-93.476967233,45.004566006]}","Hennepin County, MN",0.0,35.65,2.0,37.65,37.65,27053,Hennepin,MN
-"{""type"":""Point"",""coordinates"":[-86.460552636,36.469050443]}","Sumner County, TN",20.0,120.0,44.8,164.8,184.8,47165,Sumner,TN
-"{""type"":""Point"",""coordinates"":[-81.984832267,26.563496812]}","Lee County, FL",0.0,0.3,0.0,0.3,0.3,12071,Lee,FL
-"{""type"":""Point"",""coordinates"":[-76.847289073,38.829512938]}","Prince George's County, MD",834.0,2.0,20.0,22.0,856.0,24033,Prince George's,MD
-"{""type"":""Point"",""coordinates"":[-82.073547966,33.359632374]}","Richmond County, GA",200.0,0.0,0.0,0.0,200.0,13245,Richmond,GA
-"{""type"":""Point"",""coordinates"":[-82.33129291,32.121720331]}","Toombs County, GA",0.0,26.0,0.0,26.0,26.0,13279,Toombs,GA
-"{""type"":""Point"",""coordinates"":[-81.648007007,30.33543825]}","Duval County, FL",3.0,30.3,0.0,30.3,33.3,12031,Duval,FL
-"{""type"":""Point"",""coordinates"":[-101.208593305,34.530264105]}","Briscoe County, TX",0.0,68.0,32.0,100.0,100.0,48045,Briscoe,TX
-"{""type"":""Point"",""coordinates"":[-76.779457518,40.415443956]}","Dauphin County, PA",0.0,0.4,0.0,0.4,0.4,42043,Dauphin,PA
-"{""type"":""Point"",""coordinates"":[-104.689620563,41.307067685]}","Laramie County, WY",115.0,369.0,100.0,469.0,584.0,56021,Laramie,WY
-"{""type"":""Point"",""coordinates"":[-78.812550765,37.372356828]}","Appomattox County, VA",250.0,0.0,50.0,50.0,300.0,51011,Appomattox,VA
+Name,Planned (MW),Operating (MW),In Construction (MW),Operating and In Construction (MW),Total (MW),fips_code,src_name,state
+"Fond du Lac County, WI",80,0,0,0,80,55039,Fond du Lac,WI
+"Manassas city, VA",25,30,50,80,105,51683,Manassas,VA
+"Midland County, TX",4,112,0,112,116,48329,Midland,TX
+"Collin County, TX",377.12,305.41,101.9,407.31,784.43,48085,Collin,TX
+"Durham County, NC",0,58,0,58,58,37063,Durham,NC
+"Stone County, MS",0,15,0,15,15,28131,Stone,MS
+"St. Joseph County, IN",401,6.55,790.6,797.15,1198.15,18141,St. Joseph,IN
+"Natrona County, WY",250,0,1.1,1.1,251.1,56025,Natrona,WY
+"Palm Beach County, FL",0,6.2,0,6.2,6.2,12099,Palm Beach,FL
+"Greensville County, VA",120,0,0,0,120,51081,Greensville,VA
+"San Luis Obispo County, CA",0,9.6,0,9.6,9.6,6079,San Luis Obispo,CA
+"Cass County, ND",0,2.6,0,2.6,2.6,38017,Cass,ND
+"Rockingham County, NC",150,0,48,48,198,37157,Rockingham,NC
+"McLeod County, MN",10,20,0,20,30,27085,McLeod,MN
+"Hamilton County, NE",0,5,10,15,15,31081,Hamilton,NE
+"Ector County, TX",150,207,100,307,457,48135,Ector,TX
+"Faribault County, MN",0,0,15,15,15,27043,Faribault,MN
+"Montgomery County, OH",5,6.7,0,6.7,11.7,39113,Montgomery,OH
+"Shelby County, AL",33,0,22,22,55,1117,Shelby,AL
+"Vanderburgh County, IN",0,0.7,0,0.7,0.7,18163,Vanderburgh,IN
+"Franklin County, OH",483,1069.4,188,1257.4,1740.4,39049,Franklin,OH
+"Platte County, MO",0,13.25,0,13.25,13.25,29165,Platte,MO
+"Hamilton County, OH",0,29.61,0.3,29.91,29.91,39061,Hamilton,OH
+"Bosque County, TX",0,0,40,40,40,48035,Bosque,TX
+"Caroline County, VA",1120,0,70,70,1190,51033,Caroline,VA
+"Bexar County, TX",634,548.6,271,819.6,1453.6,48029,Bexar,TX
+"Kings County, NY",0,3,0,3,3,36047,Kings,NY
+"Bell County, TX",200,300,157,457,657,48027,Bell,TX
+"Fairfax County, VA",272.7,338.4,334,672.4,945.1,51059,Fairfax,VA
+"Spotsylvania County, VA",1538,0,388,388,1926,51177,Spotsylvania,VA
+"Rowan County, NC",480,9.6,0,9.6,489.6,37159,Rowan,NC
+"Cheshire County, NH",0,0.5,0,0.5,0.5,33005,Cheshire,NH
+"Whitfield County, GA",0,217,50,267,267,13313,Whitfield,GA
+"Stafford County, VA",1150,0,42,42,1192,51179,Stafford,VA
+"Caldwell County, NC",0,78.5,0,78.5,78.5,37027,Caldwell,NC
+"Rensselaer County, NY",0,10,0,10,10,36083,Rensselaer,NY
+"Cleveland County, NC",25,52,0,52,77,37045,Cleveland,NC
+"Humboldt County, CA",0,4,0,4,4,6023,Humboldt,CA
+"Mecklenburg County, NC",2188,42.85,200,242.85,2430.85,37119,Mecklenburg,NC
+"Walton County, GA",800,0,0,0,800,13297,Walton,GA
+"Douglas County, WA",48,213,155.5,368.5,416.5,53017,Douglas,WA
+"Grand Forks County, ND",0,130,0,130,130,38035,Grand Forks,ND
+"Union County, NJ",0,0,40,40,40,34039,Union,NJ
+"Phelps County, MO",1200,0,0,0,1200,29161,Phelps,MO
+"Allegheny County, PA",0,32.4,15,47.4,47.4,42003,Allegheny,PA
+"Pulaski County, AR",0,1.2,150,151.2,151.2,5119,Pulaski,AR
+"Westmoreland County, PA",180,20,0,20,200,42129,Westmoreland,PA
+"Douglas County, NE",0,157.5,140,297.5,297.5,31055,Douglas,NE
+"Riverside County, CA",0,2,0,2,2,6065,Riverside,CA
+"Clayton County, GA",0,0,50,50,50,13063,Clayton,GA
+"Milwaukee County, WI",2.7,9.45,0,9.45,12.15,55079,Milwaukee,WI
+"Burlington County, NJ",0,4,0,4,4,34005,Burlington,NJ
+"Alameda County, CA",32.1,103.19,0,103.19,135.29,6001,Alameda,CA
+"York County, SC",100,2,0,2,102,45091,York,SC
+"Armstrong County, PA",70,1.5,30,31.5,101.5,42005,Armstrong,PA
+"Penobscot County, ME",60,0,0,0,60,23019,Penobscot,ME
+"Randolph County, MO",0,0,5,5,5,29175,Randolph,MO
+"Washington County, MN",20,6.5,20,26.5,46.5,27163,Washington,MN
+"Cobb County, GA",0,24.53,0,24.53,24.53,13067,Cobb,GA
+"Pend Oreille County, WA",0,100,0,100,100,53051,Pend Oreille,WA
+"Mendocino County, CA",0,0.5,0,0.5,0.5,6045,Mendocino,CA
+"Richland County, SC",0,1.41,0.5,1.91,1.91,45079,Richland,SC
+"Fauquier County, VA",1050,12,0,12,1062,51061,Fauquier,VA
+"McLennan County, TX",500,1.3,0,1.3,501.3,48309,McLennan,TX
+"Orange County, CA",2,40.2,0,40.2,42.2,6059,Orange,CA
+"Capitol Planning Region, CT",44,1,0,1,45,9003,Hartford,CT
+"Capitol Planning Region, CT",44,1,0,1,45,9013,Tolland,CT
+"Cass County, TX",0,40,0,40,40,48067,Cass,TX
+"Volusia County, FL",0,0.5,0,0.5,0.5,12127,Volusia,FL
+"Clark County, NV",414,426.33,0,426.33,840.33,32003,Clark,NV
+"Brevard County, FL",0,2.5,0,2.5,2.5,12009,Brevard,FL
+"Greenville County, SC",25,85,0.8,85.8,110.8,45045,Greenville,SC
+"King County, WA",0,204.46,6,210.46,210.46,53033,King,WA
+"Covington city, VA",0,0.5,0,0.5,0.5,51005,Alleghany,VA
+"Washington County, UT",0,4,0,4,4,49053,Washington,UT
+"Stutsman County, ND",0,106,0,106,106,38093,Stutsman,ND
+"Essex County, NJ",0,87.71,0,87.71,87.71,34013,Essex,NJ
+"McLean County, IL",0,1,0,1,1,17113,McLean,IL
+"Muskogee County, OK",200,0,270,270,470,40101,Muskogee,OK
+"Peoria County, IL",0,0.5,0,0.5,0.5,17143,Peoria,IL
+"Warren County, IA",0,160,40,200,200,19181,Warren,IA
+"San Francisco County, CA",19,76.5,9,85.5,104.5,6075,San Francisco,CA
+"Suffolk County, NY",3,3,0,3,6,36103,Suffolk,NY
+"Culpeper County, VA",2258,67.5,240,307.5,2565.5,51047,Culpeper,VA
+"Hanover County, VA",2415,1,0,1,2416,51085,Hanover,VA
+"Washington County, OH",0,0,40,40,40,39167,Washington,OH
+"Yakima County, WA",0,0.3,0,0.3,0.3,53077,Yakima,WA
+"Webb County, TX",0,0.65,0,0.65,0.65,48479,Webb,TX
+"Frederick County, VA",0,6.9,0,6.9,6.9,51069,Frederick,VA
+"Wise County, VA",35,10,0,10,45,51195,Wise,VA
+"Umatilla County, OR",101,893.5,225,1118.5,1219.5,41059,Umatilla,OR
+"Powhatan County, VA",200,0,100,100,300,51145,Powhatan,VA
+"Grant County, WA",36,752.5,0,752.5,788.5,53025,Grant,WA
+"Seneca County, NY",0,0.5,0,0.5,0.5,36099,Seneca,NY
+"Carroll County, GA",0,1,0,1,1,13045,Carroll,GA
+"Sacramento County, CA",18,91.4,0,91.4,109.4,6067,Sacramento,CA
+"Pima County, AZ",16.6,28.53,0,28.53,45.13,4019,Pima,AZ
+"Victoria County, TX",0,0,0.3,0.3,0.3,48469,Victoria,TX
+"Denton County, TX",67.292,347.94,103,450.94,518.232,48121,Denton,TX
+"Columbia County, GA",1000,0,0,0,1000,13073,Columbia,GA
+"Chesterfield County, VA",610,44.8,50,94.8,704.8,51041,Chesterfield,VA
+"Polk County, FL",0,8,0,8,8,12105,Polk,FL
+"Hidalgo County, TX",0,0.4,0,0.4,0.4,48215,Hidalgo,TX
+"Summit County, OH",0,3.5,0,3.5,3.5,39153,Summit,OH
+"Travis County, TX",646.045,327.14,30,357.14,1003.185,48453,Travis,TX
+"Dubuque County, IA",0,2,0,2,2,19061,Dubuque,IA
+"Hillsborough County, FL",0,22.84,0,22.84,22.84,12057,Hillsborough,FL
+"Wichita County, TX",300,0.6,0,0.6,300.6,48485,Wichita,TX
+"Monroe County, GA",500,0,0,0,500,13207,Monroe,GA
+"Butler County, OH",0,8.54,0,8.54,8.54,39017,Butler,OH
+"Miami-Dade County, FL",26.45,78.73,25.75,104.48,130.93,12086,Miami-Dade,FL
+"Racine County, WI",80,0,80,80,160,55101,Racine,WI
+"Nassau County, NY",0,6.5,0,6.5,6.5,36059,Nassau,NY
+"Southeastern Connecticut Planning Region, CT",18,0,5,5,23,9011,New London,CT
+"Cuyahoga County, OH",0,21.9,0,21.9,21.9,39035,Cuyahoga,OH
+"Williamson County, TX",224,45.41,389,434.41,658.41,48491,Williamson,TX
+"Bernalillo County, NM",0,24,10,34,34,35001,Bernalillo,NM
+"Niagara County, NY",85,296.2,100,396.2,481.2,36063,Niagara,NY
+"Montgomery County, AL",5,0,80,80,85,1101,Montgomery,AL
+"Chittenden County, VT",0,0.5,0,0.5,0.5,50007,Chittenden,VT
+"Frederick County, MD",1749,0,231,231,1980,24021,Frederick,MD
+"St. Lawrence County, NY",0,50,0,50,50,36089,St. Lawrence,NY
+"Storey County, NV",5495,70,475,545,6040,32029,Storey,NV
+"Essex County, MA",0,7.5,0,7.5,7.5,25009,Essex,MA
+"Denver County, CO",44,36.75,18,54.75,98.75,8031,Denver,CO
+"Morris County, NJ",0,13,0,13,13,34027,Morris,NJ
+"Orleans Parish, LA",0,2.55,0,2.55,2.55,22071,Orleans,LA
+"Multnomah County, OR",0,22.1,0,22.1,22.1,41051,Multnomah,OR
+"Cook County, GA",40,40,0,40,80,13075,Cook,GA
+"Ingham County, MI",0,0.5,0,0.5,0.5,26065,Ingham,MI
+"Arapahoe County, CO",160,110.05,12,122.05,282.05,8005,Arapahoe,CO
+"Ward County, TX",300,70,0,70,370,48475,Ward,TX
+"Philadelphia County, PA",36,36.94,0,36.94,72.94,42101,Philadelphia,PA
+"Richmond County, NY",0,10,0,10,10,36085,Richmond,NY
+"Bergen County, NJ",0,18,0,18,18,34003,Bergen,NJ
+"Wilbarger County, TX",280,60,60,120,400,48487,Wilbarger,TX
+"Harrisonburg city, VA",0,18,0,18,18,51660,Harrisonburg,VA
+"Payne County, OK",250,0,50,50,300,40119,Payne,OK
+"Hudson County, NJ",10,122.5,19.4,141.9,151.9,34017,Hudson,NJ
+"Coos County, OR",0,0.5,0,0.5,0.5,41011,Coos,OR
+"Boone County, AR",0,2,0,2,2,5009,Boone,AR
+"Kaufman County, TX",300,0,0,0,300,48257,Kaufman,TX
+"Autauga County, AL",35,0,5,5,40,1001,Autauga,AL
+"Haskell County, TX",700,0,300,300,1000,48207,Haskell,TX
+"Surry County, VA",280,0,20,20,300,51181,Surry,VA
+"Wayne County, MI",130,13.4,0,13.4,143.4,26163,Wayne,MI
+"Macomb County, MI",45,0,0,0,45,26099,Macomb,MI
+"Kane County, IL",0,0,20,20,20,17089,Kane,IL
+"Pottawattamie County, IA",12,537,65,602,614,19155,Pottawattamie,IA
+"Jefferson County, KY",331.5,7.89,65,72.89,404.39,21111,Jefferson,KY
+"Tulsa County, OK",500,31.9,0,31.9,531.9,40143,Tulsa,OK
+"Albany County, NY",0,8.8,0,8.8,8.8,36001,Albany,NY
+"Cavalier County, ND",100,2.5,30,32.5,132.5,38019,Cavalier,ND
+"Madison County, MS",850,0,0,0,850,28089,Madison,MS
+"Shelby County, KY",0,1,0,1,1,21211,Shelby,KY
+"Washington County, GA",0,261,0,261,261,13303,Washington,GA
+"Brazos County, TX",0,6,0,6,6,48041,Brazos,TX
+"Shawnee County, KS",0,0.58,0,0.58,0.58,20177,Shawnee,KS
+"Montgomery County, TX",45,53.88,0,53.88,98.88,48339,Montgomery,TX
+"Jackson County, AL",0,50,0,50,50,1071,Jackson,AL
+"Boone County, MO",0,0.7,0,0.7,0.7,29019,Boone,MO
+"San Diego County, CA",0,32.1,0,32.1,32.1,6073,San Diego,CA
+"Elkhart County, IN",1500,0,0,0,1500,18039,Elkhart,IN
+"Reagan County, TX",0,20,0,20,20,48383,Reagan,TX
+"Tarrant County, TX",658,352.18,301,653.18,1311.18,48439,Tarrant,TX
+"Troup County, GA",650,14,0,14,664,13285,Troup,GA
+"Lucas County, OH",0,1.3,0,1.3,1.3,39095,Lucas,OH
+"Nueces County, TX",200,200.5,500,700.5,900.5,48355,Nueces,TX
+"Appling County, GA",0,15,0,15,15,13001,Appling,GA
+"Wilkes County, GA",4,82,0,82,86,13317,Wilkes,GA
+"Orange County, FL",0,25.4,0,25.4,25.4,12095,Orange,FL
+"Bucks County, PA",200,0,80,80,280,42017,Bucks,PA
+"Iredell County, NC",272,4,0,4,276,37097,Iredell,NC
+"Virginia Beach city, VA",130,8,0,8,138,51810,Virginia Beach,VA
+"Warren County, MS",0,20,0,20,20,28149,Warren,MS
+"Faulkner County, AR",10,0,0,0,10,5045,Faulkner,AR
+"Fayette County, GA",446,70,105,175,621,13113,Fayette,GA
+"Polk County, IA",51,602.9,118.2,721.1,772.1,19153,Polk,IA
+"Wake County, NC",3,18.33,0,18.33,21.33,37183,Wake,NC
+"Wyandotte County, KS",600,14,0,14,614,20209,Wyandotte,KS
+"Calloway County, KY",0,25,0,25,25,21035,Calloway,KY
+"Jefferson Parish, LA",0,0.7,0,0.7,0.7,22051,Jefferson,LA
+"Somerset County, NJ",10,62,0,62,72,34035,Somerset,NJ
+"Judith Basin County, MT",0,20,0,20,20,30045,Judith Basin,MT
+"Madison County, KY",0,20,0,20,20,21151,Madison,KY
+"El Paso County, TX",400,2.4,24.9,27.3,427.3,48141,El Paso,TX
+"Deschutes County, OR",0,6.5,0,6.5,6.5,41017,Deschutes,OR
+"Bannock County, ID",0,5.4,0,5.4,5.4,16005,Bannock,ID
+"Putnam County, IL",82,0,0,0,82,17155,Putnam,IL
+"Douglas County, OR",0,0.5,0,0.5,0.5,41019,Douglas,OR
+"Nicollet County, MN",300,0,0,0,300,27103,Nicollet,MN
+"East Baton Rouge Parish, LA",3,2.7,0,2.7,5.7,22033,East Baton Rouge,LA
+"McCulloch County, TX",500,0,0,0,500,48307,McCulloch,TX
+"Leon County, FL",0,0.9,0,0.9,0.9,12073,Leon,FL
+"Genesee County, MI",0,1.28,0,1.28,1.28,26049,Genesee,MI
+"Moore County, TX",87,0,100,100,187,48341,Moore,TX
+"Madison County, AL",5,262,100,362,367,1089,Madison,AL
+"St. Tammany Parish, LA",0,1,0,1,1,22103,St. Tammany,LA
+"Knox County, TN",0,86,0,86,86,47093,Knox,TN
+"Williamson County, TN",0,27.7,0,27.7,27.7,47187,Williamson,TN
+"Louisa County, VA",750,0,70,70,820,51109,Louisa,VA
+"Providence County, RI",0,2.85,0,2.85,2.85,44007,Providence,RI
+"Lane County, OR",0,1,0,1,1,41039,Lane,OR
+"Morrow County, OR",0,877,300,1177,1177,41049,Morrow,OR
+"Anderson County, SC",0,18,0,18,18,45007,Anderson,SC
+"Honolulu County, HI",0,8.16,0,8.16,8.16,15003,Honolulu,HI
+"Dakota County, MN",2037,33,17,50,2087,27037,Dakota,MN
+"St. Charles County, MO",0,5,0,5,5,29183,St. Charles,MO
+"Rankin County, MS",0,0,116,116,116,28121,Rankin,MS
+"New York County, NY",0,163.28,12,175.28,175.28,36061,New York,NY
+"Snohomish County, WA",0,27,0,27,27,53061,Snohomish,WA
+"Spokane County, WA",0,13,0,13,13,53063,Spokane,WA
+"Washoe County, NV",5,216.5,20,236.5,241.5,32031,Washoe,NV
+"Mahoning County, OH",0,0.45,0,0.45,0.45,39099,Mahoning,OH
+"Broomfield County, CO",0,29.1,0,29.1,29.1,8014,Broomfield,CO
+"Adams County, CO",170,33.5,0,33.5,203.5,8001,Adams,CO
+"Emanuel County, GA",0,8,0,8,8,13107,Emanuel,GA
+"Indiana County, PA",4500,0,0,0,4500,42063,Indiana,PA
+"Stanislaus County, CA",0,0.3,0,0.3,0.3,6099,Stanislaus,CA
+"Cass County, MI",0,28,272,300,300,26027,Cass,MI
+"Williams County, ND",460,300,565,865,1325,38105,Williams,ND
+"South Central Connecticut Planning Region, CT",0,0.25,0,0.25,0.25,9009,New Haven,CT
+"St. Louis County, MO",0,15.8,5,20.8,20.8,29189,St. Louis,MO
+"Lackawanna County, PA",780,0,0,0,780,42069,Lackawanna,PA
+"Milam County, TX",0,1263,179,1442,1442,48331,Milam,TX
+"Cook County, IL",2001.8,917.13,561,1478.13,3479.93,17031,Cook,IL
+"Buncombe County, NC",0,0.98,0,0.98,0.98,37021,Buncombe,NC
+"Passaic County, NJ",0,25.05,0,25.05,25.05,34031,Passaic,NJ
+"Rockland County, NY",24,84,0,84,108,36087,Rockland,NY
+"Cameron County, TX",60,0.7,60,60.7,120.7,48061,Cameron,TX
+"Bedford County, TN",0,10,10,20,20,47003,Bedford,TN
+"Porter County, IN",50,0,0,0,50,18127,Porter,IN
+"Oldham County, KY",600,0,0,0,600,21185,Oldham,KY
+"Monroe County, OH",695,0,0,0,695,39111,Monroe,OH
+"Tazewell County, IL",1000,0,0,0,1000,17179,Tazewell,IL
+"Bowie County, TX",0,2,0,2,2,48037,Bowie,TX
+"Hendricks County, IN",400,0,0,0,400,18063,Hendricks,IN
+"Monmouth County, NJ",0,10.6,0,10.6,10.6,34025,Monmouth,NJ
+"Newton County, GA",550,210,0,210,760,13217,Newton,GA
+"Pittsylvania County, VA",800,0,0,0,800,51143,Pittsylvania,VA
+"Jefferson County, CO",0,1.09,0,1.09,1.09,8059,Jefferson,CO
+"Guadalupe County, TX",1200,0,0,0,1200,48187,Guadalupe,TX
+"Montgomery County, TN",0,60,0,60,60,47125,Montgomery,TN
+"Wagoner County, OK",80,0,0,0,80,40145,Wagoner,OK
+"Middlesex County, MA",20,109.5,0,109.5,129.5,25017,Middlesex,MA
+"Sherburne County, MN",600,15,0,15,615,27141,Sherburne,MN
+"Montgomery County, PA",0,25.2,0,25.2,25.2,42091,Montgomery,PA
+"Berks County, PA",0,7,0,7,7,42011,Berks,PA
+"Berkeley County, SC",230,310,0,310,540,45015,Berkeley,SC
+"Reeves County, TX",0,207,79,286,286,48389,Reeves,TX
+"Westchester County, NY",0,9.1,0,9.1,9.1,36119,Westchester,NY
+"Covington city, VA",0,0.5,0,0.5,0.5,51580,Covington,VA
+"Baltimore city, MD",0,59.5,0,59.5,59.5,24510,Baltimore,MD
+"Wood County, WI",0,0,20,20,20,55141,Wood,WI
+"Duval County, TX",50,0,50,50,100,48131,Duval,TX
+"Carver County, MN",181,13.8,0,13.8,194.8,27019,Carver,MN
+"Potter County, TX",0,0.6,0,0.6,0.6,48375,Potter,TX
+"Washington County, WI",0,1,0,1,1,55131,Washington,WI
+"King George County, VA",900,0,0,0,900,51099,King George,VA
+"Anderson County, TN",12,4,0,4,16,47001,Anderson,TN
+"Rockdale County, GA",240,0,30,30,270,13247,Rockdale,GA
+"Luzerne County, PA",940,98,122,220,1160,42079,Luzerne,PA
+"Dickey County, ND",300,206,0,206,506,38021,Dickey,ND
+"Kenosha County, WI",160,0,0,0,160,55059,Kenosha,WI
+"Licking County, OH",1601,601,413,1014,2615,39089,Licking,OH
+"Baylor County, TX",83,0,83,83,166,48023,Baylor,TX
+"Minnehaha County, SD",0,1.3,0,1.3,1.3,46099,Minnehaha,SD
+"Ozaukee County, WI",3000,0,0,0,3000,55089,Ozaukee,WI
+"DeKalb County, IL",360,260,60,320,680,17037,DeKalb,IL
+"Marshall County, KY",0,150,0,150,150,21157,Marshall,KY
+"Kent County, MI",180,14.5,60,74.5,254.5,26081,Kent,MI
+"Lubbock County, TX",0,0.7,0,0.7,0.7,48303,Lubbock,TX
+"Navarro County, TX",400,400,200,600,1000,48349,Navarro,TX
+"Middlesex County, NJ",32,183.93,12,195.93,227.93,34023,Middlesex,NJ
+"San Bernardino County, CA",0,1,0,1,1,6071,San Bernardino,CA
+"St. Louis County, MN",0,1.3,0,1.3,1.3,27137,St. Louis,MN
+"Chesterfield County, VA",610,44.8,50,94.8,704.8,51570,Colonial Heights,VA
+"Guilford County, NC",280,49.2,20,69.2,349.2,37081,Guilford,NC
+"Prince William County, VA",5159,1675.4,1070,2745.4,7904.4,51685,Manassas Park,VA
+"Sedgwick County, KS",0,0.24,0,0.24,0.24,20173,Sedgwick,KS
+"Black Hawk County, IA",0,1.75,0,1.75,1.75,19013,Black Hawk,IA
+"La Salle County, TX",130,0,70,70,200,48283,La Salle,TX
+"Sherman County, TX",0,0.5,0,0.5,0.5,48421,Sherman,TX
+"Broward County, FL",0,6.65,0,6.65,6.65,12011,Broward,FL
+"Delaware County, OH",67.5,10.5,0,10.5,78,39041,Delaware,OH
+"Wise County, VA",35,10,0,10,45,51720,Norton,VA
+"Upton County, TX",0,280,0,280,280,48461,Upton,TX
+"Winkler County, TX",150,0,150,150,300,48495,Winkler,TX
+"Taylor County, TX",1000,0,1412,1412,2412,48441,Taylor,TX
+"Mitchell County, TX",700,0,100,100,800,48335,Mitchell,TX
+"Oklahoma County, OK",7,17.9,0,17.9,24.9,40109,Oklahoma,OK
+"Walker County, TX",500,0,0,0,500,48471,Walker,TX
+"Oakland County, MI",4,18.8,0,18.8,22.8,26125,Oakland,MI
+"Beaver County, PA",0,120,0,120,120,42007,Beaver,PA
+"Carbon County, PA",0,80,0,80,80,42025,Carbon,PA
+"Hamilton County, IN",0,4,0,4,4,18057,Hamilton,IN
+"Boone County, IA",0,10.4,0,10.4,10.4,19015,Boone,IA
+"Berrien County, MI",300,0,0,0,300,26021,Berrien,MI
+"Fairfield County, OH",800,75,0,75,875,39045,Fairfield,OH
+"Clark County, OH",70,2,100,102,172,39023,Clark,OH
+"Santa Cruz County, AZ",0,0.04,0,0.04,0.04,4023,Santa Cruz,AZ
+"Caddo Parish, LA",0,0.9,0,0.9,0.9,22017,Caddo,LA
+"El Paso County, CO",75,53.45,0,53.45,128.45,8041,El Paso,CO
+"Linn County, IA",400,2.31,60,62.31,462.31,19113,Linn,IA
+"Dane County, WI",0,7.75,0,7.75,7.75,55025,Dane,WI
+"Lauderdale County, MS",280,8,40,48,328,28075,Lauderdale,MS
+"Kendall County, IL",3103,0,40,40,3143,17093,Kendall,IL
+"Rice County, MN",120,0,0,0,120,27131,Rice,MN
+"Allen County, IN",300,0,0,0,300,18003,Allen,IN
+"Adams County, NE",10,0,0,0,10,31001,Adams,NE
+"Ellis County, TX",780,366,285,651,1431,48139,Ellis,TX
+"Grafton County, NH",0,0.4,0,0.4,0.4,33009,Grafton,NH
+"Chelan County, WA",0,33,180,213,213,53007,Chelan,WA
+"Buffalo County, NE",0,200,0,200,200,31019,Buffalo,NE
+"Dallas County, IA",1300,212,170,382,1682,19049,Dallas,IA
+"McDonald County, MO",0,10,0,10,10,29119,McDonald,MO
+"Lee County, AL",8,4,16,20,28,1081,Lee,AL
+"Placer County, CA",0,0.7,0,0.7,0.7,6061,Placer,CA
+"Douglas County, GA",1326.6,274.5,334.2,608.7,1935.3,13097,Douglas,GA
+"Union County, OH",140,250,80,330,470,39159,Union,OH
+"Warren County, OH",0,13.7,0,13.7,13.7,39165,Warren,OH
+"Carson County, TX",0,205,0,205,205,48065,Carson,TX
+"Glasscock County, TX",0,200,0,200,200,48173,Glasscock,TX
+"Randall County, TX",0,40.4,0,40.4,40.4,48381,Randall,TX
+"Aroostook County, ME",0,0.2,0,0.2,0.2,23003,Aroostook,ME
+"Tippecanoe County, IN",0,0.5,0,0.5,0.5,18157,Tippecanoe,IN
+"Madison County, IA",0,0,40,40,40,19121,Madison,IA
+"Stark County, OH",0,1.5,221,222.5,222.5,39151,Stark,OH
+"Fairfax County, VA",272.7,338.4,334,672.4,945.1,51610,Falls Church,VA
+"Perry County, OH",26,24,0,24,50,39127,Perry,OH
+"Andrews County, TX",0,105,100,205,205,48003,Andrews,TX
+"Marion County, IN",0,13.95,0,13.95,13.95,18097,Marion,IN
+"Crisp County, GA",200,0,0,0,200,13081,Crisp,GA
+"Norfolk city, VA",0,0.75,0,0.75,0.75,51710,Norfolk,VA
+"Childress County, TX",2000,750,50,800,2800,48075,Childress,TX
+"Dickens County, TX",0,180,0,180,180,48125,Dickens,TX
+"Hale County, TX",400,0,200,200,600,48189,Hale,TX
+"Erie County, OH",190,0,96,96,286,39043,Erie,OH
+"Lancaster County, NE",280,0,40,40,320,31109,Lancaster,NE
+"Hillsborough County, NH",0,2.6,0,2.6,2.6,33011,Hillsborough,NH
+"Fresno County, CA",0,1.6,0,1.6,1.6,6019,Fresno,CA
+"Orange County, VA",600,0,0,0,600,51137,Orange,VA
+"Boone County, IN",80,0,0,0,80,18011,Boone,IN
+"Cumberland County, NJ",550,0,50,50,600,34011,Cumberland,NJ
+"Gwinnett County, GA",0,94,0,94,94,13135,Gwinnett,GA
+"Butler County, PA",24.5,15.75,0,15.75,40.25,42019,Butler,PA
+"Greene County, MO",0,1,0,1,1,29077,Greene,MO
+"Lake County, IL",420,0,60,60,480,17097,Lake,IL
+"Lehigh County, PA",0,12.35,0,12.35,12.35,42077,Lehigh,PA
+"Washtenaw County, MI",0,0.74,0,0.74,0.74,26161,Washtenaw,MI
+"DeKalb County, GA",0,19.8,0,19.8,19.8,13089,DeKalb,GA
+"Bartholomew County, IN",8,1.27,0.5,1.77,9.77,18005,Bartholomew,IN
+"Sussex County, VA",600,0,0,0,600,51183,Sussex,VA
+"Mayes County, OK",0,570,0,570,570,40097,Mayes,OK
+"Medina County, TX",40,60,220,280,320,48325,Medina,TX
+"Gray County, TX",150,0,50,50,200,48179,Gray,TX
+"Wasco County, OR",0,135,40,175,175,41065,Wasco,OR
+"Monroe County, MI",0,0.5,0,0.5,0.5,26115,Monroe,MI
+"Horry County, SC",10,9,0,9,19,45051,Horry,SC
+"Cherokee County, NC",0,104,0,104,104,37039,Cherokee,NC
+"Sarpy County, NE",5,598.05,0,598.05,603.05,31153,Sarpy,NE
+"Dutchess County, NY",0,10,0,10,10,36027,Dutchess,NY
+"Lea County, NM",0,2,0,2,2,35025,Lea,NM
+"Kings County, CA",80,0,20,20,100,6031,Kings,CA
+"Ramsey County, MN",0,4.75,0,4.75,4.75,27123,Ramsey,MN
+"Fisher County, TX",2000,0,0,0,2000,48151,Fisher,TX
+"Santa Barbara County, CA",0,0.75,0,0.75,0.75,6083,Santa Barbara,CA
+"Western Connecticut Planning Region, CT",10,11.8,0,11.8,21.8,9001,Fairfield,CT
+"Clark County, IN",0,0,75,75,75,18019,Clark,IN
+"Scott County, IA",0,6,0,6,6,19163,Scott,IA
+"Hood County, TX",5000,300,0,300,5300,48221,Hood,TX
+"Washington County, OR",690,814.1,75,889.1,1579.1,41067,Washington,OR
+"Crittenden County, AR",200,0,0,0,200,5035,Crittenden,AR
+"Sullivan County, IN",115,0,0,0,115,18153,Sullivan,IN
+"Boone County, KY",0,4,0,4,4,21015,Boone,KY
+"Douglas County, CO",0,74.99,22.5,97.49,97.49,8035,Douglas,CO
+"Prince William County, VA",5159,1675.4,1070,2745.4,7904.4,51153,Prince William,VA
+"Valencia County, NM",0,230,0,230,230,35061,Valencia,NM
+"Yates County, NY",0,80,0,80,80,36123,Yates,NY
+"Dorchester County, SC",800,0,100,100,900,45035,Dorchester,SC
+"Fayette County, KY",0,2,0,2,2,21067,Fayette,KY
+"Bristol County, MA",0,4,0,4,4,25005,Bristol,MA
+"Harris County, TX",1262.6,768.12,160,928.12,2190.72,48201,Harris,TX
+"Mercer County, NJ",0,28,0,28,28,34021,Mercer,NJ
+"Spalding County, GA",300,0,0,0,300,13255,Spalding,GA
+"Shelby County, TN",255,424.63,5,429.63,684.63,47157,Shelby,TN
+"Los Angeles County, CA",118,323.7,32,355.7,473.7,6037,Los Angeles,CA
+"Erie County, NY",0,51,0,51,51,36029,Erie,NY
+"Henry County, GA",140,0,20,20,160,13151,Henry,GA
+"DuPage County, IL",146,314.85,191,505.85,651.85,17043,DuPage,IL
+"Venango County, PA",0,83.5,0,83.5,83.5,42121,Venango,PA
+"Salt Lake County, UT",142,296.9,230,526.9,668.9,49035,Salt Lake,UT
+"Rockingham County, NH",0,0.2,0,0.2,0.2,33015,Rockingham,NH
+"Monroe County, NY",0,3.9,0,3.9,3.9,36055,Monroe,NY
+"Gloucester County, NJ",47.5,0,13.3,13.3,60.8,34015,Gloucester,NJ
+"Dallas County, TX",2911.2,688.78,605.8,1294.58,4205.78,48113,Dallas,TX
+"District of Columbia, DC",0,10.04,0,10.04,10.04,11001,District of Columbia,DC
+"Boulder County, CO",0,18.12,0,18.12,18.12,8013,Boulder,CO
+"Salem County, NJ",200,0,100,100,300,34033,Salem,NJ
+"Caldwell County, TX",96,0,48,48,144,48055,Caldwell,TX
+"Pinal County, AZ",400,0,0,0,400,4021,Pinal,AZ
+"San Joaquin County, CA",50,7,0,7,57,6077,San Joaquin,CA
+"Whatcom County, WA",0,1,0,1,1,53073,Whatcom,WA
+"Walla Walla County, WA",500,0.4,0,0.4,500.4,53071,Walla Walla,WA
+"Wood County, OH",40,0,40,40,80,39173,Wood,OH
+"Audrain County, MO",0,10,5,15,15,29007,Audrain,MO
+"Mecklenburg County, VA",502.5,741.5,278,1019.5,1522,51117,Mecklenburg,VA
+"Catawba County, NC",481,223,176,399,880,37035,Catawba,NC
+"Cumberland County, ME",0,4.5,0,4.5,4.5,23005,Cumberland,ME
+"Worcester County, MA",0,6.7,0,6.7,6.7,25027,Worcester,MA
+"Crook County, OR",5,476,0,476,481,41013,Crook,OR
+"Waukesha County, WI",0,4,0,4,4,55133,Waukesha,WI
+"Genesee County, NY",420,0,50,50,470,36037,Genesee,NY
+"Blue Earth County, MN",0,0.6,0,0.6,0.6,27013,Blue Earth,MN
+"Fort Bend County, TX",0,2,0,2,2,48157,Fort Bend,TX
+"Floyd County, GA",554,0,50,50,604,13115,Floyd,GA
+"Scott County, MN",0,3.9,0,3.9,3.9,27139,Scott,MN
+"Davidson County, TN",0,6.4,12,18.4,18.4,47037,Davidson,TN
+"San Mateo County, CA",5,0.3,0,0.3,5.3,6081,San Mateo,CA
+"Calumet County, WI",0,0,20,20,20,55015,Calumet,WI
+"Norfolk County, MA",0,19,0,19,19,25021,Norfolk,MA
+"Pecos County, TX",300,155,0,155,455,48371,Pecos,TX
+"LaPorte County, IN",100,0,0,0,100,18091,LaPorte,IN
+"Aiken County, SC",0,0,85,85,85,45003,Aiken,SC
+"Uinta County, WY",120,0,0,0,120,56041,Uinta,WY
+"Maricopa County, AZ",5966,2159.6,1276.5,3436.1,9402.1,4013,Maricopa,AZ
+"Onondaga County, NY",0,0.7,0,0.7,0.7,36067,Onondaga,NY
+"St. Louis city, MO",13,32.5,5,37.5,50.5,29510,St. Louis,MO
+"Charles City County, VA",424,0,0,0,424,51036,Charles City,VA
+"Pierce County, WA",0,34.95,0,34.95,34.95,53053,Pierce,WA
+"West Feliciana Parish, LA",0,0,200,200,200,22125,West Feliciana,LA
+"Suffolk County, MA",0,34.6,0,34.6,34.6,25025,Suffolk,MA
+"Jackson County, MO",0,24.5,35,59.5,59.5,29095,Jackson,MO
+"Contra Costa County, CA",0,0,99,99,99,6013,Contra Costa,CA
+"Bartow County, GA",1200,0,45,45,1245,13015,Bartow,GA
+"Baltimore County, MD",0,1.2,0,1.2,1.2,24005,Baltimore,MD
+"Hamilton County, TN",0,1.2,0,1.2,1.2,47065,Hamilton,TN
+"Doña Ana County, NM",0,0.5,0,0.5,0.5,35013,Doa Ana,NM
+"Burleigh County, ND",0,4,0,4,4,38015,Burleigh,ND
+"Ada County, ID",0,18.25,90,108.25,108.25,16001,Ada,ID
+"Santa Clara County, CA",552.5,1002.73,312,1314.73,1867.23,6085,Santa Clara,CA
+"Loudoun County, VA",6349.4,5333.67,596,5929.67,12279.07,51107,Loudoun,VA
+"Jefferson County, AL",500,8.9,54,62.9,562.9,1073,Jefferson,AL
+"Forsyth County, NC",0,8,0,8,8,37067,Forsyth,NC
+"Clay County, MO",657.8,33.4,207.2,240.6,898.4,29047,Clay,MO
+"Montgomery County, MD",0,8.7,0,8.7,8.7,24031,Montgomery,MD
+"Fulton County, GA",1112.7,534.55,364,898.55,2011.25,13121,Fulton,GA
+"Richland Parish, LA",2000,0,0,0,2000,22083,Richland,LA
+"Union County, SC",0,9,0,9,9,45087,Union,SC
+"Spartanburg County, SC",268,47.3,60,107.3,375.3,45083,Spartanburg,SC
+"Silver Bow County, MT",0,65.5,0,65.5,65.5,30093,Silver Bow,MT
+"Hampden County, MA",274,1.5,0,1.5,275.5,25013,Hampden,MA
+"Plymouth County, MA",0,1,0,1,1,25023,Plymouth,MA
+"Weber County, UT",0,1,0,1,1,49057,Weber,UT
+"New Castle County, DE",2,7,0,7,9,10003,New Castle,DE
+"Coweta County, GA",1000,0,0,0,1000,13077,Coweta,GA
+"Anne Arundel County, MD",0,3.25,0,3.25,3.25,24003,Anne Arundel,MD
+"Utah County, UT",1204,316.3,230,546.3,1750.3,49049,Utah,UT
+"Rutherford County, NC",0,120,0,120,120,37161,Rutherford,NC
+"Lake County, IN",1020,20,20,40,1060,18089,Lake,IN
+"Lancaster County, PA",0,0.5,0,0.5,0.5,42071,Lancaster,PA
+"Charleston County, SC",0,0.2,0.6,0.8,0.8,45019,Charleston,SC
+"Banks County, GA",60,0,120,120,180,13011,Banks,GA
+"Mercer County, PA",0,150,90,240,240,42085,Mercer,PA
+"Chester County, PA",450,5,0,5,455,42029,Chester,PA
+"Johnson County, KS",15,35.05,0,35.05,50.05,20091,Johnson,KS
+"Prince Edward County, VA",300,0,0,0,300,51147,Prince Edward,VA
+"Northampton County, PA",0,4,0,4,4,42095,Northampton,PA
+"Hennepin County, MN",0,35.65,2,37.65,37.65,27053,Hennepin,MN
+"Sumner County, TN",20,120,44.8,164.8,184.8,47165,Sumner,TN
+"Lee County, FL",0,0.3,0,0.3,0.3,12071,Lee,FL
+"Prince George's County, MD",834,2,20,22,856,24033,Prince George's,MD
+"Richmond County, GA",200,0,0,0,200,13245,Richmond,GA
+"Toombs County, GA",0,26,0,26,26,13279,Toombs,GA
+"Duval County, FL",3,30.3,0,30.3,33.3,12031,Duval,FL
+"Briscoe County, TX",0,68,32,100,100,48045,Briscoe,TX
+"Dauphin County, PA",0,0.4,0,0.4,0.4,42043,Dauphin,PA
+"Laramie County, WY",115,369,100,469,584,56021,Laramie,WY
+"Appomattox County, VA",250,0,50,50,300,51011,Appomattox,VA
