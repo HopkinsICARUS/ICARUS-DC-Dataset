@@ -1,0 +1,324 @@
+Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Rennovated,UPS,Cooling System,Zone
+Earth Station 76,Energy Concepts,New Jersey,Logan,150,500000,Hyperscale,2027,,N+2,N+2,AE
+Untangled Technology Data Center,Untangled Technology,Ohio,Canton,,,,,,,,AEP
+Ark Data Centers Canton,Ark Data Centers,Ohio,Canton,1.5,5600,,2009,,N+1,N+1,AEP
+CeraNet DC1,"CeraNet, Inc.",Ohio,Columbus,,2500,,,,N+1,N+1,AEP
+Cologix COL4-S,Cologix,Ohio,Columbus,27,,,,,,,AEP
+Cologix COL3-S,Cologix,Ohio,Columbus,18,,,,,2N,2N,AEP
+Cologix COL2,Cologix,Ohio,Columbus,,,,,,N+1,2N,AEP
+eNET CMH-1,"eNET, Inc",Ohio,Columbus,,,,,,N+1,N+1,AEP
+Racksquared Value Way Datacenter,RackSquared,Ohio,Columbus,,,,,,,,AEP
+Amazon AWS CMH - Crosby Campus,Amazon AWS,Ohio,Dublin,,,,,,,,AEP
+"DartPoints Dublin, OH - CMH01",DartPoints,Ohio,Dublin,3,6000,,,,N+1,N+1,AEP
+Expedient Dublin,Expedient Data Centers,Ohio,Dublin,4.8,,,,,2N,,AEP
+Meta New Albany Data Center,Meta,Ohio,Etna,,,,,,,,AEP
+Amazon AWS - 11793 Vans Valley,Amazon AWS,Ohio,Galena,,,,2028,,,,AEP
+DP Facilities - Hannibal Gap Data Center,DP Facilities,Ohio,Hannibal,,,,,,,,AEP
+Microsoft - Thornwood Dr SW,Microsoft,Ohio,Heath,,,,2026,,,,AEP
+Microsoft - 129 N High St,Microsoft,Ohio,Hebron,,,,2026,,,,AEP
+Amazon AWS CMH - Hayden Campus,Amazon AWS,Ohio,Hillard,,,,,,,,AEP
+LexisNexis Hilliard,LexisNexis,Ohio,Hillard,,,,,,N+1,N+1,AEP
+Amazon AWS CMH - Scioto Campus,Amazon AWS,Ohio,Hillard,,,,,,,,AEP
+Cologix Johnstown Campus,Cologix,Ohio,Johnstown,800,2000000,,,,,,AEP
+Vantage OH1 - New Albany,1 - New Albany,Ohio,Johnstown,192,,,2025,,,,AEP
+Amazon AWS CMH - Beech North Campus,Amazon AWS,Ohio,Johnstown,,,,,,,,AEP
+Amazon AWS CMH - Beech South Campus,Amazon AWS,Ohio,Johnstown,,,,,,,,AEP
+Google Johnstown,Google,Ohio,Johnstown,,,,,,,,AEP
+Amazon AWS CMH - Newton Campus,Amazon AWS,Ohio,Johnstown,,,,,,,,AEP
+CyrusOne - New Albany,CyrusOne Data Centers,Ohio,Johnstown,,,,,,,,AEP
+Google Lancaster Data Center,Google,Ohio,Lancaster,,,,2024,,,,AEP
+Cologix COL5,Cologix,Ohio,Lewis Center,95,6000,,2025,,,,AEP
+Expedient Lewis Center,Expedient Data Centers,Ohio,Lewis Center,7,102000,,,,2N,,AEP
+Google Lockbourne Data Center,Google,Ohio,Lockbourne,,,,,,,,AEP
+Amazon AWS CMH - Project Cosmo Campus,Amazon AWS,Ohio,Marysville,,,,,,,,AEP
+Vantage OH2 - Millersport,Vantage Data Centers,Ohio,Millersport,800,,,2026,,,,AEP
+Microsoft - Beech Rd NW & Fitzwilliam Ln,Microsoft,Ohio,New Albany,,245000,,,,,,AEP
+STACK Infrastructure NAL01A,STACK INFRASTRUCTURE,Ohio,New Albany,60,,,,,N+1,N+1,AEP
+Compugen New Albany Data Center,Compugen Inc.,Ohio,New Albany,2,15000,,,,,,AEP
+Compass New Albany,Compass Datacenters,Ohio,New Albany,,,,,,,,AEP
+Edged Columbus,Edged Energy,Ohio,New Albany,24,206000,,,,N+1,N+1,AEP
+QTS New Albany 3,QTS Data Centers,Ohio,New Albany,,,,2033,,,,AEP
+Google New Albany Data Center,Google,Ohio,New Albany,,,,,,,,AEP
+QTS New Albany 2 DC2,QTS Data Centers,Ohio,New Albany,,,,2025,,,,AEP
+QTS New Albany 2 DC1,QTS Data Centers,Ohio,New Albany,,,,,,,,AEP
+QTS New Albany 1 DC2,QTS Data Centers,Ohio,New Albany,,,,,,,,AEP
+QTS New Albany 1 DC1,QTS Data Centers,Ohio,New Albany,,,,2025,,,,AEP
+TKG Data Center,The Karcher Group,Ohio,North Canton,,,,,,,,AEP
+Centersquare - Columbus CMH1-A,Centersquare,Ohio,North Lewis Center,1.8,27223,,,,2N,2N,AEP
+Microtronix Datacenter,"Microtronix ESolutions, LLC",Ohio,Ohio,,,,,,,,AEP
+Amazon AWS CMH - Industrial Parkway Campus,Amazon AWS,Ohio,Plain City,,,,,,,,AEP
+Amazon AWS CMH - Warner Campus,Amazon AWS,Ohio,Plain City,,,,,,,,AEP
+Lumen Cincinnati 2,Lumen,Ohio,West Chester,,,,,,,,AEP
+CeraNet DC3,"CeraNet, Inc.",Ohio,Westerville,,2500,,,,N+1,N+1,AEP
+Microsoft Ridge Road Campus,Microsoft,Virginia,Boydton,,,,,,,,AEP
+Microsoft Boydton Campus,Microsoft,Virginia,Boydton,,,,,,,,AEP
+Microsoft Prison Road Campus,Microsoft,Virginia,Boydton,,,,,,,,AEP
+OnePartner ATAC,"OnePartner, LLC.",Virginia,Duffield,10,,,,,N+1,N+1,AEP
+Rockbridge Area Network Authority - RAP,Rockbridge Area Network Authority,Virginia,Lexington,0.1,,Colocation,,,2N,,AEP
+Microsoft Hillcrest Campus,Microsoft,Virginia,South Hill,48,,,2010,,,,AEP
+DP Facilities - Mineral Gap Data Center,DP Facilities,Virginia,Wise,45,65000,Colocation,,,N+2,N+2,AEP
+Citynet Charleston,"Citynet, LLC",West Virginia,Charleston,,,,,,,,AEP
+Pinnacle Technical Solutions Data Center,Pinnacle Technical Solutions,West Virginia,Nitro,,,,,,,,AEP
+Alpha Technologies Global Data Center,Alpha Technologies,West Virginia,South Charleston,,,,,,,,AEP
+Ark Data Centers Pittsburgh,Ark Data Centers,Pennsylvania,Freeport,1.5,11200,Colocation,2017,2023,2N,N+1,AP
+182 Northpointe Blvd,Chirisa,Pennsylvania,Freeport,100,71000,Hyperscale,2006,,,,AP
+Citynet Bridgeport,"Citynet, LLC",West Virginia,Bridgeport,,,,,,,,AP
+Citynet Morgantown,"Citynet, LLC",West Virginia,Star City,,,,,,,,AP
+Cogent Data Center - Akron,"Cogent Communications, Inc.",Ohio,Akron,5,,,,,,,ATSI
+Lumen Akron 2,Lumen,Ohio,Akron,,,,,,,,ATSI
+Ark Data Centers Akron 2,Ark Data Centers,Ohio,Akron,1,10000,,,,2N,N+1,ATSI
+Ark Data Centers Akron 1,Ark Data Centers,Ohio,Akron,1,10000,,,,2N,N+1,ATSI
+Meta Bowling Green Campus,Meta,Ohio,Bowling Green,,66425,,,,,,ATSI
+Mangobay Cleveland,Mango Bay Internet,Ohio,Brooklyn Heights,,,,,,,,ATSI
+Cleveland Data Center,Green Bridge Real Estate,Ohio,Cleveland,,,,,,,,ATSI
+Expedient Garfield Heights 2,Expedient Data Centers,Ohio,Cleveland,2,,,,,2N,,ATSI
+Expedient Garfield Heights 1,Expedient Data Centers,Ohio,Cleveland,2.7,,,,,2N,,ATSI
+H5 Data Centers Cleveland,H5 Data Centers,Ohio,Cleveland,,351000,,,,2N,2N,ATSI
+Lumen Cleveland 1,Lumen,Ohio,Cleveland,,,,,,,,ATSI
+DataBank CLE1 - Downtown Cleveland,DataBank,Ohio,Cleveland,0.4,7440,,,,N+1,N+1,ATSI
+Sterling Telecom Office Building,"Sterling Telecom Office Building, LLC",Ohio,Cleveland,,,,,,,,ATSI
+Keith Building,K&D Real Estate Services,Ohio,Cleveland,,213000,,,,,,ATSI
+Lumen Cleveland 2,Lumen,Ohio,Cleveland,,,,,,,,ATSI
+Windstream Cleveland,Windstream,Ohio,Cleveland,,,,,,,,ATSI
+Public Square Tech Center,Morgan Reed Group,Ohio,Cleveland,,930106,,,,,,ATSI
+Cogent Data Center - Cleveland 2,"Cogent Communications, Inc.",Ohio,Cleveland,,,,,,,,ATSI
+FairlawnGig Service Center,FairlawnGig,Ohio,Fairlawn,,,,,,,,ATSI
+Ark Data Centers Independence,Ark Data Centers,Ohio,Independence,1,10000,,,,2N,N+1,ATSI
+BlueBridge Networks,"BlueBridge Networks, LLC",Ohio,Mayfield Hts,,,,,,,,ATSI
+LightSpeed Data Center,LightSpeed Hosting,Ohio,Medina,1,1400,,,,N+1,N+1,ATSI
+Everstream Parma Data Center,Everstream,Ohio,Parma,,,,,,,,ATSI
+Bay Pointe Data Center,Bay Pointe,Ohio,Richfield,,,,,,,,ATSI
+NCS Richmond Heights,NCS Datacom,Ohio,Richmond Heights,,,,,,,,ATSI
+Aligned NEO-01,Aligned Data Centers,Ohio,Sandusky,96,200000,,2026,,,,ATSI
+CISP Data Center,CISP,Ohio,Toledo,,,,,,,,ATSI
+Telesystem DC-1,"Buckeye Telesystem, Inc",Ohio,Toledo,,,,,,,,ATSI
+Ark Data Centers Youngstown,Ark Data Centers,Ohio,Youngstown,,,,,,,,ATSI
+Iron Mountain Data Centers WPA-1,Iron Mountain Data Centers,Pennsylvania,Boyers,16,330000,Colocation,1960,2021,2N,N+1,ATSI
+Lumen Dayton 3,Lumen,Ohio,Dayton,,,,,,,,DAY
+Lumen Dayton 1,Lumen,Ohio,Dayton,,,,,,,,DAY
+CBTS Lebanon Data Center,CBTS,Ohio,Lebanon,,,,,,,,DAY
+CyrusOne CIN5 - Lebanon,CyrusOne Data Centers,Ohio,Lebanon,14,95000,,,,,,DAY
+Encore Technologies MSB1,Encore Technologies,Ohio,Miamisburg,,,,,,2N,N+1,DAY
+Iron Mountain Data Centers OHS-1,Iron Mountain Data Centers,Ohio,Miamisburg,1.4,,,,,N+1,N+1,DAY
+5CDC Columbus - CMH01,5C Group Inc.,Ohio,Springfield,900,214078,,,,N+2,N+2,DAY
+Encore Technologies BLU1,Encore Technologies,Ohio,Blue Ash,,,,,,2N,N+1,DEOK
+CyrusOne CIN97 - Cincinnati,CyrusOne Data Centers,Ohio,Blue Ash,0.9,8000,,,,,N+1,DEOK
+CBTS Gold Coast Data Center,CBTS,Ohio,Blue Ash,,,,,,,,DEOK
+CyrusOne Cincinnati (Gold Coast),CyrusOne Data Centers,Ohio,Cincinnati,,,,,,,,DEOK
+CyrusOne CIN3 - Mason,CyrusOne Data Centers,Ohio,Cincinnati,1.7,35000,,,,,N+1,DEOK
+Encore Technologies NOR1,Encore Technologies,Ohio,Cincinnati,,,,,,2N,N+1,DEOK
+I74 Wired Data Center,I74 Wired,Ohio,Cincinnati,,,,,,,,DEOK
+CBTS Cincinnati Data Center,CBTS,Ohio,Cincinnati,,107000,,,,2N,,DEOK
+Lumen Cincinnati 3,Lumen,Ohio,Cincinnati,,,,,,,,DEOK
+CyrusOne CIN2 - Cincinnati,CyrusOne Data Centers,Ohio,Cincinnati,12,212000,,,,,,DEOK
+Lumen Cincinnati 1,Lumen,Ohio,Cincinnati,,,,,,,,DEOK
+"DartPoints Cincinnati, OH - CVG01",DartPoints,Ohio,Cincinnati,1.6,13408,,2024,,N+1,N+1,DEOK
+DataBank - 334 Gest St,DataBank,Ohio,Cincinnati,,,,,,,,DEOK
+CBTS Hamilton Data Center,CBTS,Ohio,Hamilton,,,,,,,,DEOK
+CyrusOne CIN4 - Hamilton,CyrusOne Data Centers,Ohio,Hamilton,4.725,47000,,,,,N+1,DEOK
+CenterGrid - Hamilton,CenterGrid,Ohio,Hamilton,2,7500,,,,,,DEOK
+Flexential Cincinnati Data Center,Flexential,Ohio,Hamilton,3.8,,,,,,N+1,DEOK
+CBTS Mason Data Center,CBTS,Ohio,Mason,,,,,,,,DEOK
+Aligned - 6770 Mink St,Aligned Data Centers,Ohio,Pataskala,,,,,,,,DEOK
+Refugee Rd SW,Microsoft,Ohio,Pataskala,,,,,,,,DEOK
+Ardent Pittsburgh,Ardent Data Centers,Pennsylvania,KcKees Rocks,20,42000,Colocation,1980,2008,N+1,,DLCO
+TECfusions New Kensington,TECfusions,Pennsylvania,New kensington,200,500000,Hyperscale,,,,,DLCO
+iM Critical Pittsburgh,iM Critical,Pennsylvania,Pittsburgh,10,50000,Colocation,2022,,N+1,N+1,DLCO
+Expedient Pittsburgh South,Expedient Data Centers,Pennsylvania,Pittsburgh,1.8,12000,Colocation,2017,,2N+1,,DLCO
+EdgeConneX Pittsburgh - EDCPIT01,EdgeConneX,Pennsylvania,Pittsburgh,1,4556,Colocation,1971,,N+1,N+1,DLCO
+Expedient Pittsburgh North Shore,Expedient Data Centers,Pennsylvania,Pittsburgh,4.2,50700,Colocation,1969,2018,2N,,DLCO
+DataBank PIT2 - Summit Park,DataBank,Pennsylvania,Pittsburgh,4.5,47100,Colocation,2001,,N+1,N+1,DLCO
+Vantage VA3 - Ashburn III Campus,Vantage Data Centers,Virginia,Ashburn,288,,Hyperscale,2019,,N+1,N+2,DOM
+NTT Ashburn VA2,NTT Global Data Centers,Virginia,Ashburn,14,70000,Colocation,2016,,N+2,N+2,DOM
+Centersquare Ashburn Campus,Centersquare,Virginia,Ashburn,10,,Colocation,,,2N,,DOM
+NTT Ashburn VA1,NTT Global Data Centers,Virginia,Ashburn,12.6,64723,Colocation,2000,2018,N+2,N+2,DOM
+44461 Chilum Place (ACC6),Digital Realty,Virginia,Ashburn,26,135100,Colocation,2024,,N+2,N+2,DOM
+44490 Chillum (ACC2),Digital Realty,Virginia,Ashburn,10.4,56800,Colocation,2005,2008,,,DOM
+44521 Hastings Drive (ACC5),Digital Realty,Virginia,Ashburn,36.4,360000,Colocation,2008,,N+1,N+1,DOM
+44520 Hastings (ACC3),Digital Realty,Virginia,Ashburn,13.9,85300,Colocation,2001,2008,,,DOM
+Cologix ASH1-S,Cologix,Virginia,Ashburn,120,455000,Hyperscale,2023,,,,DOM
+CyrusOne NVA14,CyrusOne Data Centers,Virginia,Ashburn,60,,,2023,,,,DOM
+44480 Hastings Drive (ACC4),Digital Realty,Virginia,Ashburn,36.4,183900,Colocation,2007,,N+1,N+2,DOM
+21625 Gresham Drive (ACC7),Digital Realty,Virginia,Ashburn,41.6,259200,Colocation,2013,,N+2,N+2,DOM
+21745 Sir Timothy (ACC9),Digital Realty,Virginia,Ashburn,28.8,185500,Colocation,2016,,,,DOM
+H5 Data Centers Ashburn,H5 Data Centers,Virginia,Ashburn,60,255000,,2024,,N+2,,DOM
+21744 Sir Timothy (ACC10),Digital Realty,Virginia,Ashburn,27,174800,Colocation,2026,,2N+2,,DOM
+CloudHQ LC Campus,CloudHQ,Virginia,Ashburn,1256,789676,Hyperscale,2018,2022,,,DOM
+"44274 Round Table Plaza, Bldg L (IAD39)",Digital Realty,Virginia,Ashburn,96.3,469600,Colocation,2017,,N+1,N+1,DOM
+"44372 Round Table Plaza, Bldg M (IAD40)",Digital Realty,Virginia,Ashburn,24,69600,Colocation,2019,,N+1,N+2,DOM
+Aligned IAD-01,Aligned Data Centers,Virginia,Ashburn,60,,Colocation,2019,,N+2,,DOM
+Quantum Connect,PowerHouse Data Centers,Virginia,Ashburn,20,,,2026,,,,DOM
+DataBank IAD3 - Ashburn Campus,DataBank,Virginia,Ashburn,40,218920,Colocation,2023,,N+1,N+1,DOM
+DataBank IAD1 - Ashburn,DataBank,Virginia,Ashburn,9.9,85330,Colocation,2009,,N+1,N+1,DOM
+SDC Ashburn A,Sabey Data Center Properties LLC,Virginia,Ashburn,36,262191,Colocation,2026,,N+1,N+1,DOM
+Aligned IAD-02,Aligned Data Centers,Virginia,Ashburn,120,283023,Hyperscale,2026,,2N+2,2N,DOM
+43830 Devin Shafron Drive (IAD24),Digital Realty,Virginia,Ashburn,6.8,57700,Colocation,2011,,2N,N+1,DOM
+43791 Devin Shafron Drive (IAD14),Digital Realty,Virginia,Ashburn,6.9,51400,Colocation,2001,,2N,N+1,DOM
+43881 Devin Shafron Drive (IAD12),Digital Realty,Virginia,Ashburn,9,57100,Colocation,2001,,2N,N+1,DOM
+43940 Digital Loudoun Plaza (IAD35),Digital Realty,Virginia,Ashburn,26.4,223800,Colocation,2014,,2N,N+1,DOM
+43780 Digital Loudoun Plaza (IAD36),Digital Realty,Virginia,Ashburn,16.8,126800,Colocation,2016,,N+1,N+2,DOM
+44100 Digital Loudoun Plaza (IAD38),Digital Realty,Virginia,Ashburn,16.9,115100,Colocation,2016,,2N,N+2,DOM
+44060 Digital Loudoun Plaza (IAD37),Digital Realty,Virginia,Ashburn,19.8,169200,Colocation,2014,,2N,N+2,DOM
+QTS Ashburn 3 Campus,QTS Data Centers,Virginia,Ashburn,80,,,,,,,DOM
+QTS Ashburn 3 DC2,QTS Data Centers,Virginia,Ashburn,42,195000,Colocation,2022,,N+1,N+1,DOM
+QTS Ashburn 3 DC1,QTS Data Centers,Virginia,Ashburn,42,195000,Colocation,2021,,N+1,N+1,DOM
+Dulles 28 Technology Park,The BlackChamber Group,Virginia,Ashburn,120,531000,Hyperscale,2027,,,,DOM
+"22124 Broderick Drive, Bldg R (IAD42)",Digital Realty,Virginia,Ashburn,48,208200,Colocation,2021,,N+1,,DOM
+Hanover Technology Park,Tract,Virginia,Ashland,2400,,Hyperscale,2028,,,,DOM
+Pixel Factory Data Center,Pixel Factory Data Center,Virginia,Ashland,13,,Colocation,2014,,,N+1,DOM
+PointOne Richmond Data Center Campus,PointOne,Virginia,Charels City,424,,Hyperscale,2019,,,,DOM
+Chirisa Richmond Technology Park,Chirisa,Virginia,Chester,350,,Hyperscale,2022,,,,DOM
+Chirisa DDC Campus,Chirisa,Virginia,Chester,,,,,,,,DOM
+TECfusions Clarksville,TECfusions,Virginia,Clarcksville,220,195000,Hyperscale,2023,,,,DOM
+Amazon AWS IAD - 20420 Germanna,Amazon AWS,Virginia,Culpeper,,,,,,,,DOM
+EdgeCore Culpeper CP03,EdgeCore,Virginia,Culpeper,72,,Hyperscale,2028,,2N,2N,DOM
+EdgeCore Culpeper CP01,EdgeCore,Virginia,Culpeper,72,,Hyperscale,2028,,2N,2N,DOM
+EdgeCore Culpeper CP02,EdgeCore,Virginia,Culpeper,72,,Hyperscale,2028,,2N,2N,DOM
+CloudHQ CLP3,CloudHQ,Virginia,Culpeper,42,,Hyperscale,2029,,,,DOM
+CloudHQ CLP1,CloudHQ,Virginia,Culpeper,50,,Hyperscale,2029,,,,DOM
+CloudHQ CLP2,CloudHQ,Virginia,Culpeper,50,,Hyperscale,2029,,,,DOM
+Equinix CU2,Equinix,Virginia,Culpeper,11,62398,,2010,,N+1,N+1,DOM
+Equinix CU3,Equinix,Virginia,Culpeper,15,39535,,2010,,N+1,N+1,DOM
+Equinix CU4,Equinix,Virginia,Culpeper,25,52667,,2008,2010,N+1,N+1,DOM
+Equinix CU1,Equinix,Virginia,Culpeper,11,45273,,2007,,N+1,N+1,DOM
+DataBank IAD6 - Culpeper,DataBank,Virginia,Culpeper,120,383220,Hyperscale,2027,,N+1,N+1,DOM
+STACK Infrastructure Fredericksburg,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 5,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 22,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 12,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 21,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 2,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 18,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 14,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+CleanArc VA1 Campus,,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 19,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 17,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 10,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 4,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 16,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 23,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 9,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 1,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 13,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 20,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 7,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 8,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 11,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 6,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 3,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+Stafford Technology Campus - Building 15,STACK INFRASTRUCTURE,Virginia,Fredericksburg,,,,,,,,DOM
+PowerHouse 95 Campus,PowerHouse Data Centers,Virginia,Fredricksburg,800,,Hyperscale,2025,,,,DOM
+Amazon AWS IAD - Massapon,Amazon AWS,Virginia,Fredricksburg,,,,,,,,DOM
+Amazon AWS IAD - Cosner Tech Campus,Amazon AWS,Virginia,Fredricksburg,,,,,,,,DOM
+Amazon AWS IAD - Carters Store Tech Campus,Amazon AWS,Virginia,Fredricksburg,,,,,,,,DOM
+Amazon AWS IAD - Orrock Tech Campus,Amazon AWS,Virginia,Fredricksburg,,,,,,,,DOM
+Amazon AWS IAD - Mattermeade Campus,Amazon AWS,Virginia,Fredricksburg,,,,,,,,DOM
+AVAIO Ladysmith Campus,AVAIO Digital,Virginia,Ladysmith,,,,,,,,DOM
+STACK Infrastructure NVA06,STACK INFRASTRUCTURE,Virginia,Leesburg,72,620000,,2025,,N+1,N+1,DOM
+Microsoft Compass Creek Campus,Microsoft,Virginia,Leesburg,180,475000,Hyperscale,,,,,DOM
+Amazon AWS - Northeast Creek Technology Campus,Amazon AWS,Virginia,Louisa,,,,,,,,DOM
+Amazon AWS - Lake Anna Tech Campus,Amazon AWS,Virginia,Mineral,,,,,,,,DOM
+EdgeConneX Norfolk - EDCNOR01,EdgeConneX,Virginia,Norfolk,0.75,4623,Colocation,2015,,N+1,N+1,DOM
+NetTek Data Center,"NetTek, LLC",Virginia,Norfolk,,,,,,,,DOM
+Remington Technology Park,PointOne,Virginia,Remington,425,,Hyperscale,,,,,DOM
+Windstream Innsbrook,Windstream,Virginia,Richmond,,,,,,,,DOM
+Lumen Richmond 2,Lumen,Virginia,Richmond,,,,,,,,DOM
+EdgeConneX Richmond - EDCRIC01,EdgeConneX,Virginia,Richmond,0.5,6797,Colocation,2015,,N+1,N+1,DOM
+Flexential Richmond Data Center,Flexential,Virginia,Richmond,2.8,,Colocation,,,N+1,N+1,DOM
+Lumen Richmond 1,Lumen,Virginia,Richmond,,,,,,,,DOM
+Cogent Data Center - Richmond,"Cogent Communications, Inc.",Virginia,Richmond,,6056,,,,,,DOM
+Richweb Data Center,Richweb,Virginia,Richmond,,,,2027,2030,,,DOM
+"QTS Richmond 1 DC1, DC2, DC3",QTS Data Centers,Virginia,Richmond,105,,Hyperscale,2023,,2N,,DOM
+CTSI Data Center,"Commonwealth Technical Services, Inc.",Virginia,Richmond,,,,,,,,DOM
+Carmel Church Data Hub,AVAIO Digital,Virginia,Ruther Glen,300,,,2026,,,,DOM
+Iron Mountain Data Centers RCH-1,Iron Mountain Data Centers,Virginia,Sandston,48,,,,,,,DOM
+Meta Henrico Data Center,Meta,Virginia,Sandston,,,,,,,,DOM
+Meta Sandston,Meta,Virginia,Sandston,,,,,,,,DOM
+Corscale Kincora,Corscale,Virginia,Sterling,72,500000,,2024,,,,DOM
+CyrusOne NVA7 - Sterling,CyrusOne Data Centers,Virginia,Sterling,150,89097,Hyperscale,2019,,,N+1,DOM
+CyrusOne NVA5 - Sterling,CyrusOne Data Centers,Virginia,Sterling,105,,Hyperscale,2017,,,,DOM
+Centersquare - Sterling IAD1-B,Centersquare,Virginia,Sterling,4.8,60908,Colocation,1999,,N+1,N+1,DOM
+CyrusOne Virginia Campus,CyrusOne Data Centers,Virginia,Sterling,48,420000,Hyperscale,2026,,,,DOM
+Centersquare - Sterling IAD1-C,Centersquare,Virginia,Sterling,4.8,44475,Colocation,2001,2014,N+1,N+2,DOM
+Centersquare - Sterling IAD1-A,Centersquare,Virginia,Sterling,1.8,36219,Colocation,1998,,N+2,N+1,DOM
+EdgeCore Ashburn AS01,EdgeCore,Virginia,Sterling,72,,,2026,,2N,2N,DOM
+CyrusOne NVA8 - Sterling,CyrusOne Data Centers,Virginia,Sterling,24,100341,Colocation,2018,,,N+2,DOM
+PointOne Ashburn Data Center Campus,PointOne,Virginia,Sterling,83,665000,Hyperscale,2019,,N+1,,DOM
+STACK Infrastructure NVA01A,STACK INFRASTRUCTURE,Virginia,Sterling,17,,Colocation,1997,2018,N+1,N+1,DOM
+PowerHouse Pacific - Building C,PowerHouse Data Centers,Virginia,Sterling,48,134500,Hyperscale,2026,,,,DOM
+PowerHouse Pacific - Building B,PowerHouse Data Centers,Virginia,Sterling,84,198700,Hyperscale,2026,,,,DOM
+PowerHouse Pacific - Building A,PowerHouse Data Centers,Virginia,Sterling,90,227500,Hyperscale,2024,,,,DOM
+Vantage VA1 - Ashburn I Campus,Vantage Data Centers,Virginia,Sterling,206,,Hyperscale,2019,,N+1,N+2,DOM
+22262 Cloud Plz,Sentinel Datacenters,Virginia,Sterling,46,238000,Colocation,,,N+1,N+1,DOM
+QTS Ashburn 1 DC1,QTS Data Centers,Virginia,Sterling,36,172000,Colocation,2019,,N+1,N+1,DOM
+Vantage VA2 - Ashburn II Campus,Vantage Data Centers,Virginia,Sterling,96,,Hyperscale,2019,,N+1,N+2,DOM
+EdgeCore Ashburn AS02,EdgeCore,Virginia,Sterling,42,260000,Colocation,2026,,2N,2N,DOM
+QTS Ashburn-Moran DC2,QTS Data Centers,Virginia,Sterling,6,26820,Colocation,2013,,2N+1,,DOM
+Skybox Nova One,Skybox Datacenters,Virginia,Sterling,30,,Colocation,2018,,N+1,,DOM
+Centersquare - Sterling IAD3-A,Centersquare,Virginia,Sterling,2,31470,Colocation,2006,,N+1,,DOM
+CyrusOne NVA4 - Sterling,CyrusOne Data Centers,Virginia,Sterling,12.6,28715,Colocation,1985,,N+1,,DOM
+Centersquare - Sterling IAD2-B,Centersquare,Virginia,Sterling,6,32439,Colocation,2027,,N+1,N+1,DOM
+Centersquare - Sterling IAD2-A,Centersquare,Virginia,Sterling,2,26770,Colocation,2027,,N+1,N+1,DOM
+PowerHouse Arcola Campus,PowerHouse Data Centers,Virginia,Sterling,165,,Hyperscale,,,,,DOM
+Amazon - Dumfries Rd & Colchester Park,Amazon AWS,Virginia,Sterling,,,,,,,,DOM
+Amazon AWS IAD - 2097 Harpers Rd,Amazon AWS,Virginia,Virginia Beach,,,,,,,,DOM
+Globalinx Virginia Beach,Globalinx,Virginia,Virginia Beach,,,,,,,,DOM
+Telxius Virginia Beach CLS,Telxius,Virginia,Virginia Beach,,,,,,,,DOM
+NAP of Virginia Beach,PointOne,Virginia,Virginia Beach,30,,Colocation,2019,,N+1,,DOM
+DaSTOR New Castle,"DaSTOR, LLC",Delaware,New Castle,8,"60,000",Colocation,2006,2024,2N+2,N+1,DPL
+Trijit Data Center,Trijit Corporation,Delaware,Wilmington,0.3,,Colocation,,,,,DPL
+East Kentucky Network Data Center,East Kentucky Network,Kentucky,Ivel,,,,,,2N,N+1,EKPC
+Project Lincoln OC Data Center,,Kentucky,La Grange,,,,,,,,EKPC
+Windstream Lexington,Windstream,Kentucky,Lexington,,,,,,,,EKPC
+BluegrassNet Downtown Lexington,BluegrassNet,Kentucky,Lexington,,,,,,,,EKPC
+KUSI Data Center,Kentucky Underground Storage,Kentucky,Wilmore,,2300,,,,,,EKPC
+QTS East Windsor 1 DC1,QTS Data Centers,New Jersey,East Windsor,28,120931,Hyperscale,2025,,2N,2N,JCPL
+NJFX Data Center,NJFX,New Jersey,Wall,9,64800,Colocation,,,N+1,N+1,JCPL
+Flexential Phiadelphia - Collegeville Data Center,Flexential,Pennsylvania,Collegeville,7.2,203703,Colocation,2017,,2N+1,,METED
+1547 Chester County PA,1547 Critical Systems Realty,Pennsylvania,Malvern,450,2000000,Hyperscale,2025,,,,PECO
+Cogent Data Center - Pennsauken,"Cogent Communications, Inc.",Pennsylvania,Merchantville,2.3,39601,Colocation,,,,,PECO
+ColoHouse Philadelphia,ColoHouse,Pennsylvania,Philadelphia,1,48000,Colocation,1928,2021,,2N,PECO
+Crown Castle Philadelphia (PA2),CROWN CASTLE,Pennsylvania,Philadelphia,1,14331,Colocation,2018,,,,PECO
+viLogics Ebensburg,viLogics Data Centers,Pennsylvania,Ebensburg,3,2500,Colocation,2011,,2N,2N,PENELEC
+"365 Data Centers - Bridgewater, NJ",365 Data Centers,New Jersey,Bridgewater township,2.3,"25,600",Colocation,1988,,N+1,N+1,PSEG
+Iron Mountain Data Centers NJE-1,Iron Mountain Data Centers,New Jersey,Edison,26,830000,Colocation,1967,,2N,N+1,PSEG
+QTS Jersey City 1 DC1,QTS Data Centers,New Jersey,Jersey City,3,120000,Colocation,2022,,N+1,N+1,PSEG
+QTS Jersey City 1 DC1,QTS Data Centers,New Jersey,Jersey City,3,120000,Colocation,2015,,N+1,N+1,PSEG
+Centersquare - New York EWR1,Centersquare,New Jersey,Jersey City,13.2,74222,Colocation,2012,,N+2,N+1,PSEG
+3 Corporate Place (EWR11),Digital Realty,New Jersey,Piscataway,3.3,28400,Colocation,1974,,2N,N+2,PSEG
+Centersquare - New York EWR3-B,Centersquare,New Jersey,Piscataway,6,135000,Colocation,1971,2013,N+1,N+1,PSEG
+Centersquare - New York EWR3-A,Centersquare,New Jersey,Piscataway,5.4,"66,596",Colocation,1977,2013,N+1,N+1,PSEG
+365 S. Randolphville Road (EWR12),Digital Realty,New Jersey,Piscataway,14.4,"134,300",Colocation,1971,,2N,N+2,PSEG
+DataBank EWR2 - Piscataway,DataBank,New Jersey,Piscataway,3,"22,590",Colocation,1985,2019,N+1,N+1,PSEG
+Hammer Piscataway Data Center,Hammer Technology Holdings,New Jersey,Piscataway,1.8,10000,Colocation,2012,,N+1,N+1,PSEG
+Digital Fortress New Jersey,Digital Fortress,New Jersey,Piscataway,5,9700,Colocation,2006,2021,N+1,N+1,PSEG
+QTS Piscataway 1 DC1,QTS Data Centers,New Jersey,Piscataway,52,176000,,2021,,N+2,N+2,PSEG
+Centersquare - New York EWR5-A,Centersquare,New Jersey,Secaucus,2,98600,Colocation,2024,,N+1,2N+1,PSEG
+Evocative EWR1,Evocative Data Centers,New Jersey,Secaucus,10,105000,Colocation,2012,2013,N+1,N+1,PSEG
+InterServer TEB2,"InterServer, Inc",New Jersey,Secaucus,,8000,Colocation,,,,,PSEG
+InterServer TEB4,"InterServer, Inc",New Jersey,Secaucus,2.5,48000,Colocation,1999,2022,N+1,,PSEG
+Equinix NY5,Equinix,New Jersey,Secaucus,20,129435,Colocation,2012,2016,N+2,N+1,PSEG
+Colocation America NJDC2,Colocation America,New Jersey,Secaucus,2,9800,Colocation,2000,,2N,2N+1,PSEG
+Rackspace New York 2,Rackspace Hosting,New Jersey,Somerset,2,35000,Colocation,1998,,2N,N+1,PSEG
+Rackspace New York 1,Rackspace Hosting,New Jersey,Somerset,2.7,11000,Colocation,2008,,2N,N+1,PSEG
+CyrusOne NYM1 - Somerset,CyrusOne Data Centers,New Jersey,Somerset,40,430000,Hyperscale,2011,,N+2,,PSEG
+Amazon AWS IAD - Hunters Ridge Campus,Amazon AWS,Virginia,,,,,,,,,
+Brush Mountain Data Center,Brush Mountain Data Center,Virginia,,,,,,,,,
+Lost River Data Center,BGMU Fiber,Kentucky,Bowling Green,,,,,,,,
+EnergyNet Data Center,EnergyNet,Kentucky,Hopkinsville,,,,,,N,N+1,
+Flexential Louisville - East Data Center,Flexential,Kentucky,Louisville,1.46,,,,,2N,,
+Louisville Enterprise Data Center,Aphorio Carter,Kentucky,Louisville,1,20000,,,,N+1,,
+IgLou Data Center,"IgLou Internet Services, Inc.",Kentucky,Louisville,,,,,,,,
+PowerHouse Louisville Campus,PowerHouse Data Centers,Kentucky,Louisville,400,,,,,,,
+Data Canopy - Louisville,Data Canopy,Kentucky,Louisville,,,,,,,,
+Lumen Louisville 1,Lumen,Kentucky,Louisville,,,,,,,,
+Lumen Louisville 2,Lumen,Kentucky,Louisville,,,,,,,,
+332 West Broadway,,Kentucky,Louisville,,,,,,,,
+BluegrassNet Downtown Louisville,BluegrassNet,Kentucky,Louisville,,,,,,,,
+BluegrassNet East Breckinridge,BluegrassNet,Kentucky,Louisville,,,,,,,,
+"Windstream Louisville, KY",Windstream,Kentucky,Louisville,,,,,,,,
+Flexential Louisville - Downtown Data Center,Flexential,Kentucky,Louisville,3.09,,,,,2N,,
+Silica Broadband,Davey Holdings LLC,Kentucky,Prospect,,,,,,,,
+ATCDC,Ashland Technology Complex and Data Center,Kentucky,Russell,,,,,,,,
+Simpsonville Enterprise Data Center,Aphorio Carter,Kentucky,Simpsonville,1,20000,,,,N+1,,

@@ -1,0 +1,24 @@
+Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Rennovated,UPS,Cooling System,Zone
+INOC ALB3,INOC Data Centers,New York,Albany,1.5,5500,Colocation,,,2N,N+1,F
+Lumen Albany 1,Lumen,New York,Albany,,15000,Colocation,,2014,,,F
+Dataverge NY,DataVerge,New York,Brooklyn,3,50000,Colocation,2003,2024,N+1,2N,J
+Evocative JFK2,Evocative Data Centers,New York,Chappaqua,1,38000,Colocation,1980,,N+1,N+1,I
+DotBlock.Com,DotBlock DataCenter,New York,Clifton Park,2,52000,Colocation,2023,,N+1,N+1,F
+365 Data Centers - Commack,365 Data Centers,New York,Commack,6,26200,Colocation,2016,,N+1,2N,K
+365 Data Centers - Commack,365 Data Centers,New York,Commack,6,10000,Colocation,2016,,N+1,2N,K
+Equinix NY13,Equinix,New York,Elmsform,,60234,Colocation,2014,,N+1,N+.2,I
+Opti9 NY1,Opti9 Technology,New York,Garden City,4,25000,Colocation,2002,2022,2N,N+2,K
+Speedcast NY,Speedcast International Ltd.,New York,Hauppauge,2,6000,Colocation,1997,,,,K
+Speedcast NY,Speedcast International Ltd.,New York,Hauppauge,2,6000,Colocation,1997,,,,K
+TierPoint Harthorne 2 - New York,TierPoint,New York,Hawthorne,,"172,000",Colocation,,,,,K
+ColoHouse Albany,ColoHouse,New York,Latham,2,11200,Colocation,1960,2021,,,F
+Cogent Data Center - New York,"Cogent Communications, Inc.",New York,NYC,3.7,42371,Colocation,2013,,,,J
+TELEHOUSE New York Teleport,Telehouse America,New York,NYC,10,15050,Colocation,1989,2016,N+1,N+1,J
+Stafford Associates Data Center,Stafford Associates,New York,Setauket,2,8000,Colocation,2009,,N+1,N+2,K
+Stafford Associates Data Center,Stafford Associates,New York,Setauket,2,5000,Colocation,2010,,N+1,N+2,K
+Expedient Tide Point,Expedient Data Centers,Maryland,Baltimore,1.5,23000,Colocation,2000,2013,2N,,
+DataBank BWI1 - Downtown Baltimore,DataBank,Maryland,Baltimore,0.6,4080,Colocation,1985,,N+1,N+1,
+Cogent Data Center - Elkridge,"Cogent Communications, Inc.",Maryland,Elkridge,6.8,61734,Colocation,1970,,,,
+Maryland Hyperscale Campus,Aligned Data Centers,Maryland,Frederick,264,1710000,Hyperscale,2022,,N+2,,
+AiNET CyberNAP,AiNET,Maryland,Glen Burnie,80,300000,Hyperscale,2012,,2N,2N,
+TPC Laurel,TPC Data Centers,Maryland,Laurel,20,50000,Colocation,2025,,N+1,N+1,
