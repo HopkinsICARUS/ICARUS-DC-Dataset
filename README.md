@@ -62,7 +62,7 @@ It includes:
 
 All formatted data is stored as **.csv** files.
 
-### Data Procurment
+### Data Procurement
 
 ICARUS uses a range of public data sources. This repository is intended for research purposes only. ICARUS, and all its supporting groups make no express or implied warranties regarding its accuracy, completeness, or fitness for a particular purpose. Users assume all responsibility and risk associated with the use, dependence, or reliance of this information.
 
@@ -118,7 +118,7 @@ wrapt              2.0.0
 
 ## General Usage
 
-### Cleaned Data Generations
+### Generating Clean Data
 
 Running the Python script (`src/generate_all_data.py`) produces cleaned and processed versions of our NY, PJM, and complete data center datasets, along with imputed datasets created through the multiple-imputation procedure described in `data/imputed_data_center_dataset/imputation_process.md`.
 
@@ -135,6 +135,27 @@ FD = DataCenters("data/data_center_dataset/DCS_Full.csv")
 
 for col in FD.columns:
     print(FD[col])
+```
+
+## Citing ICARUS-DC
+
+If you use the ICARUS-DC dataset in any of your work, we ask you to please cite it using the following citation:
+
+### IEEE Format
+
+Y. Dvorkin, M. Klemun, O. Reed, and S. Khanal, "ICARUS Data Center Dataset (ICARUS-DC)," ICARUS Research Initiative, Johns Hopkins University and Johns Hopkins Applied Physics Laboratory, 2025. [Online]. Available: https://github.com/hopkinsicarus/ICARUS-DC
+
+### BibTeX Format
+
+```bibtex
+@dataset{icarus_dc_2025,
+  title        = {ICARUS Data Center Dataset (ICARUS-DC)},
+  author       = {Dvorkin, Yury and Klemun, Magdalena and Reed, Owen and Khanal, Saroj},
+  year         = {2025},
+  publisher    = {Johns Hopkins University, Ralph O'Connor Sustainable Energy Institute, NSF Global Center EPICS, and Johns Hopkins Applied Physics Laboratory},
+  url          = {https://github.com/hopkinsicarus/ICARUS-DC},
+  note         = {Versioned GitHub repository. Data licensed under CC BY 4.0}
+}
 ```
 
 ---
