@@ -6,7 +6,7 @@ This document describes the process and scripts used to generate the cleaned and
 
 ## 1. Overview
 
-Run `generate_all_data.py` will: 
+Running `generate_all_data.py` will: 
 - Load raw CSV data from `raw_data/`.
 - Clean and preprocess the data, including handling missing values and encoding categorical features.
 - Add state-level capacity columns from NREL data for estimation purposes.
