@@ -64,7 +64,7 @@ All formatted data is stored as **.csv** files.
 
 ### Data Procurement
 
-ICARUS uses a range of public data sources. This repository is intended for research purposes only. ICARUS, and all its supporting groups make no express or implied warranties regarding its accuracy, completeness, or fitness for a particular purpose. Users assume all responsibility and risk associated with the use, dependence, or reliance of this information.
+ICARUS uses a range of publicly available data sources. This repository is intended for research purposes only. ICARUS, and all its supporting groups make no express or implied warranties regarding its accuracy, completeness, or fitness for a particular purpose. Users assume all responsibility and risk associated with the use, dependence, or reliance of this information.
 
 
 ## Environment & Dependencies
