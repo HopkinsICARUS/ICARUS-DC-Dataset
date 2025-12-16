@@ -1,4 +1,4 @@
-Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Rennovated,UPS,Cooling System,Zone
+Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Renovated,UPS,Cooling System,Zone
 Earth Station 76,Energy Concepts,New Jersey,Logan,150,500000,Hyperscale,2027,,N+2,N+2,AE
 Untangled Technology Data Center,Untangled Technology,Ohio,Canton,,,,,,,,AEP
 Ark Data Centers Canton,Ark Data Centers,Ohio,Canton,1.5,5600,,2009,,N+1,N+1,AEP

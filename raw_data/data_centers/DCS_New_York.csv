@@ -1,4 +1,4 @@
-Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Rennovated,UPS,Cooling System,Zone
+Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Renovated,UPS,Cooling System,Zone
 INOC ALB3,INOC Data Centers,New York,Albany,1.5,5500,Colocation,,,2N,N+1,F
 Lumen Albany 1,Lumen,New York,Albany,,15000,Colocation,,2014,,,F
 Dataverge NY,DataVerge,New York,Brooklyn,3,50000,Colocation,2003,2024,N+1,2N,J

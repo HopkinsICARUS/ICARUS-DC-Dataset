@@ -39,7 +39,7 @@ raw_data/
 │   └── *.csv # Relevant rates for analyzing real rate / cost subsidy effects
 ```
 
-- **Data Centers**: Columns include `Name, Operator, State, City, Power (MW), Whitespace (sqft), Type, Year Built, Year Rennovated, UPS, Cooling System, Zone`.
+- **Data Centers**: Columns include `Name, Operator, State, City, Power (MW), Whitespace (sqft), Type, Year Built, Year Renovated, UPS, Cooling System, Zone`.
 - **NREL Capacity Data**: County-level data containing `state, Operating (MW), Operating and In Construction (MW), Total (MW)` - aggregated to state level for capacity targets.
 - **LMP**: PJM data containing both real-time and day-ahead prices.
 - **Rates**: User-supplied or externally-sourced subsidy/rate information for examining effects on costs or consumption.
@@ -322,7 +322,7 @@ NREL_ESTIMATION_METHOD = "state_proportional_allocation"  # Estimation method
 | `Whitespace (sqft)` | Available floor space |
 | `Type` | Facility type (Colocation, Hyperscale, etc.) |
 | `Year Built` | Construction year |
-| `Year Rennovated` | Renovation year |
+| `Year Renovated` | Renovation year |
 | `UPS` | Uninterruptible Power Supply configuration |
 | `Cooling System` | Cooling system type |
 | `Zone` | PJM zone (if applicable) |
@@ -332,7 +332,7 @@ NREL_ESTIMATION_METHOD = "state_proportional_allocation"  # Estimation method
 | `Total Capacity State` | NREL total capacity target (included planned) |
 | `Status` | Operating status of a data center |
 | `Latitude` | Latitude of data center by a city lookup |
-| `Longitute` | Longitute of data center by a city lookup |
+| `Longitude` | Longitude of data center by a city lookup |
 | `*_Encoded` | Encoded categorical variables |
 
 ### Imputed Dataset Columns

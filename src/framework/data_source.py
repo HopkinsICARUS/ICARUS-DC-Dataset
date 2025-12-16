@@ -45,7 +45,7 @@ class DataCenters(object):
     
     def clean_data(self):
         #most recent year of construction
-        self.data['MRC'] = self.data["Year Rennovated"].where(self.data["Year Rennovated"].notna() & (self.data["Year Rennovated"] != ""),self.data["Year Built"])
+        self.data['MRC'] = self.data["Year Renovated"].where(self.data["Year Renovated"].notna() & (self.data["Year Renovated"] != ""),self.data["Year Built"])
         
         #correct data from NREL
         

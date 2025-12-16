@@ -356,7 +356,7 @@ def main():
         fdmi.date = add_status_column(fdmi.data)
         
         # Add lat and long columns
-        print("Adding Latitude and Longitute columns...")
+        print("Adding Latitude and Longitude columns...")
         fdmi.date = add_approx_coordinates(fdmi.data)
         
         # Apply NREL estimation if enabled

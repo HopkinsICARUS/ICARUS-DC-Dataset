@@ -28,7 +28,7 @@ Contains the foundational information describing individual data centers.
 | `Whitespace (sqft)` | Available whitespace or floor area in square feet |
 | `Type` | Data center classification (e.g., enterprise, co-location, hyperscale) |
 | `Year Built` | Original construction year |
-| `Year Rennovated` | Most recent major renovation year |
+| `Year Renovated` | Most recent major renovation year |
 | `UPS` | Uninterruptible power supply configuration or vendor type |
 | `Cooling System` | Cooling system type (e.g., air-cooled, chilled water) |
 

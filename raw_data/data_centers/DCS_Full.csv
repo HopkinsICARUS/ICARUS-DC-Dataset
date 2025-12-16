@@ -1,4 +1,4 @@
-Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Rennovated,UPS,Cooling System
+Name,Operator,State,City,Power (MW),Whitespace (sqft),Type,Year Built,Year Renovated,UPS,Cooling System
 CVM,CVM,Connecticut,Branford,0.12,540,Colocation,2011,,2N,2N
 CyrusOne NYM5 - Norwalk,CyrusOne Data Centers,Connecticut,norwalk,16,75000,Colocation,2013,,N+1,N+1
 CyrusOne NYM10 - Stamford,CyrusOne Data Centers,Connecticut,Stamford,4,20000,Colocation,1967,,2N,N+1
