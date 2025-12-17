@@ -560,7 +560,7 @@ if __name__ == '__main__':
     # Simple remote test: instantiate dataset and aggregate 2018 weekly
     try:
         print("Running RemoteTimeSeriesDataSet quick test: weekly 2018 aggregation")
-        base_path = Path('D:/CSVs_dalmps')
+        base_path = Path('F:/CSVs_dalmps')
         
 
         print(f"Using base_path: {base_path}")
