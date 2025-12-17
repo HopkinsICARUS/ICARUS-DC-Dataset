@@ -26,6 +26,7 @@ The **ICARUS Data Center Dataset** provides a structured and extensible framewor
 
 ## Repository Structure
 
+Below is the general structure of the ICARUS-DC repository. Directories marked as `Excluded` are not published in the current public-facing version of this repository. 
 ```
 root/
 ├── README.md                              # This file — high-level overview
@@ -38,6 +39,7 @@ root/
 │   ├── data_centers/                       # Source data center CSVs (DCS_*.csv)
 │   ├── LMP/    [Excluded]                  # Locational Marginal Price data
 │   ├── capacity/    [Excluded]             # Capacity Market data
+│   ├── load/    [Excluded]                 # PJM load forcast data
 │   ├── rates/  [Excluded]                  # Rate and incentive data
 │   └── raw_data.md                         # Raw data overview
 └── src/                                   # Data generation and processing scripts
