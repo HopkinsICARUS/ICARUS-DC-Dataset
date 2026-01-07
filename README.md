@@ -9,7 +9,8 @@
   ICARUS — _Infrastructure Centric Adaptation and Resiliency in the U.S._ — is a joint research initiative between the [**Ralph O’Connor Sustainable Energy Institute (ROSEI)**](https://energyinstitute.jhu.edu/) at [**Johns Hopkins University**](https://www.jhu.edu/), [**NSF Global Center EPICS**](https://energyinstitute.jhu.edu/epics/), and the [**Johns Hopkins Applied Physics Laboratory (APL)**](https://www.jhuapl.edu/work/mission-areas/research-and-exploratory-development), supported by a [**Johns Hopkins Discovery Award**](https://research.jhu.edu/major-initiatives/discovery-awards/2024-awardees/).
   The **ICARUS Data Center Dataset** provides a structured and extensible framework for analyzing how data center infrastructure and operations impact regional power dynamics, electricity pricing, and grid load. It supports both statistical analysis and machine learning workflows focused on understanding energy demand and efficiency across data centers in the U.S., with an emphasis on **PJM** and **New York**.
   Authors: Yury Dvorkin, Magdalena Klemun, Owen Reed, and Saroj Khanal, 
-  -->
+-->
+
 ## About ICARUS
 
 ICARUS — _Infrastructure Centric Adaptation and Resiliency in the U.S._ — is a joint research initiative between the [**Ralph O’Connor Sustainable Energy Institute (ROSEI)**](https://energyinstitute.jhu.edu/) at [**Johns Hopkins University**](https://www.jhu.edu/), [**NSF Global Center EPICS**](https://energyinstitute.jhu.edu/epics/), and the [**Johns Hopkins Applied Physics Laboratory (APL)**](https://www.jhuapl.edu/work/mission-areas/research-and-exploratory-development), supported by a [**Johns Hopkins Discovery Award**](https://research.jhu.edu/major-initiatives/discovery-awards/2024-awardees/).
