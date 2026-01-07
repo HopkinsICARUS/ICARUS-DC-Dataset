@@ -152,7 +152,7 @@ If you use the ICARUS-DC dataset in any of your work, we ask you to please cite 
 
 ### IEEE Format
 
-Y. Dvorkin, M. Klemun, O. Reed, and S. Khanal, "ICARUS Data Center Dataset (ICARUS-DC)," ICARUS Research Initiative, Johns Hopkins University and Johns Hopkins Applied Physics Laboratory, 2025. [Online]. Available: https://github.com/hopkinsicarus/ICARUS-DC
+Y. Dvorkin, M. Klemun, O. Reed, and S. Khanal, "ICARUS Data Center Dataset (ICARUS-DC)," ICARUS Research Initiative, Johns Hopkins University and Johns Hopkins Applied Physics Laboratory, 2025. [Online]. Available: https://github.com/hopkinsicarus/ICARUS-DC-Dataset
 
 ### BibTeX Format
 
@@ -162,7 +162,7 @@ Y. Dvorkin, M. Klemun, O. Reed, and S. Khanal, "ICARUS Data Center Dataset (ICAR
   author       = {Dvorkin, Yury and Klemun, Magdalena and Reed, Owen and Khanal, Saroj},
   year         = {2025},
   publisher    = {Johns Hopkins University, Ralph O'Connor Sustainable Energy Institute, NSF Global Center EPICS, and Johns Hopkins Applied Physics Laboratory},
-  url          = {https://github.com/hopkinsicarus/ICARUS-DC},
+  url          = {https://github.com/hopkinsicarus/ICARUS-DC-Dataset},
   note         = {Versioned GitHub repository. Data licensed under CC BY 4.0}
 }
 ```
