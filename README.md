@@ -8,7 +8,7 @@
   Description: 
   ICARUS — _Infrastructure Centric Adaptation and Resiliency in the U.S._ — is a joint research initiative between the [**Ralph O’Connor Sustainable Energy Institute (ROSEI)**](https://energyinstitute.jhu.edu/) at [**Johns Hopkins University**](https://www.jhu.edu/), [**NSF Global Center EPICS**](https://energyinstitute.jhu.edu/epics/), and the [**Johns Hopkins Applied Physics Laboratory (APL)**](https://www.jhuapl.edu/work/mission-areas/research-and-exploratory-development), supported by a [**Johns Hopkins Discovery Award**](https://research.jhu.edu/major-initiatives/discovery-awards/2024-awardees/).
   The **ICARUS Data Center Dataset** provides a structured and extensible framework for analyzing how data center infrastructure and operations impact regional power dynamics, electricity pricing, and grid load. It supports both statistical analysis and machine learning workflows focused on understanding energy demand and efficiency across data centers in the U.S., with an emphasis on **PJM** and **New York**.
-  Authors: Yury Dvorkin, Magdalena Klemun, Owen Reed, and Saroj Khanal, 
+  Authors: Yury Dvorkin, Magdalena Klemun, Owen Reed, Saroj Khanal, Boyu Yao, and Dyer Combariza 
 -->
 
 ## About ICARUS
@@ -152,14 +152,14 @@ If you use the ICARUS-DC dataset in any of your work, we ask you to please cite 
 
 ### IEEE Format
 
-Y. Dvorkin, M. Klemun, O. Reed, S. Khanal, and B. Yao, "ICARUS Data Center Dataset (ICARUS-DC)," ICARUS Research Initiative, Johns Hopkins University and Johns Hopkins Applied Physics Laboratory, 2025. [Online]. Available: https://github.com/hopkinsicarus/ICARUS-DC-Dataset
+Y. Dvorkin, M. Klemun, O. Reed, S. Khanal, D Combariza, and B. Yao, "ICARUS Data Center Dataset (ICARUS-DC)," ICARUS Research Initiative, Johns Hopkins University and Johns Hopkins Applied Physics Laboratory, 2025. [Online]. Available: https://github.com/hopkinsicarus/ICARUS-DC-Dataset
 
 ### BibTeX Format
 
 ```bibtex
 @dataset{icarus_dc_2025,
   title        = {ICARUS Data Center Dataset (ICARUS-DC)},
-  author       = {Dvorkin, Yury and Klemun, Magdalena and Reed, Owen and Khanal, Saroj and Yao, Boyu},
+  author       = {Dvorkin, Yury and Klemun, Magdalena and Reed, Owen and Khanal, Saroj and Combariza, Dyer and Yao, Boyu},
   year         = {2025},
   publisher    = {Johns Hopkins University, Ralph O'Connor Sustainable Energy Institute, NSF Global Center EPICS, and Johns Hopkins Applied Physics Laboratory},
   url          = {https://github.com/hopkinsicarus/ICARUS-DC-Dataset},
