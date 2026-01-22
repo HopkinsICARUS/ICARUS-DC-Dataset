@@ -4,6 +4,8 @@
 
 - **Owen Reed** - Developer
 - **Saroj Khanal** - Developer
+- **Dyer Combariza** - Developer
+- **Boyu Yao** - Developer
 
 ## Principal Investigators
 
