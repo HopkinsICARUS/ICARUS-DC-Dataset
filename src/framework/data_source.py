@@ -1,6 +1,8 @@
+from click import group
 import numpy as np
 import pandas as pd
 from scipy.stats import chi2_contingency, ttest_ind, ks_2samp
+from scipy.interpolate import griddata
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.preprocessing import OneHotEncoder
@@ -12,16 +14,33 @@ from sklearn.impute import IterativeImputer
 from sklearn.linear_model import BayesianRidge
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, r2_score
 from sklearn.model_selection import train_test_split
+from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+from matplotlib.path import Path as MplPath
+from matplotlib.patches import PathPatch
+from matplotlib.colors import LinearSegmentedColormap, PowerNorm
 import plotly.express as px
+from uszipcode import SearchEngine
+import geopandas as gpd
+import re
+from urllib.parse import urlparse
+
+
+
+from pathlib import Path
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from analysis.uncertainty.NEWS_to_ICARUS import NEWS_to_ICARUS
  
 
 class DataCenters(object):
-    def __init__(self, file_source,delay_clean=False):
+    def __init__(self, file_source,delay_clean=False, add_adc = False):
         self.file_name = file_source.split("/")[-1].split(".")[0]
         self.data = pd.read_csv(file_source, thousands=',')
         if not delay_clean:
             self.clean_data()
+        self.add_adc = add_adc
         
     def __str__(self):
         return self.data.head().to_string()
@@ -60,7 +79,77 @@ class DataCenters(object):
         self.data['City_Encoded'] = self.data['City'].astype('category').cat.codes
         self.data['Type_Encoded'] = self.data['Type'].astype('category').cat.codes
         
-        
+    def _load_news_source_category_map(self, file_path=None):
+        if file_path is None:
+            file_path = Path(__file__).parent / "news_source_domains.txt"
+
+        category_map = {}
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith("#"):
+                        continue
+                    parts = [part.strip() for part in line.split(",", 1)]
+                    if len(parts) != 2:
+                        continue
+                    category, domain = parts
+                    category_map[domain.lower()] = category
+        except FileNotFoundError:
+            # Fallback to a small built-in mapping if the file is unavailable.
+            category_map = {
+                "nytimes.com": "National News",
+                "washingtonpost.com": "National News",
+                "cnn.com": "National News",
+                "facebook.com": "Online Posting",
+                "twitter.com": "Online Posting",
+                "x.com": "Online Posting",
+                "reddit.com": "Online Posting",
+            }
+        return category_map
+
+    def _extract_url_domains(self, text):
+        if text is None:
+            return []
+        if isinstance(text, (list, tuple, set)):
+            text = " ".join(str(item) for item in text if item is not None)
+        text = str(text)
+        urls = re.findall(r"https?://[^\s'\"<>]+", text, flags=re.IGNORECASE)
+        domains = []
+        for url in urls:
+            parsed = urlparse(url)
+            domain = parsed.netloc.lower()
+            if domain.startswith("www."):
+                domain = domain[4:]
+            if domain:
+                domains.append(domain)
+        return domains
+
+    def _count_url_categories(self, source_text, category_map):
+        counts = {
+            "National News": 0,
+            "Regional News": 0,
+            "Online Posting": 0,
+            "Unknown": 0,
+        }
+
+        domains = self._extract_url_domains(source_text)
+        for domain in domains:
+            category = category_map.get(domain)
+            if category is None:
+                parts = domain.split('.')
+                for idx in range(1, len(parts) - 1):
+                    fallback = '.'.join(parts[idx:])
+                    category = category_map.get(fallback)
+                    if category:
+                        break
+            if category in counts:
+                counts[category] += 1
+            else:
+                counts["Unknown"] += 1
+
+        return counts
+
     def randomness_of_missing(self,column):
         # Split into missing vs non-missing groups
         MD = self.data[self.data[column].isna()]
@@ -571,6 +660,412 @@ class DataCenters(object):
             plt.show()
 
         return regional_stats
+    
+    def profile_sentiment(self, article_df, local_compute=True, visualize=False):
+        event_definitions = [
+            {"label": "Has Opposition", "source_col": "Opp Source", "short": "Opp"},
+            {"label": "Halt in Construction", "source_col": "Halted Source", "short": "Halt"},
+            {"label": "Reduction of Scale", "source_col": "RoS Source", "short": "Reduce"},
+            {"label": "Expansion of Scale", "source_col": "EoS Source", "short": "Expand"},
+            {"label": "Change in Tech", "source_col": "CiT Source", "short": "Change"},
+        ]
+
+        score_suffixes = [
+            "National News Score",
+            "Regional News Score",
+            "Online Posting Score",
+            "Unknown Source Score",
+        ]
+
+        sentiment_cols = []
+        for event in event_definitions:
+            sentiment_cols.append(event["label"])
+            sentiment_cols.append(event["source_col"])
+            sentiment_cols.extend([f"{suffix} {event['short']}" for suffix in score_suffixes])
+
+        self.data[sentiment_cols] = np.nan
+        evaluate_target = NEWS_to_ICARUS(article_df, local_compute)
+        category_map = self._load_news_source_category_map()
+
+        Sims = []
+        for index, dc in self.data.iterrows():
+            scores = evaluate_target(dc)
+            for event in event_definitions:
+                target_quality = event["label"]
+                target_source = event["source_col"]
+                short = event["short"]
+                info = scores.get(target_quality, {"result": False, "source": None, "score": 0.0})
+                result = info["result"]
+                source = info["source"]
+                similarity = float(info.get("score", 0.0) or 0.0)
+
+                if similarity != 0.0:
+                    Sims.append(similarity)
+
+                if source is not None:
+                    if isinstance(source, (list, tuple, set)):
+                        source_str = "; ".join(str(url) for url in source if url is not None)
+                        if source_str == "":
+                            source_str = None
+                    else:
+                        source_str = source
+                    print(target_quality, dc.get("Name", "<unknown>"), result, source_str)
+                    self.data.loc[index, target_quality] = result
+                    self.data.loc[index, target_source] = source_str
+                else:
+                    self.data.loc[index, target_quality] = False
+                    self.data.loc[index, target_source] = "None"
+
+                url_counts = self._count_url_categories(source, category_map)
+                self.data.loc[index, f"National News Score {short}"] = url_counts.get("National News", 0)
+                self.data.loc[index, f"Regional News Score {short}"] = url_counts.get("Regional News", 0)
+                self.data.loc[index, f"Online Posting Score {short}"] = url_counts.get("Online Posting", 0)
+                self.data.loc[index, f"Unknown Source Score {short}"] = url_counts.get("Unknown", 0)
+
+        if self.add_adc:
+            self._add_adc()
+
+        if visualize:
+            plt.figure(figsize=(8, 5))
+            plt.hist(Sims, bins=20, edgecolor="black")
+            plt.xlabel("Match Confidence")
+            plt.ylabel("Count")
+            plt.title("Distribution of Cluster Match Confidence")
+            plt.tight_layout()
+            plt.show()
+        
+    def locational_analysis(self,target_col, grouping, k=None):
+        # Preform Grouping
+        grouping = grouping.lower() 
+        if grouping == "state":
+            grouped_df = self._state_grouping(target_col)
+        elif grouping == "zipcode":
+            grouped_df = self._zipcode_grouping(target_col)
+        elif grouping == "clustering":
+            if not isinstance(k,int):
+                raise TypeError(f"{k} is not a valid int for k means clustering")
+            grouped_df = self._clustered_grouping(target_col, k)
+        else:
+            raise TypeError(f"{grouping} is not a supported data center grouping method, please choose one of ['state','zipcode','clustering']")
+        
+        # Calculate Local Parameters for target column 
+        result = grouped_df.groupby('label')["target"].mean()
+        print(result)
+        print(result[result != 0.0])
+        
+    
+    def _state_grouping(self, target_col):
+        # Prepare the new grouped dataframe
+        grouped_df = pd.DataFrame()
+        grouped_df[["Name","Operator","State","City","latitude","longitude"]] = self.data[["Name","Operator","State","City","latitude","longitude"]]
+        grouped_df["target"] = self.data[target_col]
+        
+        # Use states as grouping method
+        grouped_df["label"] = self.data["State"]
+        print(grouped_df[grouped_df['target'] == True])
+        return grouped_df
+    
+    def _zipcode_grouping(self, target_col):
+        # Prepare the new grouped dataframe
+        grouped_df = pd.DataFrame()
+        grouped_df[["Name","Operator","State","City","latitude","longitude"]] = self.data[["Name","Operator","State","City","latitude","longitude"]]
+        grouped_df["target"] = self.data[target_col]
+        
+        #lookup zipcode from lat/long
+        search = SearchEngine()
+        def get_zip(row):
+            res = search.by_coordinates(row["latitude"], row["longitude"], returns=1)
+            if res:
+                return res[0].zipcode
+            return None
+        grouped_df["label"] = grouped_df.apply(get_zip, axis=1)
+        print(grouped_df[grouped_df['target'] == True])
+        return grouped_df
+        
+        
+    def _clustered_grouping(self, target_col, k):
+        cols = ["Name","Operator","State","City","latitude","longitude"]
+        grouped_df = self.data[cols].copy()
+        grouped_df["target"] = self.data[target_col]
+
+        # mask valid coords
+        valid_mask = grouped_df["latitude"].notna() & grouped_df["longitude"].notna()
+
+        # initialize label column as object dtype
+        grouped_df["label"] = pd.Series([None] * len(grouped_df), dtype=object)
+
+        valid_coords = grouped_df.loc[valid_mask, ["latitude", "longitude"]].values
+
+        if len(valid_coords) > 0:
+            k_eff = min(k, len(valid_coords))
+
+            kmeans = KMeans(n_clusters=k_eff, random_state=42, n_init="auto")
+            cluster_ids = kmeans.fit_predict(valid_coords)
+            centroids = kmeans.cluster_centers_
+
+            # build a Series aligned to the valid index
+            centroid_series = pd.Series(
+                [(centroids[c][0], centroids[c][1]) for c in cluster_ids],
+                index=grouped_df.loc[valid_mask].index,
+                dtype=object
+            )
+
+            grouped_df.loc[valid_mask, "label"] = centroid_series
+
+        print(grouped_df[grouped_df['target'] == True])
+        return grouped_df      
+    
+
+    def plot_locational_map(self, target_col, grouping, k=None, states=None):
+        grouping = grouping.lower()
+
+        # -----------------------
+        # 1. Get grouped data
+        # -----------------------
+        if grouping == "state":
+            grouped_df = self._state_grouping(target_col)
+        elif grouping == "zipcode":
+            grouped_df = self._zipcode_grouping(target_col)
+        elif grouping == "clustering":
+            if not isinstance(k, int):
+                raise TypeError("k must be int for clustering")
+            grouped_df = self._clustered_grouping(target_col, k)
+        else:
+            raise ValueError("Invalid grouping")
+
+        # -----------------------
+        # 2. Compute % target
+        # -----------------------
+        agg = grouped_df.groupby("label")["target"].mean().reset_index()
+        agg.columns = ["label", "pct"]
+        agg["pct"] = agg["pct"].fillna(0.0)
+
+        # -----------------------
+        # 3. Load state boundaries
+        # -----------------------
+        states_path = Path('raw_data/maps/basic_states')
+        world = gpd.read_file(states_path)
+        us_states = world[world.iso_a2 == 'US']
+
+        if states:
+            us_states = us_states[us_states.name.isin(states)]
+
+        fig, ax = plt.subplots(1, 1, figsize=(12, 9))
+        us_states.plot(ax=ax, color='white', edgecolor='black')
+
+        # -----------------------
+        # Colormap + normalization
+        # -----------------------
+        cmap = LinearSegmentedColormap.from_list("pct_map", ["blue", "red"])
+        norm = PowerNorm(gamma=0.4)  # steeper near 0
+
+        # ==========================================================
+        # STATE MAP (CHOROPLETH)
+        # ==========================================================
+        if grouping == "state":
+            merged = us_states.merge(agg, left_on="name", right_on="label", how="left")
+            merged["pct"] = merged["pct"].fillna(0.0)
+
+            merged.plot(
+                column="pct",
+                cmap=cmap,
+                linewidth=0.8,
+                ax=ax,
+                edgecolor='black',
+                norm=norm,
+                missing_kwds={"color": "lightgray"}
+            )
+
+        # ==========================================================
+        # CLUSTER MAP (INTERPOLATED + CLIPPED)
+        # ==========================================================
+        elif grouping == "clustering":
+            from scipy.interpolate import RBFInterpolator
+
+            # -----------------------
+            # Extract centroids + pct values from agg
+            # -----------------------
+            valid_agg = agg[agg["label"].notna()].copy()
+            coords = np.array([[lbl[1], lbl[0]] for lbl in valid_agg["label"]])  # lon, lat
+            values = valid_agg["pct"].values
+
+            if len(coords) < 3:
+                raise ValueError("Need at least 3 clusters to interpolate")
+
+            lon = coords[:, 0]
+            lat = coords[:, 1]
+
+            # -----------------------
+            # Create dense grid over US bounds
+            # -----------------------
+            bounds = us_states.total_bounds  # (minx, miny, maxx, maxy)
+            nx, ny = 500, 500
+
+            grid_lon, grid_lat = np.meshgrid(
+                np.linspace(bounds[0], bounds[2], nx),
+                np.linspace(bounds[1], bounds[3], ny)
+            )
+            grid_points = np.column_stack([grid_lon.ravel(), grid_lat.ravel()])
+
+            # -----------------------
+            # RBF interpolation from cluster centroids
+            # -----------------------
+            rbf = RBFInterpolator(
+                coords,           # (n_points, 2): lon, lat
+                values,           # (n_points,): pct per cluster
+                kernel='linear',  # 'linear', 'thin_plate_spline', 'gaussian', 'multiquadric'
+                smoothing=0.0
+            )
+            grid_z = rbf(grid_points).reshape(grid_lon.shape)
+
+            # Clip to [0, 1]
+            grid_z = np.clip(grid_z, 0.0, 1.0)
+
+            # -----------------------
+            # Mask pixels outside the UNION of all US state polygons
+            # -----------------------
+            us_union = us_states.geometry.union_all()
+
+            # Batch point-in-polygon using vectorized shapely
+            from shapely.vectorized import contains
+            mask = contains(us_union, grid_lon.ravel(), grid_lat.ravel())
+            mask = mask.reshape(grid_lon.shape)
+
+            grid_z_masked = np.where(mask, grid_z, np.nan)
+
+            # -----------------------
+            # Plot interpolated heatmap
+            # -----------------------
+            im = ax.imshow(
+                grid_z_masked,
+                extent=(bounds[0], bounds[2], bounds[1], bounds[3]),
+                origin='lower',
+                cmap=cmap,
+                norm=norm,
+                alpha=0.85,
+                zorder=1
+            )
+
+            # -----------------------
+            # Overlay state boundaries on top
+            # -----------------------
+            us_states.boundary.plot(ax=ax, color='black', linewidth=1.0, zorder=2)
+
+            # -----------------------
+            # Plot cluster centroids
+            # -----------------------
+            ax.scatter(
+                lon, lat,
+                c=[cmap(norm(v)) for v in values],
+                edgecolor='black',
+                linewidth=0.8,
+                s=80,
+                zorder=4
+            )
+
+
+        # ==========================================================
+        # ZIPCODE MAP (POLYGON CHOROPLETH)
+        # ==========================================================
+        elif grouping == "zipcode":
+            zip_path = Path('raw_data/maps/zipcodes')
+            zips = gpd.read_file(zip_path)
+
+            if zips.crs != us_states.crs:
+                zips = zips.to_crs(us_states.crs)
+
+            zip_col = next((c for c in zips.columns if c.startswith("ZCTA5CE")), None)
+            if zip_col is None:
+                raise KeyError(f"Could not find ZCTA5CE column. Available columns: {list(zips.columns)}")
+
+            zips[zip_col] = zips[zip_col].astype(str).str.zfill(5)
+            agg["label"] = agg["label"].astype(str).str.zfill(5)
+
+            # LEFT join — unmatched zips get NaN pct → rendered as gray
+            merged = zips.merge(agg, left_on=zip_col, right_on="label", how="left")
+
+            # Clip to selected states only
+            us_union = us_states.geometry.union_all()
+            merged = merged[merged.geometry.intersects(us_union)].copy()
+
+            merged.plot(
+                column="pct",
+                cmap=cmap,
+                linewidth=0.3,          # thin black border around every zip
+                ax=ax,
+                edgecolor='black',
+                norm=norm,
+                legend=False,
+                missing_kwds={"color": "lightgray", "edgecolor": "black", "linewidth": 0.3},
+                zorder=2
+            )
+
+            us_states.boundary.plot(ax=ax, color='black', linewidth=1.0, zorder=3)
+            
+    
+        # -----------------------
+        # Colorbar
+        # -----------------------
+        sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+        sm.set_array([])
+        cbar = fig.colorbar(sm, ax=ax)
+        cbar.set_label("Percentage (0–1)")
+
+        # -----------------------
+        # Zoom
+        # -----------------------
+        if not us_states.empty:
+            bounds = us_states.total_bounds
+            ax.set_xlim(bounds[0] - 1, bounds[2] + 1)
+            ax.set_ylim(bounds[1] - 1, bounds[3] + 1)
+
+        ax.set_title(f"{grouping.capitalize()} Level Target Distribution")
+        ax.set_xlabel("Longitude")
+        ax.set_ylabel("Latitude")
+
+        plt.show()  
+      
+            
+    def _add_adc(self):
+        target_dir = Path('raw_data/data_centers/additional_data_centers')
+        cities_db = pd.read_csv("raw_data/Locations/uscities.csv")
+
+        new_rows = []
+        for file in target_dir.glob('*.csv'):
+            df = pd.read_csv(file)
+            for _, row in df.iterrows():
+                new_row = {
+                    "Name":row["datacenter_name"],
+                    "Operator":row["company"],
+                    "State":row["state"],
+                    "City":row["city"],     
+                }
+               
+                #lat/long data
+                city_match = cities_db[
+                    (cities_db['city'] == new_row['City']) &
+                    (cities_db['state_name'] == new_row['State'])
+                ]
+                new_row['latitude'] = city_match['lat'].values[0] if not city_match.empty else None
+                new_row['longitude'] = city_match['lng'].values[0] if not city_match.empty else None
+                
+                #Status Data
+                status = row["status"]
+                if status == "Active Protests":
+                    new_row["Has Opposition"] = True
+                    new_row["Opp Source"] = "Human Verification"
+                elif status == "Delayed/Canceled":
+                    new_row["Halt in Construction"] = True
+                    new_row["Halted Source"] = "Human Verification"
+                
+                new_rows.append(new_row)
+
+        self.data = pd.concat(
+            [self.data, pd.DataFrame(new_rows)],
+            ignore_index=True
+        )
+
+                
 
 
 
@@ -699,19 +1194,34 @@ class DataCentersMI(DataCenters):
         }
 
         return results
+    
+        
+        
+        
+        
 
     
     
 if __name__ == "__main__":
+    # SETUP
+    from framework.data_source import DataCenters
+    DC_DATA_FILE = Path('data/data_center_dataset/DCS_PJM.csv')
+    # NEWS_DATA_FILE = Path('src/analysis/uncertainty/cluster_data/cluster_results.csv')
+    # NEWS_DATA_FILE = Path('src/analysis/uncertainty/cluster_data/cluster_results_v2.csv')
+    NEWS_DATA_FILE = Path('src/analysis/uncertainty/cluster_data/cluster_results_full.csv')
     np.set_printoptions(precision=4)
+    states = ['Virginia',"Pennsylvania","Ohio","West Virginia","Maryland","Delaware","Kentucky","New Jersey","Indiana","Illinois"]
+
     
-    FD = DataCenters("data/DCS_Full.csv")
-    print(FD.randomness_of_missing("Power (MW)"))
-    print(FD.randomness_of_missing("Whitespace (sqft)"))
-    print(FD.randomness_of_missing("MRC"))
-    print(FD.randomness_of_missing("UPS_Encoded"))
-    print(FD.randomness_of_missing("Cooling_System_Encoded"))
+    # CASE: missingness analysis
+    # FD = DataCenters("data/DCS_Full.csv")
+    # print(FD.randomness_of_missing("Power (MW)"))
+    # print(FD.randomness_of_missing("Whitespace (sqft)"))
+    # print(FD.randomness_of_missing("MRC"))
+    # print(FD.randomness_of_missing("UPS_Encoded"))
+    # print(FD.randomness_of_missing("Cooling_System_Encoded"))
     
+    # CASE: basic regressions
     # model, results = FD.linear_regression(["Whitespace (sqft)","MRC",'UPS_Encoded','Cooling_System_Encoded'],"Power (MW)")
     # print(model)
     # print(results)
@@ -719,4 +1229,13 @@ if __name__ == "__main__":
     # model, results = FD.linear_regression(["MRC"],"Power (MW)")
     # print(model)
     # print(results)
+    
+    # CASE: test locational analysis
+    dc = DataCenters(str(DC_DATA_FILE), delay_clean=True,add_adc=True)
+    dc.profile_sentiment(pd.read_csv(str(NEWS_DATA_FILE)),local_compute=True)
+
+    
+    dc.plot_locational_map(target_col = "Halt in Construction", grouping="Clustering",k=50, states=states)
+    dc.plot_locational_map(target_col = "Halt in Construction", grouping="Zipcode",k=50, states=states)
+    
     
