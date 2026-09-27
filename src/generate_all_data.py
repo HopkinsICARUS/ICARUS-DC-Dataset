@@ -21,14 +21,14 @@ RAW_DC_FILES = [os.path.join(BASE_DIR, "raw_data", "data_centers", f"DCS_{TARGET
 CLEAN_OUTPUT_DIR = os.path.join(BASE_DIR, "data", "data_center_dataset").replace("\\", "/")
 IMPUTED_OUTPUT_DIR = os.path.join(BASE_DIR, "data", "imputed_data_center_dataset").replace("\\", "/")
 
-# NREL state capacity data file (contains actual state-level capacity targets)
+# NLR state capacity data file (contains actual state-level capacity targets)
 NREL_STATE_CAPACITY_FILE = os.path.join(BASE_DIR, "raw_data","data_centers", "datacenter_demand_capacity_by_county.csv").replace("\\", "/")
 
 # Number of imputations
 M_IMPUTATIONS = 7
 MAX_ITER = 50
 
-# NREL Estimation Configuration
+# NLR Estimation Configuration
 NREL_ESTIMATION = False
 NREL_ESTIMATION_METHOD = "state_proportional_allocation"
 
@@ -150,12 +150,12 @@ def add_state_capacity_columns(df, nrel_capacity_df=None):
     """
     Adds three state-level capacity aggregation columns:
     - Operating Capacity State: Sum of Power (MW) for operating data centers by state
-    - Operating and In Construction Capacity State: Sum for operating + in construction (from NREL data)
-    - Total Capacity State: Total sum of all Power (MW) by state (from NREL data)
+    - Operating and In Construction Capacity State: Sum for operating + in construction (from NLR data)
+    - Total Capacity State: Total sum of all Power (MW) by state (from NLR data)
     
     Args:
         df: Main dataframe with data center information (must have 'State_Code' column)
-        nrel_capacity_df: Optional dataframe with NREL state capacity targets
+        nrel_capacity_df: Optional dataframe with NLR state capacity targets
                          Expected columns: 'state', 'Operating (MW)', 'Operating and In Construction (MW)', 'Total (MW)'
     """
     # Create a copy to avoid modifying the original during calculation
@@ -168,21 +168,21 @@ def add_state_capacity_columns(df, nrel_capacity_df=None):
     # Map operating capacity back to dataframe
     df['Operating Capacity State'] = df['State'].map(operating_capacity).fillna(0)
     
-    # If NREL capacity data is provided, use it for target capacities
+    # If NLR capacity data is provided, use it for target capacities
     if nrel_capacity_df is not None:
-        print("Using NREL state capacity targets for estimation...")
+        print("Using NLR state capacity targets for estimation...")
         
-        # Aggregate NREL data by state code (sum across all counties in each state)
+        # Aggregate NLR data by state code (sum across all counties in each state)
         nrel_by_state = nrel_capacity_df.groupby('state').agg({
             'Operating (MW)': 'sum',
             'Operating and In Construction (MW)': 'sum',
             'Total (MW)': 'sum'
         }).reset_index()
         
-        # Create a mapping from state code to NREL capacities
+        # Create a mapping from state code to NLR capacities
         nrel_mapping = nrel_by_state.set_index('state')
         
-        # Map NREL capacities to dataframe using State_Code
+        # Map NLR capacities to dataframe using State_Code
         df['Operating and In Construction Capacity State'] = df['State_Code'].map(
             nrel_mapping['Operating and In Construction (MW)']
         ).fillna(0)
@@ -191,14 +191,14 @@ def add_state_capacity_columns(df, nrel_capacity_df=None):
             nrel_mapping['Total (MW)']
         ).fillna(0)
         
-        print(f"Loaded NREL capacity data for {len(nrel_by_state)} states")
+        print(f"Loaded NLR capacity data for {len(nrel_by_state)} states")
         
         # Debug: Show sample of mapping
-        print("\nSample NREL capacity mapping:")
+        print("\nSample NLR capacity mapping:")
         print(nrel_by_state.head(10))
     else:
         # Fallback: Calculate from current data (will result in no remaining capacity)
-        print("Warning: No NREL capacity data provided. Using calculated values from current dataset.")
+        print("Warning: No NLR capacity data provided. Using calculated values from current dataset.")
         total_capacity = df_copy.groupby('State')['Power (MW)'].sum()
         df['Total Capacity State'] = df['State'].map(total_capacity).fillna(0)
         df['Operating and In Construction Capacity State'] = df['Total Capacity State']
@@ -208,7 +208,7 @@ def add_state_capacity_columns(df, nrel_capacity_df=None):
 
 def state_proportional_allocation(df):
     """
-    Default NREL estimation method: Fills missing Power (MW) values using proportional allocation.
+    Default NLR estimation method: Fills missing Power (MW) values using proportional allocation.
     
     For each state:
     - Calculates: (Operating and In Construction Capacity - Known Capacity) / Number of Missing Values
@@ -229,7 +229,7 @@ def state_proportional_allocation(df):
         print("No missing Power (MW) values to estimate.")
         return df
     
-    print("\n=== NREL Estimation Details ===")
+    print("\n=== NLR Estimation Details ===")
     
     # Group by state and calculate estimations
     for state in df['State'].unique():
@@ -239,7 +239,7 @@ def state_proportional_allocation(df):
         if not state_missing_mask.any():
             continue
         
-        # Get state capacity target from NREL data
+        # Get state capacity target from NLR data
         state_target_capacity = df.loc[state_mask, 'Operating and In Construction Capacity State'].iloc[0]
         
         # Calculate known capacity in this state (sum of non-missing Power (MW) values)
@@ -260,7 +260,7 @@ def state_proportional_allocation(df):
         
         # Debug info
         print(f"\nState: {state} ({state_code})")
-        print(f"  NREL Target Capacity: {state_target_capacity:.2f} MW")
+        print(f"  NLR Target Capacity: {state_target_capacity:.2f} MW")
         print(f"  Known Capacity (from Power MW): {known_capacity:.2f} MW")
         print(f"  Remaining Capacity: {remaining_capacity:.2f} MW")
         print(f"  Missing Values: {n_missing}")
@@ -271,8 +271,8 @@ def state_proportional_allocation(df):
             df.loc[state_missing_mask, 'Power (MW)'] = estimated_value
             print(f"  → Estimated at {estimated_value:.4f} MW each")
         elif n_missing > 0 and remaining_capacity <= 0:
-            # No remaining capacity or negative (known capacity exceeds NREL target)
-            print(f"  → Warning: No remaining capacity. Known capacity meets or exceeds NREL target.")
+            # No remaining capacity or negative (known capacity exceeds NLR target)
+            print(f"  → Warning: No remaining capacity. Known capacity meets or exceeds NLR target.")
             print(f"  → Setting missing values to 0 MW")
             df.loc[state_missing_mask, 'Power (MW)'] = 0
     
@@ -283,7 +283,7 @@ def state_proportional_allocation(df):
 
 def nrel_estimation_dispatcher(df, method_name):
     """
-    Dispatcher function that calls the appropriate NREL estimation method.
+    Dispatcher function that calls the appropriate NLR estimation method.
     
     Args:
         df: DataFrame to process
@@ -299,26 +299,26 @@ def nrel_estimation_dispatcher(df, method_name):
     }
     
     if method_name not in methods:
-        raise ValueError(f"Unknown NREL estimation method: {method_name}. Available methods: {list(methods.keys())}")
+        raise ValueError(f"Unknown NLR estimation method: {method_name}. Available methods: {list(methods.keys())}")
     
-    print(f"Applying NREL estimation method: {method_name}")
+    print(f"Applying NLR estimation method: {method_name}")
     return methods[method_name](df)
 
 
 def main():
-    # Load NREL state capacity data if NREL estimation is enabled
+    # Load NLR state capacity data if NLR estimation is enabled
     nrel_capacity_df = None
     if NREL_ESTIMATION:
         try:
             if os.path.exists(NREL_STATE_CAPACITY_FILE):
-                print(f"Loading NREL state capacity data from {NREL_STATE_CAPACITY_FILE}...")
+                print(f"Loading NLR state capacity data from {NREL_STATE_CAPACITY_FILE}...")
                 nrel_capacity_df = pd.read_csv(NREL_STATE_CAPACITY_FILE)
-                print(f"Loaded NREL data for {len(nrel_capacity_df)} counties")
+                print(f"Loaded NLR data for {len(nrel_capacity_df)} counties")
             else:
-                print(f"Warning: NREL capacity file not found at {NREL_STATE_CAPACITY_FILE}")
-                print("NREL estimation will not be effective without target capacities.")
+                print(f"Warning: NLR capacity file not found at {NREL_STATE_CAPACITY_FILE}")
+                print("NLR estimation will not be effective without target capacities.")
         except Exception as e:
-            print(f"Error loading NREL capacity data: {e}")
+            print(f"Error loading NLR capacity data: {e}")
     
     FDMI = {}
     for RAW_DC_FILE, TARGET_NAME in zip(RAW_DC_FILES,TARGET_NAMES):
@@ -343,11 +343,11 @@ def main():
 
         fdmi.clean_data()
         
-        # Add state code column for NREL mapping
+        # Add state code column for NLR mapping
         print("Adding state code column...")
         fdmi.data = add_state_code_column(fdmi.data)
         
-        # Add state capacity columns before NREL estimation
+        # Add state capacity columns before NLR estimation
         print("Adding state capacity columns...")
         fdmi.data = add_state_capacity_columns(fdmi.data, nrel_capacity_df)
         
@@ -359,9 +359,9 @@ def main():
         print("Adding Latitude and Longitude columns...")
         fdmi.date = add_approx_coordinates(fdmi.data)
         
-        # Apply NREL estimation if enabled
+        # Apply NLR estimation if enabled
         if NREL_ESTIMATION:
-            print("Applying NREL estimation for missing Power (MW) values...")
+            print("Applying NLR estimation for missing Power (MW) values...")
             fdmi.data = nrel_estimation_dispatcher(fdmi.data, NREL_ESTIMATION_METHOD)
         
         print("Normalizing features for imputation...")

@@ -66,7 +66,7 @@ class DataCenters(object):
         #most recent year of construction
         self.data['MRC'] = self.data["Year Renovated"].where(self.data["Year Renovated"].notna() & (self.data["Year Renovated"] != ""),self.data["Year Built"])
         
-        #correct data from NREL
+        #correct data from NLR
         
         
         #encoded categorical data
@@ -683,7 +683,18 @@ class DataCenters(object):
             sentiment_cols.append(event["source_col"])
             sentiment_cols.extend([f"{suffix} {event['short']}" for suffix in score_suffixes])
 
-        self.data[sentiment_cols] = np.nan
+        boolean_cols = [event["label"] for event in event_definitions]
+        source_cols = [event["source_col"] for event in event_definitions]
+        score_cols = [f"{suffix} {event['short']}" for event in event_definitions for suffix in score_suffixes]
+        self.data[boolean_cols] = pd.DataFrame(
+            {column: pd.Series(pd.NA, index=self.data.index, dtype="boolean") for column in boolean_cols}
+        )
+        self.data[source_cols] = pd.DataFrame(
+            {column: pd.Series(pd.NA, index=self.data.index, dtype="object") for column in source_cols}
+        )
+        self.data[score_cols] = pd.DataFrame(
+            {column: pd.Series(np.nan, index=self.data.index, dtype="float64") for column in score_cols}
+        )
         evaluate_target = NEWS_to_ICARUS(article_df, local_compute)
         category_map = self._load_news_source_category_map()
 

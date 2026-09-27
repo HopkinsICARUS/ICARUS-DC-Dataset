@@ -9,10 +9,10 @@ This document describes the process and scripts used to generate the cleaned and
 Running `generate_all_data.py` will: 
 - Load raw CSV data from `raw_data/`.
 - Clean and preprocess the data, including handling missing values and encoding categorical features.
-- Add state-level capacity columns from NREL data for estimation purposes.
+- Add state-level capacity columns from NLR data for estimation purposes.
 - Add Latitude and longitude columns to allow for variable resolution analysis.
 - Add operating status column for analysis.
-- Optionally Perform NREL-based estimation to fill missing Power (MW) values using proportional allocation.
+- Optionally Perform NLR-based estimation to fill missing Power (MW) values using proportional allocation.
 - Conduct multiple imputation (MICE) to generate a second dataset filling missing values with minimal bias.
 - Save cleaned and imputed datasets in `data/data_center_dataset/` and `data/imputed_data_center_dataset/`.
 
@@ -30,7 +30,7 @@ raw_data/
 │   ├── DCS_Full.csv                          # Full data center dataset
 │   ├── DCS_New_York.csv                      # New York specific dataset
 │   ├── DCS_PJM.csv                           # PJM region dataset
-│   └── datacenter_demand_capacity_by_county.csv  # NREL state capacity data
+│   └── datacenter_demand_capacity_by_county.csv  # NLR state capacity data
 ├── LMP/ [EXCLUDED FROM PUBLIC RELEASE]
 │   └── *.csv # PJM electricity prices: Real Time Prices and Day Ahead Prices 
 ├── Capacity / [EXCLUDED FROM PUBLIC RELEASE]
@@ -40,7 +40,7 @@ raw_data/
 ```
 
 - **Data Centers**: Columns include `Name, Operator, State, City, Power (MW), Whitespace (sqft), Type, Year Built, Year Renovated, UPS, Cooling System, Zone`.
-- **NREL Capacity Data**: County-level data containing `state, Operating (MW), Operating and In Construction (MW), Total (MW)` - aggregated to state level for capacity targets.
+- **NLR Capacity Data**: County-level data containing `state, Operating (MW), Operating and In Construction (MW), Total (MW)` - aggregated to state level for capacity targets.
 - **LMP**: PJM data containing both real-time and day-ahead prices.
 - **Rates**: User-supplied or externally-sourced subsidy/rate information for examining effects on costs or consumption.
 
@@ -75,19 +75,19 @@ After initial cleaning, a `State_Code` column is added to map full state names t
 # Maps "California" -> "CA", "New York" -> "NY", etc.
 ```
 
-This enables proper matching with NREL data which uses state codes.
+This enables proper matching with NLR data which uses state codes.
 
 ### 3.3 State Capacity Columns
 
-Three state-level capacity columns are added based on NREL data:
+Three state-level capacity columns are added based on NLR data:
 
 - **Operating Capacity State**: Sum of Power (MW) for operating (non-construction) data centers by state
-- **Operating and In Construction Capacity State**: NREL target capacity for operating + in-construction facilities by state
-- **Total Capacity State**: NREL total capacity target by state
+- **Operating and In Construction Capacity State**: NLR target capacity for operating + in-construction facilities by state
+- **Total Capacity State**: NLR total capacity target by state
 
-These columns enable NREL-based estimation of missing Power (MW) values.
+These columns enable NLR-based estimation of missing Power (MW) values.
 
-### 3.4 NREL Estimation
+### 3.4 NLR Estimation
 
 When `NREL_ESTIMATION = True`, missing Power (MW) values are estimated before multiple imputation:
 
@@ -95,13 +95,13 @@ When `NREL_ESTIMATION = True`, missing Power (MW) values are estimated before mu
 
 For each state:
 1. Calculates known capacity (sum of non-missing Power (MW) values)
-2. Calculates remaining capacity: `NREL Target - Known Capacity`
+2. Calculates remaining capacity: `NLR Target - Known Capacity`
 3. Distributes remaining capacity equally among facilities with missing Power (MW) values
 
 Configuration in `generate_all_data.py`:
 
 ```python
-NREL_ESTIMATION = True  # Enable/disable NREL estimation
+NREL_ESTIMATION = True  # Enable/disable NLR estimation
 NREL_ESTIMATION_METHOD = "state_proportional_allocation"  # Method to use
 ```
 
@@ -109,7 +109,7 @@ Example output:
 
 ```
 State: California (CA)
-  NREL Target Capacity: 5000.00 MW
+  NLR Target Capacity: 5000.00 MW
   Known Capacity (from Power MW): 3200.00 MW
   Remaining Capacity: 1800.00 MW
   Missing Values: 120
@@ -226,7 +226,7 @@ imputations = FDMI.multiple_imputation(m=7, max_iter=50)
 - `m`: Number of imputed datasets to generate.
 - Each imputed dataset is a pandas DataFrame of the same structure as the cleaned data.
 
-**Note**: NREL estimation (if enabled) runs before MICE imputation, so the multiple imputation process handles remaining missing values.
+**Note**: NLR estimation (if enabled) runs before MICE imputation, so the multiple imputation process handles remaining missing values.
 
 ### 4.3 Pooled Regression Across Imputations
 
@@ -269,8 +269,8 @@ data/
 - `data_center_dataset/` contains cleaned but non-imputed data with added columns:
   - `State_Code`: 2-letter state abbreviation
   - `Operating Capacity State`: Operating capacity by state
-  - `Operating and In Construction Capacity State`: NREL target capacity
-  - `Total Capacity State`: NREL total capacity
+  - `Operating and In Construction Capacity State`: NLR target capacity
+  - `Total Capacity State`: NLR total capacity
   
 - `imputed_data_center_dataset/` contains multiple imputed datasets for downstream analysis (normalized z-scores).
 
@@ -285,11 +285,11 @@ python generate_all_data.py
 
 This script:
 1. Loads raw data for Full, New_York, and PJM datasets
-2. Loads NREL state capacity data
+2. Loads NLR state capacity data
 3. Performs data cleaning and standardization
 4. Adds State_Code column
-5. Adds state capacity columns from NREL data
-6. Applies NREL estimation for missing Power (MW) values
+5. Adds state capacity columns from NLR data
+6. Applies NLR estimation for missing Power (MW) values
 7. Normalizes features for imputation
 8. Performs multiple imputation (m=7 datasets)
 9. Saves imputed datasets (normalized)
@@ -301,7 +301,7 @@ This script:
 # In generate_all_data.py
 M_IMPUTATIONS = 7                              # Number of imputed datasets
 MAX_ITER = 50                                  # Max iterations for MICE
-NREL_ESTIMATION = True                         # Enable NREL estimation
+NREL_ESTIMATION = True                         # Enable NLR estimation
 NREL_ESTIMATION_METHOD = "state_proportional_allocation"  # Estimation method
 ```
 
@@ -327,9 +327,9 @@ NREL_ESTIMATION_METHOD = "state_proportional_allocation"  # Estimation method
 | `Cooling System` | Cooling system type |
 | `Zone` | PJM zone (if applicable) |
 | `MRC` | Most Recent Construction/Renovation year |
-| `Operating Capacity State` | Sum of NREL operating capacity by state |
-| `Operating and In Construction Capacity State` | NREL capacity (operating + construction) |
-| `Total Capacity State` | NREL total capacity target (included planned) |
+| `Operating Capacity State` | Sum of NLR operating capacity by state |
+| `Operating and In Construction Capacity State` | NLR capacity (operating + construction) |
+| `Total Capacity State` | NLR total capacity target (included planned) |
 | `Status` | Operating status of a data center |
 | `Latitude` | Latitude of data center by a city lookup |
 | `Longitude` | Longitude of data center by a city lookup |
@@ -360,14 +360,14 @@ pip install numpy pandas scipy scikit-learn matplotlib seaborn plotly
 
 - Provides cleaned and imputed datasets ready for statistical analysis, modeling, and visualization.
 - Enables consistent handling of missing values, including:
-  - NREL-based proportional allocation for Power (MW) estimation
+  - NLR-based proportional allocation for Power (MW) estimation
   - Multiple imputation (MICE) for robust inference on remaining missing values
 - Facilitates examination of correlations, regression relationships, and potential effects of rate/subsidy data.
-- State capacity columns enable state-level analyses and comparisons with NREL benchmarks.
+- State capacity columns enable state-level analyses and comparisons with NLR benchmarks.
 
 ---
 
-## 9. Adding Custom NREL Estimation Methods
+## 9. Adding Custom NLR Estimation Methods
 
 To add a custom estimation method:
 
@@ -407,14 +407,14 @@ NREL_ESTIMATION_METHOD = "custom_method"
 
 ## 10. Troubleshooting
 
-### Missing NREL Data File
+### Missing NLR Data File
 
 If you see:
 ```
-Warning: NREL capacity file not found at raw_data/data_centers/datacenter_demand_capacity_by_county.csv
+Warning: NLR capacity file not found at raw_data/data_centers/datacenter_demand_capacity_by_county.csv
 ```
 
-Ensure the NREL capacity file exists at the specified path with columns: `state`, `Operating (MW)`, `Operating and In Construction (MW)`, `Total (MW)`.
+Ensure the NLR capacity file exists at the specified path with columns: `state`, `Operating (MW)`, `Operating and In Construction (MW)`, `Total (MW)`.
 
 ### Unmapped States
 
@@ -427,12 +427,12 @@ Add the missing state to the `STATE_MAP` dictionary in `generate_all_data.py`.
 
 ### Zero Remaining Capacity
 
-If NREL estimation sets values to 0:
+If NLR estimation sets values to 0:
 ```
-Warning: No remaining capacity. Known capacity meets or exceeds NREL target.
+Warning: No remaining capacity. Known capacity meets or exceeds NLR target.
 ```
 
-This indicates your known data centers already account for all NREL-estimated capacity in that state. Consider:
-- Verifying NREL data is current
+This indicates your known data centers already account for all NLR-estimated capacity in that state. Consider:
+- Verifying NLR data is current
 - Checking if state capacity targets are correct
 - Reviewing if some facilities should be marked as "In Construction
