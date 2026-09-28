@@ -31,7 +31,7 @@ from pathlib import Path
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from analysis.uncertainty.NEWS_to_ICARUS import NEWS_to_ICARUS
+from analysis.history_annotation.NEWS_to_ICARUS import NEWS_to_ICARUS
  
 
 class DataCenters(object):
@@ -686,6 +686,7 @@ class DataCenters(object):
         boolean_cols = [event["label"] for event in event_definitions]
         source_cols = [event["source_col"] for event in event_definitions]
         score_cols = [f"{suffix} {event['short']}" for event in event_definitions for suffix in score_suffixes]
+        
         self.data[boolean_cols] = pd.DataFrame(
             {column: pd.Series(pd.NA, index=self.data.index, dtype="boolean") for column in boolean_cols}
         )
@@ -1217,9 +1218,9 @@ if __name__ == "__main__":
     # SETUP
     from framework.data_source import DataCenters
     DC_DATA_FILE = Path('data/data_center_dataset/DCS_PJM.csv')
-    # NEWS_DATA_FILE = Path('src/analysis/uncertainty/cluster_data/cluster_results.csv')
-    # NEWS_DATA_FILE = Path('src/analysis/uncertainty/cluster_data/cluster_results_v2.csv')
-    NEWS_DATA_FILE = Path('src/analysis/uncertainty/cluster_data/cluster_results_full.csv')
+    # NEWS_DATA_FILE = Path('src/analysis/history_annotation/cluster_data/cluster_results.csv')
+    # NEWS_DATA_FILE = Path('src/analysis/history_annotation/cluster_data/cluster_results_v2.csv')
+    NEWS_DATA_FILE = Path('src/analysis/history_annotation/cluster_data/cluster_results_full.csv')
     np.set_printoptions(precision=4)
     states = ['Virginia',"Pennsylvania","Ohio","West Virginia","Maryland","Delaware","Kentucky","New Jersey","Indiana","Illinois"]
 
